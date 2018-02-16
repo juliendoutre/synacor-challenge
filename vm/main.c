@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 #include "utils.h"
+#include "stack.h"
 
 int main(int argc, char *argv[]) {
 
@@ -23,6 +24,7 @@ int main(int argc, char *argv[]) {
 	uint16_t registers[REGISTERS_NUMBER];
 
 	// Definition of the stack
+
 	const int STACK_LENGTH = 10000;
 	uint16_t stack[STACK_LENGTH];
 	int stackCursor = -1;
@@ -50,5 +52,4 @@ int main(int argc, char *argv[]) {
 	getchar(); 
 
 	return 0;
-
 }
