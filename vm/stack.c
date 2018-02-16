@@ -6,5 +6,6 @@
 
 struct Cell {
     uint16_t value;
-    uint16_t *next;
+    struct Cell *next;
 };
+
