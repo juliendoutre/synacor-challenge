@@ -4,7 +4,7 @@
 
 #include "utils.h"
 
-int read(int memoryCursor, uint16_t *memory, uint16_t *registers, uint16_t *stack, const int STACK_LENGTH, bool *on, int *stackCursor)
+int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor)
 {
 	uint16_t head = memory[memoryCursor];
 	uint16_t var1 = 0;
@@ -41,33 +41,21 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, uint16_t *stac
 			break;
 		case 2: // push
 			var1 = memory[memoryCursor + 1];
-			if (*stackCursor == STACK_LENGTH - 1)
-			{
-				printf("Stack overflow.\n");
-				*on = false;
-				return 0;
-				break;
-			}
-			else
-			{
-				*stackCursor += 1;
-				stack[*stackCursor] = readVariable(var1, registers);
-				return memoryCursor + 2;
-				break;
-			}
+			*stackCursor = push(readVariable(var1, registers), *stackCursor);
+			return memoryCursor + 2;
+			break;
 		case 3: // pop
-			if (*stackCursor == -1)
+			if ((*(*stackCursor)).previous == NULL)
 			{
 				printf("Error: stack is empty.\n");
 				*on = false;
-				return 0;
+				return memoryCursor + 2;
 				break;
 			}
 			else
 			{
 				var1 = memory[memoryCursor + 1] % 32768;
-				registers[var1] = stack[*stackCursor];
-				*stackCursor--;
+				registers[var1] = pop(stackCursor);
 				return memoryCursor + 2;
 			}
 			break;
@@ -181,25 +169,13 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, uint16_t *stac
 			return memoryCursor + 3;
 			break;
 		case 17: // call
-			if (*stackCursor == STACK_LENGTH - 1)
-			{
-				printf("Stack overflow.\n");
-				*on = false;
-				return 0;
-				break;
-			}
-			else
-			{	
-				var1 = memory[memoryCursor + 1];
-				var2 = memoryCursor + 2;
-				*stackCursor += 1;
-				stack[*stackCursor] = var2 ;
-				return readVariable(var1, registers);
-				break;
-			}
+			var1 = memory[memoryCursor + 1];
+			var2 = memoryCursor + 2;
+			*stackCursor = push(var2, *stackCursor);
+			return readVariable(var1, registers);
 			break;
 		case 18: // ret
-			if (*stackCursor == -1)
+			if ((*(*stackCursor)).previous == NULL)
 			{
 				printf("Error: stack is empty.\n");
 				*on = false;
@@ -208,8 +184,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, uint16_t *stac
 			}
 			else
 			{
-				var1 = stack[*stackCursor];
-				*stackCursor--;
+				var1 = pop(stackCursor);
 				return var1;
 				break;
 			}
