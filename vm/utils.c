@@ -159,7 +159,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 		case 15: // rmem
 			var1 = memory[memoryCursor + 1] % 32768;
 			var2 = memory[memoryCursor + 2];
-			registers[var1] = readVariable(var2, registers);
+			registers[var1] = memory[readVariable(var2, registers)];
 			return memoryCursor + 3;
 			break;
 		case 16: // wmem 
