@@ -189,7 +189,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				break;
 			}
 		case 19: // out
-			var1 = memory[memoryCursor + 1];		
+			var1 = readVariable(memory[memoryCursor + 1], registers);		
 			printf("%c", var1);
 			return memoryCursor + 2;
 			break;
