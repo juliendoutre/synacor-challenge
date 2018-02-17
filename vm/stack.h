@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-void push(uint16_t a);
+typedef struct Cell Cell;
 
-uint16_t pop();
+struct Cell {
+    uint16_t value;
+    struct Cell *previous;
+};
+
+Cell *push(uint16_t value, Cell *cursor);
+
+uint16_t pop(Cell **cursor);

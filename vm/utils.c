@@ -3,7 +3,6 @@
 #include <stdbool.h>
 
 #include "utils.h"
-#include "stack.h"
 
 int read(int memoryCursor, uint16_t *memory, uint16_t *registers, uint16_t *stack, const int STACK_LENGTH, bool *on, int *stackCursor)
 {

@@ -24,7 +24,6 @@ int main(int argc, char *argv[]) {
 	uint16_t registers[REGISTERS_NUMBER];
 
 	// Definition of the stack
-
 	const int STACK_LENGTH = 10000;
 	uint16_t stack[STACK_LENGTH];
 	int stackCursor = -1;
@@ -45,8 +44,27 @@ int main(int argc, char *argv[]) {
 	while (memoryCursor < MEMORY_LENGTH == true && on == true)
 	{
 		memoryCursor = read(memoryCursor, memory, registers, stack, STACK_LENGTH, &on, &stackCursor);
-		// showRegisters(registers, 8);
 	}
+
+	/*
+	// stack test
+	Cell Init = {0, NULL};
+	Cell *cursor = NULL;
+	cursor = &Init;
+	printf("%p\n", cursor);
+
+	cursor = push(1, cursor);
+	uint16_t value = pop(&cursor);
+	cursor = push(37, cursor);
+	value = pop(&cursor);
+
+	cursor = push(2, cursor);
+	cursor = push(3, cursor);
+	cursor = push(4, cursor);
+	value = pop(&cursor);
+	value = pop(&cursor);
+	value = pop(&cursor);
+	*/
 
 	// Pause
 	getchar(); 
