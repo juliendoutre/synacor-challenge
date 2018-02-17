@@ -15,11 +15,8 @@ Cell *push(uint16_t value, Cell *cursor)
 
 uint16_t pop(Cell **cursor)
 {
-    printf("cursor target: %p\n", *cursor);    
     uint16_t value = (*(*cursor)).value;
     free(*cursor);
     *cursor = (*(*cursor)).previous;
-    printf("cursor target: %p\n", *cursor);    
-    printf("%d\n", value);
     return value;
 }
