@@ -31,7 +31,6 @@ int main(int argc, char *argv[]) {
 	if (load(memory, MEMORY_LENGTH) == 0)
 	{
 		printf("\nProgram successfully loaded.\n");
-		showMemory(memory, MEMORY_LENGTH);
 	}
 	else
 	{
