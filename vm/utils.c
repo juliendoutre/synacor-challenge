@@ -220,7 +220,7 @@ int load(uint16_t *memoire, int length)
 {
 	FILE *fp;
 
-	if ((fp = fopen("../challenge.bin", "rb")) == NULL)
+	if ((fp = fopen("challenge.bin", "rb")) == NULL)
 	{
 		return -1;
 	}
