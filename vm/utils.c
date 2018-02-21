@@ -3,6 +3,7 @@
 #include <stdbool.h>
 
 #include "utils.h"
+#include "decipher.h"
 
 int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor)
 {
@@ -11,8 +12,9 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 	uint16_t var2 = 0;
 	uint16_t var3 = 0;
 	char cmd = ' ';
+	char command[10] = "";
 
-	const int MEMORY_LENGTH = sizeof(memory) / sizeof(uint16_t);
+	const int MEMORY_LENGTH = 32768;
 	
 	if (memoryCursor < MEMORY_LENGTH - 1)
 	{
@@ -199,13 +201,35 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			cmd = getchar();
 			if (cmd == '$')
 			{
-				printf("shell");
+				printf("\nenter your command:");
+				scanf("%s", command);
+				if (strcmp(command, "reg") == 0)
+				{
+					showRegisters(registers, 8);
+				}
+				if (strcmp(command, "chreg") == 0)
+				{
+					printf("reg to edit:");
+					int sh;
+					scanf("%d", &sh);
+					printf("value:");
+					int sh2;
+					scanf("%d", &sh2);
+					printf("Done.");
+					registers[sh] = sh2;
+				}
+				if (strcmp(command, "decip") == 0)
+				{
+					decipher(memory);
+					printf("Done.\n");
+				}
+				return memoryCursor;
 			}
 			else
 			{
-				registers[var1] = getchar();
+				registers[var1] = cmd;
+				return memoryCursor + 2;
 			}
-			return memoryCursor + 2;
 			break;
 		case 21: // noop
 			return memoryCursor + 1;
@@ -252,6 +276,7 @@ void showMemory(uint16_t *memoire, int length)
 
 void showRegisters(uint16_t *registers, int length)
 {
+	printf("\n");
 	for (int n=0;n<length;n++)
 	{
 		printf("register n°%d", n);
