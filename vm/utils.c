@@ -4,6 +4,7 @@
 
 #include "utils.h"
 #include "decipher.h"
+#include "save.h"
 
 int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor)
 {
@@ -201,7 +202,6 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			cmd = getchar();
 			if (cmd == '$')
 			{
-				printf("\nenter your command:");
 				scanf("%s", command);
 				if (strcmp(command, "reg") == 0)
 				{
@@ -221,6 +221,16 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				if (strcmp(command, "decip") == 0)
 				{
 					decipher(memory);
+					printf("Done.\n");
+				}
+				if (strcmp(command, "save") == 0)
+				{
+					save(memory, registers, &memoryCursor);
+					printf("Done.\n");
+				}
+				if (strcmp(command, "load") == 0)
+				{
+					loadFromSave(memory, registers, &memoryCursor);
 					printf("Done.\n");
 				}
 				return memoryCursor;

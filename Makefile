@@ -1,7 +1,7 @@
-all: vm.out
+all: vm.app
 
-vm.out: vm/main.c vm/stack.c vm/utils.c vm/decipher.c
-	gcc vm/main.c vm/stack.c vm/utils.c vm/decipher.c -o vm.out
+vm.app: vm/main.c vm/stack.c vm/utils.c vm/decipher.c vm/save.c
+	gcc vm/main.c vm/stack.c vm/utils.c vm/decipher.c vm/save.c -o vm.app
 
 mrproper:
-	rm -rf vm.out
+	rm -rf vm.app

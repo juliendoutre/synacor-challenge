@@ -10,7 +10,7 @@ void decipher(uint16_t *memory)
 {
     FILE *fp;
     fp = fopen("sources.txt", "w");
-    int MEMORY_LENGTH = 32768;
+    const int MEMORY_LENGTH = 32768;
     int i = 0;
     int ID = 0;
 
