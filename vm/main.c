@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 #include "utils.h"
+#include "decipher.h"
 
 int main(int argc, char *argv[]) {
 
@@ -37,6 +38,8 @@ int main(int argc, char *argv[]) {
 		printf("Error: program not loaded.\n");
 		on = false;
 	}
+
+	//decipher(memory);
 
 	// Program loop
 	while (memoryCursor < MEMORY_LENGTH == true && on == true)

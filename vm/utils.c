@@ -10,6 +10,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 	uint16_t var1 = 0;
 	uint16_t var2 = 0;
 	uint16_t var3 = 0;
+	char cmd = ' ';
 
 	const int MEMORY_LENGTH = sizeof(memory) / sizeof(uint16_t);
 	
@@ -194,8 +195,16 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			return memoryCursor + 2;
 			break;
 		case 20: // in
-			var1 = memory[memoryCursor + 1] % 32768;		
-			registers[var1] = getchar();
+			var1 = memory[memoryCursor + 1] % 32768;
+			cmd = getchar();
+			if (cmd == '$')
+			{
+				printf("shell");
+			}
+			else
+			{
+				registers[var1] = getchar();
+			}
 			return memoryCursor + 2;
 			break;
 		case 21: // noop
