@@ -249,16 +249,3 @@ void showRegisters(uint16_t *registers, int length)
 		printf(" value: %d\n", registers[n]);
 	}
 }
-
-void conversion()
-{
-	char table[5][9] = {"lit", "red", "blue", "shiny", "corroded"};
-	for (int i=0;i<5;i++)
-	{
-		for (int j=0;j<9;j++)
-		{
-			printf("%d ", table[i][j]);
-		}
-		printf("\n");
-	}
-}

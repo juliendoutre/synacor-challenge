@@ -14,5 +14,3 @@ int load(uint16_t *memoire, int length);
 void showMemory(uint16_t *memoire, int length);
 
 void showRegisters(uint16_t *registers, int length);
-
-void conversion();
