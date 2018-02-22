@@ -15,8 +15,8 @@ Cell *push(uint16_t value, Cell *cursor)
 
 uint16_t pop(Cell **cursor)
 {
-    uint16_t value = (*(*cursor)).value;
+    uint16_t value = (*cursor)->value;
     free(*cursor);
-    *cursor = (*(*cursor)).previous;
+    *cursor = (*cursor)->previous;
     return value;
 }

@@ -3,7 +3,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "utils.h"
 #include "decipher.h"
 
 void decipher(uint16_t *memory)

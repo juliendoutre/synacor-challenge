@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 #include "utils.h"
-#include "decipher.h"
+#include "save.h"
 
 int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor)
 {
@@ -229,7 +229,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				}
 				if (strcmp(command, "load") == 0)
 				{
-					loadFromSave(memory, registers, &memoryCursor);
+					loadFromSave(memory, registers, &memoryCursor, stackCursor);
 					printf("\nDone.\n");
 				}
 				return memoryCursor;
@@ -291,49 +291,4 @@ void showRegisters(uint16_t *registers, int length)
 		printf("register n°%d", n);
 		printf(" value: %d\n", registers[n]);
 	}
-}
-
-void save(uint16_t * memory, uint16_t * registers, int * memoryCursor, Cell *stackCursor)
-{
-    FILE *fp;
-    fp = fopen("save.txt", "w");
-    const int MEMORY_LENGTH = 32768;
-    for (int i=0;i<MEMORY_LENGTH;i++)
-    {
-        fprintf(fp, "%d ", memory[i]);
-    }
-    fprintf(fp, "\n");
-    fprintf(fp, "%d\n", *memoryCursor);
-    for (int n=0;n<8;n++)
-    {
-        fprintf(fp, "%d ", registers[n]);
-    }
-	fprintf(fp, "\n");
-    while(stackCursor != NULL)
-    {
-        fprintf(fp, "%d %p\n", stackCursor->value, stackCursor->previous);
-        stackCursor = stackCursor->previous;
-    }
-    fclose(fp);
-}
-
-void loadFromSave(uint16_t * memory, uint16_t * registers, int * memoryCursor)
-{
-    FILE *fp;
-    fp = fopen("save.txt", "r");
-	int a = 0;
-    const int MEMORY_LENGTH = 32768;
-	for (int i=0;i<MEMORY_LENGTH;i++)
-	{
-		fscanf(fp, "%d", &a);
-		memory[i] = a;
-	}
-	fscanf(fp, "%d", &a);
-	*memoryCursor = a;
-	for (int i=0;i<8;i++)
-	{
-		fscanf(fp, "%d", &a);
-		registers[i] = a;
-	}
-    fclose(fp);
 }
