@@ -232,6 +232,16 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 					loadFromSave(memory, registers, &memoryCursor, stackCursor);
 					printf("\nDone.\n");
 				}
+				if (strcmp(command, "mem") == 0)
+				{
+					showMemory(memory, MEMORY_LENGTH);
+					printf("\nDone.\n");
+				}
+				if (strcmp(command, "stack") == 0)
+				{
+					showStack(*stackCursor);
+					printf("\nDone.\n");
+				}
 				return memoryCursor;
 			}
 			else
@@ -258,7 +268,7 @@ uint16_t readVariable(uint16_t var, uint16_t *registers)
 	}
 }
 
-int load(uint16_t *memoire, int length)
+int load(uint16_t *memory, int length)
 {
 	FILE *fp;
 
@@ -268,18 +278,18 @@ int load(uint16_t *memoire, int length)
 	}
 	else
 	{	
-		fread(memoire, length, 2, fp);
+		fread(memory, length, 2, fp);
 	}
 	fclose(fp);
 	return 0;
 }
 
-void showMemory(uint16_t *memoire, int length)
+void showMemory(uint16_t *memory, int length)
 {
 	for (int n=0;n<length;n++)
 	{
-		printf("adresse: %pn, | ", &memoire[n]);
-		printf("instruction: %d\n", memoire[n] % 32768);
+		printf("adresse: %pn, | ", &memory[n]);
+		printf("instruction: %d\n", memory[n] % 32768);
 	}
 }
 
@@ -291,4 +301,17 @@ void showRegisters(uint16_t *registers, int length)
 		printf("register n°%d", n);
 		printf(" value: %d\n", registers[n]);
 	}
+}
+
+void showStack(Cell *stackCursor)
+{
+	Cell *cursor = NULL;
+	cursor = stackCursor;
+	printf("TOP\n");
+	while (cursor->previous != NULL)
+	{
+		printf("%d\n", cursor->value);
+		 cursor = cursor->previous;
+	}
+	printf("INIT\n");
 }
