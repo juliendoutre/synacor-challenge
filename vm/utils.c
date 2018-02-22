@@ -233,7 +233,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				{
 					showRegisters(registers, 8);
 				}
-				if (strcmp(command, "chreg") == 0) // edit the value of a register
+				else if (strcmp(command, "chreg") == 0) // edit the value of a register
 				{
 					printf("reg to edit:");
 					int sh;
@@ -244,30 +244,34 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 					printf("\nDone.\n");
 					registers[sh] = sh2;
 				}
-				if (strcmp(command, "decip") == 0) // decipher challenge.bin into a readable file
+				else if (strcmp(command, "decip") == 0) // decipher challenge.bin into a readable file
 				{
 					decipher(memory);
 					printf("\nDone.\n");
 				}
-				if (strcmp(command, "save") == 0) // save the game into save.txt file
+				else if (strcmp(command, "save") == 0) // save the game into save.txt file
 				{
 					save(memory, registers, &memoryCursor, *stackCursor);
 					printf("\nDone.\n");
 				}
-				if (strcmp(command, "load") == 0) // load saved game
+				else if (strcmp(command, "load") == 0) // load saved game
 				{
 					loadFromSave(memory, registers, &memoryCursor, stackCursor);
 					printf("\nDone.\n");
 				}
-				if (strcmp(command, "mem") == 0) // show the memory
+				else if (strcmp(command, "mem") == 0) // show the memory
 				{
 					showMemory(memory, MEMORY_LENGTH);
 					printf("\nDone.\n");
 				}
-				if (strcmp(command, "stack") == 0) // show the values in the stack
+				else if (strcmp(command, "stack") == 0) // show the values in the stack
 				{
 					showStack(*stackCursor);
 					printf("\nDone.\n");
+				}
+				else 
+				{
+					printf("\nunknow command.\n");
 				}
 				return memoryCursor;
 			}

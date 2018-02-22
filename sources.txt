@@ -4174,7 +4174,7 @@ go to memory[4]
 4011 | halt: 
 4012 | halt: 
 4013 | halt: 
-4014 | halt: 
+4014 | push: push(0);
 4015 | halt: 
 4016 | halt: 
 4017 | halt: 
@@ -4192,18 +4192,18 @@ go to memory[4]
 4029 | halt: 
 4030 | halt: 
 4031 | halt: 
-4032 | halt: 
+4032 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
 4033 | halt: 
 4034 | halt: 
 4035 | halt: 
 4036 | halt: 
 4037 | halt: 
 4038 | halt: 
-4039 | push: push(0);
+4039 | halt: 
 4040 | halt: 
 4041 | halt: 
 4042 | halt: 
-4043 | halt: 
+4043 | pop: 0 = pop();
 4044 | halt: 
 4045 | halt: 
 4046 | halt: 
@@ -4217,7 +4217,7 @@ go to memory[4]
 4054 | halt: 
 4055 | halt: 
 4056 | halt: 
-4057 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
+4057 | halt: 
 4058 | halt: 
 4059 | halt: 
 4060 | halt: 
@@ -4228,7 +4228,7 @@ go to memory[4]
 4065 | halt: 
 4066 | halt: 
 4067 | halt: 
-4068 | pop: 0 = pop();
+4068 | halt: 
 4069 | halt: 
 4070 | halt: 
 4071 | halt: 
@@ -4334,7 +4334,7 @@ go to memory[4]
 4171 | halt: 
 4172 | halt: 
 4173 | halt: 
-4174 | halt: 
+4174 | add: 0 = 0 + 0
 4175 | halt: 
 4176 | halt: 
 4177 | halt: 
@@ -4344,7 +4344,7 @@ go to memory[4]
 4181 | halt: 
 4182 | halt: 
 4183 | halt: 
-4184 | halt: 
+4184 | mult: 0 = 0 * 0
 4185 | halt: 
 4186 | halt: 
 4187 | halt: 
@@ -4359,17 +4359,17 @@ go to memory[4]
 4196 | halt: 
 4197 | halt: 
 4198 | halt: 
-4199 | add: 0 = 0 + 0
+4199 | halt: 
 4200 | halt: 
 4201 | halt: 
 4202 | halt: 
-4203 | halt: 
+4203 | set: 0 = 0
 4204 | halt: 
 4205 | halt: 
 4206 | halt: 
 4207 | halt: 
 4208 | halt: 
-4209 | mult: 0 = 0 * 0
+4209 | halt: 
 4210 | halt: 
 4211 | halt: 
 4212 | halt: 
@@ -4377,42 +4377,42 @@ go to memory[4]
 4214 | halt: 
 4215 | halt: 
 4216 | halt: 
-4217 | halt: 
+4217 | jmp: go to memory[1]
 4218 | halt: 
-4219 | halt: 
+4219 | jmp: go to memory[0]
 4220 | halt: 
 4221 | halt: 
 4222 | halt: 
 4223 | halt: 
 4224 | halt: 
 4225 | halt: 
-4226 | halt: 
+4226 | pop: 0 = pop();
 4227 | halt: 
 4228 | halt: 
-4229 | set: 0 = 0
+4229 | halt: 
 4230 | halt: 
 4231 | halt: 
 4232 | halt: 
 4233 | halt: 
-4234 | halt: 
+4234 | jmp: go to memory[0]
 4235 | halt: 
-4236 | halt: 
+4236 | set: 0 = 0
 4237 | halt: 
 4238 | halt: 
 4239 | halt: 
 4240 | halt: 
 4241 | halt: 
 4242 | halt: 
-4243 | jmp: go to memory[1]
+4243 | halt: 
 4244 | halt: 
-4245 | jmp: go to memory[0]
+4245 | halt: 
 4246 | halt: 
 4247 | halt: 
 4248 | halt: 
 4249 | halt: 
 4250 | halt: 
 4251 | halt: 
-4252 | pop: 0 = pop();
+4252 | halt: 
 4253 | halt: 
 4254 | halt: 
 4255 | halt: 
@@ -4420,9 +4420,9 @@ go to memory[4]
 4257 | halt: 
 4258 | halt: 
 4259 | halt: 
-4260 | jmp: go to memory[0]
+4260 | halt: 
 4261 | halt: 
-4262 | set: 0 = 0
+4262 | halt: 
 4263 | halt: 
 4264 | halt: 
 4265 | halt: 
@@ -4460,7 +4460,7 @@ go to memory[4]
 4297 | halt: 
 4298 | halt: 
 4299 | halt: 
-4300 | halt: 
+4300 | set: 0 = 0
 4301 | halt: 
 4302 | halt: 
 4303 | halt: 
@@ -4477,7 +4477,7 @@ go to memory[4]
 4314 | halt: 
 4315 | halt: 
 4316 | halt: 
-4317 | halt: 
+4317 | set: 0 = 10
 4318 | halt: 
 4319 | halt: 
 4320 | halt: 
@@ -4486,7 +4486,7 @@ go to memory[4]
 4323 | halt: 
 4324 | halt: 
 4325 | halt: 
-4326 | set: 0 = 0
+4326 | halt: 
 4327 | halt: 
 4328 | halt: 
 4329 | halt: 
@@ -4503,7 +4503,7 @@ go to memory[4]
 4340 | halt: 
 4341 | halt: 
 4342 | halt: 
-4343 | set: 0 = 10
+4343 | halt: 
 4344 | halt: 
 4345 | halt: 
 4346 | halt: 
@@ -4517,9 +4517,9 @@ go to memory[4]
 4354 | halt: 
 4355 | halt: 
 4356 | halt: 
-4357 | halt: 
-4358 | halt: 
-4359 | halt: 
+4357 | pop: 62 = pop();
+4358 | set: 0 = 4832
+4359 | push: push(0);
 4360 | halt: 
 4361 | halt: 
 4362 | halt: 
@@ -4528,9 +4528,9 @@ go to memory[4]
 4365 | halt: 
 4366 | halt: 
 4367 | halt: 
-4368 | halt: 
-4369 | halt: 
-4370 | halt: 
+4368 | mult: 64 = 73 * 72
+4369 | jmp: go to memory[0]
+4370 | gt: if (64 > 0) { 0 == 1 } else { 0 == 0 }
 4371 | halt: 
 4372 | halt: 
 4373 | halt: 
@@ -4543,25 +4543,25 @@ go to memory[4]
 4380 | halt: 
 4381 | halt: 
 4382 | halt: 
-4383 | pop: 62 = pop();
-4384 | set: 0 = 4832
-4385 | push: push(0);
-4386 | halt: 
-4387 | halt: 
+4383 | halt: 
+4384 | jt: if (0 == 0 { go to 0 }
+4385 | halt: 
+4386 | pop: 0 = pop();
+4387 | eq: if (r23792 == 26) { 0 == 1 } else { 0 == 0 }
 4388 | halt: 
 4389 | halt: 
 4390 | halt: 
 4391 | halt: 
 4392 | halt: 
 4393 | halt: 
-4394 | mult: 64 = 73 * 72
-4395 | jmp: go to memory[0]
-4396 | gt: if (64 > 0) { 0 == 1 } else { 0 == 0 }
+4394 | halt: 
+4395 | halt: 
+4396 | halt: 
 4397 | halt: 
 4398 | halt: 
-4399 | halt: 
+4399 | wmem: memory[0] = 0
 4400 | halt: 
-4401 | halt: 
+4401 | set: 0 = 5
 4402 | halt: 
 4403 | halt: 
 4404 | halt: 
@@ -4570,10 +4570,10 @@ go to memory[4]
 4407 | halt: 
 4408 | halt: 
 4409 | halt: 
-4410 | jt: if (0 == 0 { go to 0 }
+4410 | halt: 
 4411 | halt: 
-4412 | pop: 0 = pop();
-4413 | eq: if (r23792 == 26) { 0 == 1 } else { 0 == 0 }
+4412 | halt: 
+4413 | halt: 
 4414 | halt: 
 4415 | halt: 
 4416 | halt: 
@@ -4582,12 +4582,12 @@ go to memory[4]
 4419 | halt: 
 4420 | halt: 
 4421 | halt: 
-4422 | halt: 
+4422 | set: 0 = 6
 4423 | halt: 
 4424 | halt: 
-4425 | wmem: memory[0] = 0
+4425 | halt: 
 4426 | halt: 
-4427 | set: 0 = 5
+4427 | halt: 
 4428 | halt: 
 4429 | halt: 
 4430 | halt: 
@@ -4599,8 +4599,8 @@ go to memory[4]
 4436 | halt: 
 4437 | halt: 
 4438 | halt: 
-4439 | halt: 
-4440 | halt: 
+4439 | push: push(0);
+4440 | jmp: go to memory[0]
 4441 | halt: 
 4442 | halt: 
 4443 | halt: 
@@ -4608,14 +4608,14 @@ go to memory[4]
 4445 | halt: 
 4446 | halt: 
 4447 | halt: 
-4448 | set: 0 = 6
+4448 | halt: 
 4449 | halt: 
 4450 | halt: 
 4451 | halt: 
 4452 | halt: 
-4453 | halt: 
+4453 | jt: if (0 == 0 { go to 0 }
 4454 | halt: 
-4455 | halt: 
+4455 | eq: if (4 == 0) { 0 == 1 } else { 0 == 0 }
 4456 | halt: 
 4457 | halt: 
 4458 | halt: 
@@ -4625,28 +4625,28 @@ go to memory[4]
 4462 | halt: 
 4463 | halt: 
 4464 | halt: 
-4465 | push: push(0);
-4466 | jmp: go to memory[0]
+4465 | halt: 
+4466 | halt: 
 4467 | halt: 
 4468 | halt: 
 4469 | halt: 
 4470 | halt: 
-4471 | halt: 
+4471 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
 4472 | halt: 
-4473 | halt: 
+4473 | eq: if (26456 == 29) { 0 == 1 } else { 0 == 0 }
 4474 | halt: 
 4475 | halt: 
 4476 | halt: 
 4477 | halt: 
 4478 | halt: 
-4479 | jt: if (0 == 0 { go to 0 }
+4479 | wmem: memory[0] = 0
 4480 | halt: 
-4481 | eq: if (4 == 0) { 0 == 1 } else { 0 == 0 }
+4481 | halt: 
 4482 | halt: 
 4483 | halt: 
-4484 | halt: 
+4484 | jt: if (0 == 0 { go to 0 }
 4485 | halt: 
-4486 | halt: 
+4486 | eq: if (r23820 == 26) { 0 == 1 } else { 0 == 0 }
 4487 | halt: 
 4488 | halt: 
 4489 | halt: 
@@ -4657,38 +4657,36 @@ go to memory[4]
 4494 | halt: 
 4495 | halt: 
 4496 | halt: 
-4497 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
-4498 | halt: 
-4499 | eq: if (26456 == 29) { 0 == 1 } else { 0 == 0 }
+4497 | halt: 
+4498 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
+4499 | jmp: go to memory[0]
 4500 | halt: 
 4501 | halt: 
 4502 | halt: 
 4503 | halt: 
-4504 | or: 0 = 0 or 0
+4504 | halt: 
 4505 | halt: 
 4506 | halt: 
 4507 | halt: 
 4508 | halt: 
-4509 | or: 0 = 0 or 0
+4509 | halt: 
 4510 | halt: 
 4511 | halt: 
 4512 | halt: 
 4513 | halt: 
-4514 | halt: 
+4514 | push: push(0);
 4515 | halt: 
 4516 | halt: 
 4517 | halt: 
 4518 | halt: 
-4519 | call: push(32062);
-go to memory[0]
+4519 | halt: 
 4520 | halt: 
-4521 | halt: 
+4521 | push: push(0);
 4522 | halt: 
 4523 | halt: 
 4524 | halt: 
 4525 | halt: 
-4526 | call: push(32082);
-go to memory[0]
+4526 | halt: 
 4527 | halt: 
 4528 | halt: 
 4529 | halt: 
@@ -4709,28 +4707,28 @@ go to memory[0]
 4544 | halt: 
 4545 | halt: 
 4546 | halt: 
-4547 | halt: 
+4547 | set: 0 = 0
 4548 | halt: 
 4549 | halt: 
 4550 | halt: 
 4551 | halt: 
 4552 | halt: 
-4553 | pop: 0 = pop();
+4553 | halt: 
 4554 | halt: 
 4555 | halt: 
 4556 | halt: 
-4557 | set: 0 = 0
+4557 | halt: 
 4558 | halt: 
 4559 | halt: 
 4560 | halt: 
 4561 | halt: 
 4562 | halt: 
-4563 | set: 0 = 0
+4563 | halt: 
 4564 | halt: 
 4565 | halt: 
 4566 | halt: 
-4567 | halt: 
-4568 | set: 0 = 0
+4567 | pop: 0 = pop();
+4568 | halt: 
 4569 | halt: 
 4570 | halt: 
 4571 | halt: 
@@ -4738,20 +4736,20 @@ go to memory[0]
 4573 | halt: 
 4574 | halt: 
 4575 | halt: 
-4576 | push: push(0);
+4576 | halt: 
 4577 | halt: 
 4578 | halt: 
 4579 | halt: 
-4580 | set: 0 = 0
+4580 | halt: 
 4581 | halt: 
 4582 | halt: 
 4583 | halt: 
 4584 | halt: 
 4585 | halt: 
-4586 | set: 0 = 0
+4586 | halt: 
 4587 | halt: 
 4588 | halt: 
-4589 | halt: 
+4589 | set: 0 = 0
 4590 | halt: 
 4591 | halt: 
 4592 | halt: 
@@ -4759,16 +4757,16 @@ go to memory[0]
 4594 | halt: 
 4595 | halt: 
 4596 | halt: 
-4597 | halt: 
-4598 | set: 0 = 0
+4597 | set: 0 = 0
+4598 | halt: 
 4599 | halt: 
-4600 | halt: 
+4600 | set: 0 = 0
 4601 | halt: 
 4602 | halt: 
 4603 | halt: 
 4604 | halt: 
 4605 | halt: 
-4606 | halt: 
+4606 | set: 0 = 0
 4607 | halt: 
 4608 | halt: 
 4609 | halt: 
@@ -4781,8 +4779,8 @@ go to memory[0]
 4616 | halt: 
 4617 | halt: 
 4618 | halt: 
-4619 | set: 0 = 0
-4620 | halt: 
+4619 | halt: 
+4620 | set: 0 = r2512
 4621 | halt: 
 4622 | halt: 
 4623 | halt: 
@@ -4815,7 +4813,7 @@ go to memory[0]
 4650 | halt: 
 4651 | halt: 
 4652 | halt: 
-4653 | push: push(0);
+4653 | halt: 
 4654 | halt: 
 4655 | halt: 
 4656 | halt: 
@@ -4823,15 +4821,15 @@ go to memory[0]
 4658 | halt: 
 4659 | halt: 
 4660 | halt: 
-4661 | halt: 
+4661 | jt: if (0 != 0 { go to memory[0] }
 4662 | halt: 
 4663 | halt: 
 4664 | halt: 
-4665 | or: 0 = 0 or 0
+4665 | jt: if (0 != 0 { go to memory[6] }
 4666 | halt: 
 4667 | halt: 
 4668 | halt: 
-4669 | halt: 
+4669 | set: 0 = 0
 4670 | halt: 
 4671 | halt: 
 4672 | halt: 
@@ -4879,18 +4877,18 @@ go to memory[0]
 4714 | halt: 
 4715 | halt: 
 4716 | halt: 
-4717 | wmem: memory[0] = 0
+4717 | halt: 
 4718 | halt: 
 4719 | halt: 
 4720 | halt: 
-4721 | push: push(0);
-4722 | halt: 
+4721 | halt: 
+4722 | jt: if (0 == 0 { go to 0 }
 4723 | halt: 
 4724 | halt: 
 4725 | halt: 
 4726 | halt: 
 4727 | halt: 
-4728 | halt: 
+4728 | jt: if (0 == 0 { go to 0 }
 4729 | halt: 
 4730 | halt: 
 4731 | halt: 
@@ -4921,20 +4919,20 @@ go to memory[0]
 4756 | halt: 
 4757 | halt: 
 4758 | halt: 
-4759 | halt: 
+4759 | set: 0 = 0
 4760 | halt: 
 4761 | halt: 
 4762 | halt: 
 4763 | halt: 
 4764 | halt: 
 4765 | halt: 
-4766 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
+4766 | halt: 
 4767 | halt: 
 4768 | halt: 
 4769 | halt: 
 4770 | halt: 
 4771 | halt: 
-4772 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
+4772 | halt: 
 4773 | halt: 
 4774 | halt: 
 4775 | halt: 
@@ -4993,7 +4991,7 @@ go to memory[0]
 4828 | halt: 
 4829 | halt: 
 4830 | halt: 
-4831 | mult: 0 = 0 * 0
+4831 | halt: 
 4832 | halt: 
 4833 | halt: 
 4834 | halt: 
@@ -5014,4 +5012,3 @@ go to memory[0]
 4849 | halt: 
 4850 | halt: 
 4851 | halt: 
-4852 | halt: 
