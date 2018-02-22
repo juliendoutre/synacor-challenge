@@ -214,23 +214,23 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 					printf("value:");
 					int sh2;
 					scanf("%d", &sh2);
-					printf("Done.");
+					printf("\nDone.\n");
 					registers[sh] = sh2;
 				}
 				if (strcmp(command, "decip") == 0)
 				{
 					decipher(memory);
-					printf("Done.\n");
+					printf("\nDone.\n");
 				}
 				if (strcmp(command, "save") == 0)
 				{
 					save(memory, registers, &memoryCursor, *stackCursor);
-					printf("Done.\n");
+					printf("\nDone.\n");
 				}
 				if (strcmp(command, "load") == 0)
 				{
 					loadFromSave(memory, registers, &memoryCursor);
-					printf("Done.\n");
+					printf("\nDone.\n");
 				}
 				return memoryCursor;
 			}
@@ -308,6 +308,7 @@ void save(uint16_t * memory, uint16_t * registers, int * memoryCursor, Cell *sta
     {
         fprintf(fp, "%d ", registers[n]);
     }
+	fprintf(fp, "\n");
     while(stackCursor != NULL)
     {
         fprintf(fp, "%d %p\n", stackCursor->value, stackCursor->previous);
@@ -320,6 +321,19 @@ void loadFromSave(uint16_t * memory, uint16_t * registers, int * memoryCursor)
 {
     FILE *fp;
     fp = fopen("save.txt", "r");
+	int a = 0;
     const int MEMORY_LENGTH = 32768;
+	for (int i=0;i<MEMORY_LENGTH;i++)
+	{
+		fscanf(fp, "%d", &a);
+		memory[i] = a;
+	}
+	fscanf(fp, "%d", &a);
+	*memoryCursor = a;
+	for (int i=0;i<8;i++)
+	{
+		fscanf(fp, "%d", &a);
+		registers[i] = a;
+	}
     fclose(fp);
 }
