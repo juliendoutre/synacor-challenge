@@ -14,3 +14,7 @@ int load(uint16_t *memoire, int length);
 void showMemory(uint16_t *memoire, int length);
 
 void showRegisters(uint16_t *registers, int length);
+
+void save(uint16_t * memory, uint16_t * registers, int * memoryCursor, Cell *stackCursor);
+
+void loadFromSave(uint16_t * memory, uint16_t * registers, int * memoryCursor);
