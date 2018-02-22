@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
 	// Definition of some usefull variables and pointers
 	bool on = true;
 	int memoryCursor = 0;
+	bool debug = false;
 	
 	// Definition of the memory table
 	const int MEMORY_LENGTH = 32768;
@@ -38,7 +39,7 @@ int main(int argc, char *argv[]) {
 	// Program loop
 	while (memoryCursor < MEMORY_LENGTH == true && on == true)
 	{
-		memoryCursor = read(memoryCursor, memory, registers, &on, &stackCursor);
+		memoryCursor = read(memoryCursor, memory, registers, &on, &stackCursor, &debug);
 	}
 
 	// Pause

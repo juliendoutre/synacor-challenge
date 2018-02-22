@@ -1,519 +1,501 @@
-0 | out: printf(87);
-1 | out: printf(101);
-2 | out: printf(108);
-3 | out: printf(99);
-4 | out: printf(111);
-5 | out: printf(109);
-6 | out: printf(101);
-7 | out: printf(32);
-8 | out: printf(116);
-9 | out: printf(111);
-10 | out: printf(32);
-11 | out: printf(116);
-12 | out: printf(104);
-13 | out: printf(101);
-14 | out: printf(32);
-15 | out: printf(83);
-16 | out: printf(121);
-17 | out: printf(110);
-18 | out: printf(97);
-19 | out: printf(99);
-20 | out: printf(111);
-21 | out: printf(114);
-22 | out: printf(32);
-23 | out: printf(67);
-24 | out: printf(104);
-25 | out: printf(97);
-26 | out: printf(108);
+0 | noop: 1 | out: printf(87);
+2 | out: printf(101);
+3 | out: printf(108);
+4 | out: printf(99);
+5 | out: printf(111);
+6 | out: printf(109);
+7 | out: printf(101);
+8 | out: printf(32);
+9 | out: printf(116);
+10 | out: printf(111);
+11 | out: printf(32);
+12 | out: printf(116);
+13 | out: printf(104);
+14 | out: printf(101);
+15 | out: printf(32);
+16 | out: printf(83);
+17 | out: printf(121);
+18 | out: printf(110);
+19 | out: printf(97);
+20 | out: printf(99);
+21 | out: printf(111);
+22 | out: printf(114);
+23 | out: printf(32);
+24 | out: printf(67);
+25 | out: printf(104);
+26 | out: printf(97);
 27 | out: printf(108);
-28 | out: printf(101);
-29 | out: printf(110);
-30 | out: printf(103);
-31 | out: printf(101);
-32 | out: printf(33);
-33 | out: printf(10);
-34 | out: printf(80);
-35 | out: printf(108);
-36 | out: printf(101);
-37 | out: printf(97);
-38 | out: printf(115);
-39 | out: printf(101);
-40 | out: printf(32);
-41 | out: printf(114);
-42 | out: printf(101);
-43 | out: printf(99);
-44 | out: printf(111);
-45 | out: printf(114);
-46 | out: printf(100);
-47 | out: printf(32);
-48 | out: printf(121);
-49 | out: printf(111);
-50 | out: printf(117);
-51 | out: printf(114);
-52 | out: printf(32);
-53 | out: printf(112);
-54 | out: printf(114);
-55 | out: printf(111);
-56 | out: printf(103);
-57 | out: printf(114);
-58 | out: printf(101);
-59 | out: printf(115);
+28 | out: printf(108);
+29 | out: printf(101);
+30 | out: printf(110);
+31 | out: printf(103);
+32 | out: printf(101);
+33 | out: printf(33);
+34 | out: printf(10);
+35 | out: printf(80);
+36 | out: printf(108);
+37 | out: printf(101);
+38 | out: printf(97);
+39 | out: printf(115);
+40 | out: printf(101);
+41 | out: printf(32);
+42 | out: printf(114);
+43 | out: printf(101);
+44 | out: printf(99);
+45 | out: printf(111);
+46 | out: printf(114);
+47 | out: printf(100);
+48 | out: printf(32);
+49 | out: printf(121);
+50 | out: printf(111);
+51 | out: printf(117);
+52 | out: printf(114);
+53 | out: printf(32);
+54 | out: printf(112);
+55 | out: printf(114);
+56 | out: printf(111);
+57 | out: printf(103);
+58 | out: printf(114);
+59 | out: printf(101);
 60 | out: printf(115);
-61 | out: printf(32);
-62 | out: printf(98);
-63 | out: printf(121);
-64 | out: printf(32);
-65 | out: printf(112);
-66 | out: printf(117);
-67 | out: printf(116);
+61 | out: printf(115);
+62 | out: printf(32);
+63 | out: printf(98);
+64 | out: printf(121);
+65 | out: printf(32);
+66 | out: printf(112);
+67 | out: printf(117);
 68 | out: printf(116);
-69 | out: printf(105);
-70 | out: printf(110);
-71 | out: printf(103);
-72 | out: printf(32);
-73 | out: printf(99);
-74 | out: printf(111);
-75 | out: printf(100);
-76 | out: printf(101);
-77 | out: printf(115);
-78 | out: printf(32);
-79 | out: printf(108);
-80 | out: printf(105);
-81 | out: printf(107);
-82 | out: printf(101);
-83 | out: printf(10);
-84 | out: printf(116);
-85 | out: printf(104);
-86 | out: printf(105);
-87 | out: printf(115);
-88 | out: printf(32);
-89 | out: printf(111);
-90 | out: printf(110);
-91 | out: printf(101);
-92 | out: printf(32);
-93 | out: printf(105);
-94 | out: printf(110);
-95 | out: printf(116);
-96 | out: printf(111);
-97 | out: printf(32);
-98 | out: printf(116);
-99 | out: printf(104);
-100 | out: printf(101);
-101 | out: printf(32);
-102 | out: printf(99);
-103 | out: printf(104);
-104 | out: printf(97);
-105 | out: printf(108);
+69 | out: printf(116);
+70 | out: printf(105);
+71 | out: printf(110);
+72 | out: printf(103);
+73 | out: printf(32);
+74 | out: printf(99);
+75 | out: printf(111);
+76 | out: printf(100);
+77 | out: printf(101);
+78 | out: printf(115);
+79 | out: printf(32);
+80 | out: printf(108);
+81 | out: printf(105);
+82 | out: printf(107);
+83 | out: printf(101);
+84 | out: printf(10);
+85 | out: printf(116);
+86 | out: printf(104);
+87 | out: printf(105);
+88 | out: printf(115);
+89 | out: printf(32);
+90 | out: printf(111);
+91 | out: printf(110);
+92 | out: printf(101);
+93 | out: printf(32);
+94 | out: printf(105);
+95 | out: printf(110);
+96 | out: printf(116);
+97 | out: printf(111);
+98 | out: printf(32);
+99 | out: printf(116);
+100 | out: printf(104);
+101 | out: printf(101);
+102 | out: printf(32);
+103 | out: printf(99);
+104 | out: printf(104);
+105 | out: printf(97);
 106 | out: printf(108);
-107 | out: printf(101);
-108 | out: printf(110);
-109 | out: printf(103);
-110 | out: printf(101);
-111 | out: printf(32);
-112 | out: printf(119);
-113 | out: printf(101);
-114 | out: printf(98);
-115 | out: printf(115);
-116 | out: printf(105);
-117 | out: printf(116);
-118 | out: printf(101);
-119 | out: printf(58);
-120 | out: printf(32);
-121 | out: printf(113);
-122 | out: printf(70);
-123 | out: printf(116);
-124 | out: printf(80);
-125 | out: printf(105);
-126 | out: printf(109);
-127 | out: printf(115);
-128 | out: printf(98);
-129 | out: printf(110);
-130 | out: printf(108);
-131 | out: printf(89);
-132 | out: printf(73);
-133 | out: printf(10);
+107 | out: printf(108);
+108 | out: printf(101);
+109 | out: printf(110);
+110 | out: printf(103);
+111 | out: printf(101);
+112 | out: printf(32);
+113 | out: printf(119);
+114 | out: printf(101);
+115 | out: printf(98);
+116 | out: printf(115);
+117 | out: printf(105);
+118 | out: printf(116);
+119 | out: printf(101);
+120 | out: printf(58);
+121 | out: printf(32);
+122 | out: printf(113);
+123 | out: printf(70);
+124 | out: printf(116);
+125 | out: printf(80);
+126 | out: printf(105);
+127 | out: printf(109);
+128 | out: printf(115);
+129 | out: printf(98);
+130 | out: printf(110);
+131 | out: printf(108);
+132 | out: printf(89);
+133 | out: printf(73);
 134 | out: printf(10);
-135 | out: printf(69);
-136 | out: printf(120);
-137 | out: printf(101);
-138 | out: printf(99);
-139 | out: printf(117);
-140 | out: printf(116);
-141 | out: printf(105);
-142 | out: printf(110);
-143 | out: printf(103);
-144 | out: printf(32);
-145 | out: printf(115);
-146 | out: printf(101);
-147 | out: printf(108);
-148 | out: printf(102);
-149 | out: printf(45);
-150 | out: printf(116);
-151 | out: printf(101);
-152 | out: printf(115);
-153 | out: printf(116);
-154 | out: printf(46);
+135 | out: printf(10);
+136 | out: printf(69);
+137 | out: printf(120);
+138 | out: printf(101);
+139 | out: printf(99);
+140 | out: printf(117);
+141 | out: printf(116);
+142 | out: printf(105);
+143 | out: printf(110);
+144 | out: printf(103);
+145 | out: printf(32);
+146 | out: printf(115);
+147 | out: printf(101);
+148 | out: printf(108);
+149 | out: printf(102);
+150 | out: printf(45);
+151 | out: printf(116);
+152 | out: printf(101);
+153 | out: printf(115);
+154 | out: printf(116);
 155 | out: printf(46);
 156 | out: printf(46);
-157 | out: printf(10);
+157 | out: printf(46);
 158 | out: printf(10);
-159 | jmp: go to memory[347]
-160 | out: printf(106);
-161 | out: printf(109);
-162 | out: printf(112);
-163 | out: printf(32);
-164 | out: printf(102);
-165 | out: printf(97);
-166 | out: printf(105);
-167 | out: printf(108);
-168 | out: printf(115);
-169 | out: printf(10);
-170 | halt: 
-171 | jmp: go to memory[358]
-172 | jmp: go to memory[368]
-173 | jmp: go to memory[397]
-174 | jmp: go to memory[484]
-175 | jmp: go to memory[424]
-176 | jmp: go to memory[453]
-177 | out: printf(106);
-178 | out: printf(109);
-179 | out: printf(112);
-180 | out: printf(32);
-181 | out: printf(108);
-182 | out: printf(97);
-183 | out: printf(110);
-184 | out: printf(100);
-185 | out: printf(115);
-186 | out: printf(32);
-187 | out: printf(45);
-188 | out: printf(50);
-189 | out: printf(10);
-190 | halt: 
-191 | out: printf(106);
-192 | out: printf(109);
-193 | out: printf(112);
-194 | out: printf(32);
-195 | out: printf(108);
-196 | out: printf(97);
-197 | out: printf(110);
-198 | out: printf(100);
-199 | out: printf(115);
-200 | out: printf(32);
-201 | out: printf(45);
-202 | out: printf(49);
-203 | out: printf(10);
-204 | halt: 
-205 | out: printf(106);
-206 | out: printf(109);
-207 | out: printf(112);
+159 | out: printf(10);
+160 | jmp: go to memory[347]
+161 | out: printf(106);
+162 | out: printf(109);
+163 | out: printf(112);
+164 | out: printf(32);
+165 | out: printf(102);
+166 | out: printf(97);
+167 | out: printf(105);
+168 | out: printf(108);
+169 | out: printf(115);
+170 | out: printf(10);
+171 | halt: 
+172 | noop: 173 | noop: 174 | noop: 175 | noop: 176 | noop: 177 | jmp: go to memory[368]
+178 | jmp: go to memory[397]
+179 | jmp: go to memory[484]
+180 | jmp: go to memory[424]
+181 | jmp: go to memory[453]
+182 | noop: 183 | noop: 184 | out: printf(106);
+185 | out: printf(109);
+186 | out: printf(112);
+187 | out: printf(32);
+188 | out: printf(108);
+189 | out: printf(97);
+190 | out: printf(110);
+191 | out: printf(100);
+192 | out: printf(115);
+193 | out: printf(32);
+194 | out: printf(45);
+195 | out: printf(50);
+196 | out: printf(10);
+197 | halt: 
+198 | noop: 199 | out: printf(106);
+200 | out: printf(109);
+201 | out: printf(112);
+202 | out: printf(32);
+203 | out: printf(108);
+204 | out: printf(97);
+205 | out: printf(110);
+206 | out: printf(100);
+207 | out: printf(115);
 208 | out: printf(32);
-209 | out: printf(108);
-210 | out: printf(97);
-211 | out: printf(110);
-212 | out: printf(100);
-213 | out: printf(115);
-214 | out: printf(32);
-215 | out: printf(43);
-216 | out: printf(49);
-217 | out: printf(10);
-218 | halt: 
-219 | out: printf(106);
-220 | out: printf(109);
-221 | out: printf(112);
-222 | out: printf(32);
-223 | out: printf(108);
-224 | out: printf(97);
-225 | out: printf(110);
-226 | out: printf(100);
-227 | out: printf(115);
-228 | out: printf(32);
-229 | out: printf(43);
-230 | out: printf(50);
-231 | out: printf(10);
-232 | halt: 
-233 | jt: if (0 != 0 { go to memory[1074] }
-234 | jt: if (1 == 0 { go to 1074 }
-235 | jt: if (1 != 0 { go to memory[495] }
-236 | jmp: go to memory[1074]
-237 | jt: if (0 == 0 { go to 500 }
-238 | jmp: go to memory[1074]
-239 | jt: if (r0 != 0 { go to memory[1093] }
-240 | jt: if (r1 != 0 { go to memory[1093] }
-241 | jt: if (r2 != 0 { go to memory[1093] }
-242 | jt: if (r3 != 0 { go to memory[1093] }
-243 | jt: if (r4 != 0 { go to memory[1093] }
-244 | jt: if (r5 != 0 { go to memory[1093] }
-245 | jt: if (r6 != 0 { go to memory[1093] }
-246 | jt: if (r7 != 0 { go to memory[1093] }
-247 | set: r0 = 1
-248 | jt: if (r0 == 0 { go to 1118 }
-249 | set: r0 = 0
-250 | jt: if (r0 != 0 { go to memory[1118] }
-251 | add: r0 = 1 + 1
-252 | jt: if (r0 != 0 { go to memory[564] }
-253 | out: printf(110);
-254 | out: printf(111);
-255 | out: printf(32);
-256 | out: printf(97);
-257 | out: printf(100);
-258 | out: printf(100);
-259 | out: printf(32);
-260 | out: printf(111);
-261 | out: printf(112);
-262 | out: printf(10);
-263 | halt: 
-264 | eq: if (r0 == 2) { r1 == 1 } else { r1 == 0 }
-265 | out: printf(110);
-266 | out: printf(111);
-267 | out: printf(32);
-268 | out: printf(101);
-269 | out: printf(113);
+209 | out: printf(45);
+210 | out: printf(49);
+211 | out: printf(10);
+212 | halt: 
+213 | noop: 214 | out: printf(106);
+215 | out: printf(109);
+216 | out: printf(112);
+217 | out: printf(32);
+218 | out: printf(108);
+219 | out: printf(97);
+220 | out: printf(110);
+221 | out: printf(100);
+222 | out: printf(115);
+223 | out: printf(32);
+224 | out: printf(43);
+225 | out: printf(49);
+226 | out: printf(10);
+227 | halt: 
+228 | noop: 229 | noop: 230 | out: printf(106);
+231 | out: printf(109);
+232 | out: printf(112);
+233 | out: printf(32);
+234 | out: printf(108);
+235 | out: printf(97);
+236 | out: printf(110);
+237 | out: printf(100);
+238 | out: printf(115);
+239 | out: printf(32);
+240 | out: printf(43);
+241 | out: printf(50);
+242 | out: printf(10);
+243 | halt: 
+244 | jt: if (0 != 0 { go to memory[1074] }
+245 | jt: if (1 == 0 { go to 1074 }
+246 | jt: if (1 != 0 { go to memory[495] }
+247 | jmp: go to memory[1074]
+248 | jt: if (0 == 0 { go to 500 }
+249 | jmp: go to memory[1074]
+250 | jt: if (r0 != 0 { go to memory[1093] }
+251 | jt: if (r1 != 0 { go to memory[1093] }
+252 | jt: if (r2 != 0 { go to memory[1093] }
+253 | jt: if (r3 != 0 { go to memory[1093] }
+254 | jt: if (r4 != 0 { go to memory[1093] }
+255 | jt: if (r5 != 0 { go to memory[1093] }
+256 | jt: if (r6 != 0 { go to memory[1093] }
+257 | jt: if (r7 != 0 { go to memory[1093] }
+258 | set: r0 = 1
+259 | jt: if (r0 == 0 { go to 1118 }
+260 | set: r0 = 0
+261 | jt: if (r0 != 0 { go to memory[1118] }
+262 | add: r0 = 1 + 1
+263 | jt: if (r0 != 0 { go to memory[564] }
+264 | out: printf(110);
+265 | out: printf(111);
+266 | out: printf(32);
+267 | out: printf(97);
+268 | out: printf(100);
+269 | out: printf(100);
 270 | out: printf(32);
 271 | out: printf(111);
 272 | out: printf(112);
 273 | out: printf(10);
 274 | halt: 
-275 | push: push(r0);
-276 | push: push(r1);
-277 | pop: r0 = pop();
-278 | pop: r1 = pop();
-279 | eq: if (r1 == 2) { r2 == 1 } else { r2 == 0 }
-280 | eq: if (r0 == 1) { r2 == 1 } else { r2 == 0 }
-281 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
-282 | gt: if (r0 > r1) { r2 == 1 } else { r2 == 0 }
-283 | gt: if (42 > 42) { r2 == 1 } else { r2 == 0 }
-284 | and: r0 = 28912 and 19626
-285 | eq: if (r0 == 16544) { r1 == 1 } else { r1 == 0 }
-286 | or: r1 = 28912 or 19626
-287 | eq: if (r1 == 31994) { r0 == 1 } else { r0 == 0 }
-288 | out: printf(110);
-289 | out: printf(111);
-290 | out: printf(32);
-291 | out: printf(98);
-292 | out: printf(105);
-293 | out: printf(116);
-294 | out: printf(119);
-295 | out: printf(105);
-296 | out: printf(115);
-297 | out: printf(101);
-298 | out: printf(32);
-299 | out: printf(111);
-300 | out: printf(114);
-301 | out: printf(10);
-302 | halt: 
-303 | not: r0 = ~0
-304 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
-305 | not: r0 = ~21845
-306 | eq: if (r0 == 10922) { r1 == 1 } else { r1 == 0 }
-307 | call: push(706);
-go to memory[1285]
-308 | jmp: go to memory[1289]
-309 | pop: r0 = pop();
-310 | eq: if (r0 == 708) { r1 == 1 } else { r1 == 0 }
-311 | eq: if (r0 == 706) { r1 == 1 } else { r1 == 0 }
-312 | set: r0 = 1287
-313 | call: push(729);
-go to memory[r0]
-314 | jmp: go to memory[1289]
-315 | pop: r0 = pop();
-316 | eq: if (r0 == 731) { r1 == 1 } else { r1 == 0 }
-317 | eq: if (r0 == 729) { r1 == 1 } else { r1 == 0 }
-318 | add: r0 = 32767 + 32767
-319 | eq: if (r0 == 32766) { r1 == 1 } else { r1 == 0 }
-320 | eq: if (32766 == r0) { r1 == 1 } else { r1 == 0 }
-321 | add: r0 = 16384 + 16384
-322 | jt: if (r0 != 0 { go to memory[1312] }
-323 | add: r0 = 16384 + 16384
-324 | jt: if (r0 != 0 { go to memory[1312] }
-325 | mult: r0 = 6 * 9
-326 | eq: if (r0 == 42) { r1 == 1 } else { r1 == 0 }
-327 | eq: if (r0 == 54) { r1 == 1 } else { r1 == 0 }
-328 | mult: r0 = 12345 * 32123
-329 | eq: if (r0 == 99) { r1 == 1 } else { r1 == 0 }
-330 | mod: r0 = 6 % 3
-331 | eq: if (r0 == 0) { r1 == 1 } else { r1 == 0 }
-332 | mod: r0 = 70 % 6
-333 | eq: if (r0 == 4) { r1 == 1 } else { r1 == 0 }
-334 | mult: r0 = 32766 * 15
-335 | eq: if (r0 == 32738) { r1 == 1 } else { r1 == 0 }
-336 | jmp: go to memory[845]
-337 | rmem: r0 = memory[843]
-338 | eq: if (r0 == 20000) { r1 == 1 } else { r1 == 0 }
-339 | add: r2 = 843 + 1
-340 | rmem: r0 = memory[r2]
-341 | eq: if (r0 == 10000) { r1 == 1 } else { r1 == 0 }
-342 | set: r0 = 843
-343 | wmem: memory[r0] = 30000
-344 | rmem: r2 = memory[r0]
-345 | eq: if (r2 == 30000) { r1 == 1 } else { r1 == 0 }
-346 | call: push(887);
-go to memory[1723]
-347 | rmem: r0 = memory[6068]
-348 | eq: if (r0 == 11) { r1 == 1 } else { r1 == 0 }
-349 | add: r2 = 6068 + 1
-350 | rmem: r0 = memory[r2]
-351 | eq: if (r0 == 116) { r1 == 1 } else { r1 == 0 }
-352 | wmem: memory[r2] = 84
-353 | rmem: r0 = memory[r2]
-354 | eq: if (r0 == 116) { r1 == 1 } else { r1 == 0 }
-355 | eq: if (r0 == 84) { r1 == 1 } else { r1 == 0 }
-356 | wmem: memory[937] = 21
-357 | wmem: memory[938] = 7
-358 | jt: if (19 != 0 { go to memory[978] }
-359 | out: printf(119);
-360 | out: printf(109);
-361 | out: printf(101);
-362 | out: printf(109);
-363 | out: printf(32);
-364 | out: printf(111);
-365 | out: printf(112);
-366 | out: printf(119);
-367 | out: printf(114);
-368 | out: printf(105);
-369 | out: printf(116);
-370 | out: printf(101);
-371 | out: printf(32);
-372 | out: printf(102);
-373 | out: printf(97);
-374 | out: printf(105);
-375 | out: printf(108);
-376 | out: printf(10);
-377 | halt: 
-378 | add: r1 = 10 + 6080
-379 | add: r1 = r1 + 1
-380 | rmem: r2 = memory[6116]
-381 | add: r2 = r2 + 6116
-382 | set: r0 = 6116
-383 | add: r0 = r0 + 1
-384 | gt: if (r0 > r2) { r3 == 1 } else { r3 == 0 }
-385 | rmem: r4 = memory[r0]
-386 | wmem: memory[r1] = r4
-387 | add: r0 = r0 + 1
-388 | add: r1 = r1 + 1
-389 | jmp: go to memory[1000]
-390 | rmem: r0 = memory[6080]
-391 | rmem: r1 = memory[6099]
-392 | add: r0 = r0 + r1
-393 | add: r0 = r0 + 1
-394 | wmem: memory[6080] = r0
-395 | wmem: memory[6099] = 44
-396 | set: r0 = 6080
-397 | call: push(1048);
-go to memory[1518]
-398 | push: push(r0);
-399 | push: push(r1);
-400 | push: push(r2);
-401 | set: r0 = 26851
-402 | set: r1 = 1531
-403 | add: r2 = 7511 + 159
-404 | call: push(1066);
-go to memory[1458]
-405 | pop: r2 = pop();
-406 | pop: r1 = pop();
-407 | pop: r0 = pop();
-408 | jmp: go to memory[2734]
-409 | out: printf(110);
-410 | out: printf(111);
-411 | out: printf(32);
-412 | out: printf(106);
-413 | out: printf(116);
-414 | out: printf(47);
-415 | out: printf(106);
-416 | out: printf(102);
-417 | out: printf(10);
-418 | halt: 
-419 | out: printf(110);
-420 | out: printf(111);
+275 | eq: if (r0 == 2) { r1 == 1 } else { r1 == 0 }
+276 | out: printf(110);
+277 | out: printf(111);
+278 | out: printf(32);
+279 | out: printf(101);
+280 | out: printf(113);
+281 | out: printf(32);
+282 | out: printf(111);
+283 | out: printf(112);
+284 | out: printf(10);
+285 | halt: 
+286 | push: push(r0);
+287 | push: push(r1);
+288 | pop: r0 = pop();
+289 | pop: r1 = pop();
+290 | eq: if (r1 == 2) { r2 == 1 } else { r2 == 0 }
+291 | eq: if (r0 == 1) { r2 == 1 } else { r2 == 0 }
+292 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
+293 | gt: if (r0 > r1) { r2 == 1 } else { r2 == 0 }
+294 | gt: if (42 > 42) { r2 == 1 } else { r2 == 0 }
+295 | and: r0 = 28912 and 19626
+296 | eq: if (r0 == 16544) { r1 == 1 } else { r1 == 0 }
+297 | or: r1 = 28912 or 19626
+298 | eq: if (r1 == 31994) { r0 == 1 } else { r0 == 0 }
+299 | out: printf(110);
+300 | out: printf(111);
+301 | out: printf(32);
+302 | out: printf(98);
+303 | out: printf(105);
+304 | out: printf(116);
+305 | out: printf(119);
+306 | out: printf(105);
+307 | out: printf(115);
+308 | out: printf(101);
+309 | out: printf(32);
+310 | out: printf(111);
+311 | out: printf(114);
+312 | out: printf(10);
+313 | halt: 
+314 | not: r0 = ~0
+315 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
+316 | not: r0 = ~21845
+317 | eq: if (r0 == 10922) { r1 == 1 } else { r1 == 0 }
+318 | call: push(706); go to memory[1285]
+319 | jmp: go to memory[1289]
+320 | pop: r0 = pop();
+321 | eq: if (r0 == 708) { r1 == 1 } else { r1 == 0 }
+322 | eq: if (r0 == 706) { r1 == 1 } else { r1 == 0 }
+323 | set: r0 = 1287
+324 | call: push(729); go to memory[r0]
+325 | jmp: go to memory[1289]
+326 | pop: r0 = pop();
+327 | eq: if (r0 == 731) { r1 == 1 } else { r1 == 0 }
+328 | eq: if (r0 == 729) { r1 == 1 } else { r1 == 0 }
+329 | add: r0 = 32767 + 32767
+330 | eq: if (r0 == 32766) { r1 == 1 } else { r1 == 0 }
+331 | eq: if (32766 == r0) { r1 == 1 } else { r1 == 0 }
+332 | add: r0 = 16384 + 16384
+333 | jt: if (r0 != 0 { go to memory[1312] }
+334 | add: r0 = 16384 + 16384
+335 | jt: if (r0 != 0 { go to memory[1312] }
+336 | mult: r0 = 6 * 9
+337 | eq: if (r0 == 42) { r1 == 1 } else { r1 == 0 }
+338 | eq: if (r0 == 54) { r1 == 1 } else { r1 == 0 }
+339 | mult: r0 = 12345 * 32123
+340 | eq: if (r0 == 99) { r1 == 1 } else { r1 == 0 }
+341 | mod: r0 = 6 % 3
+342 | eq: if (r0 == 0) { r1 == 1 } else { r1 == 0 }
+343 | mod: r0 = 70 % 6
+344 | eq: if (r0 == 4) { r1 == 1 } else { r1 == 0 }
+345 | mult: r0 = 32766 * 15
+346 | eq: if (r0 == 32738) { r1 == 1 } else { r1 == 0 }
+347 | jmp: go to memory[845]
+348 | rmem: r0 = memory[843]
+349 | eq: if (r0 == 20000) { r1 == 1 } else { r1 == 0 }
+350 | add: r2 = 843 + 1
+351 | rmem: r0 = memory[r2]
+352 | eq: if (r0 == 10000) { r1 == 1 } else { r1 == 0 }
+353 | set: r0 = 843
+354 | wmem: memory[r0] = 30000
+355 | rmem: r2 = memory[r0]
+356 | eq: if (r2 == 30000) { r1 == 1 } else { r1 == 0 }
+357 | call: push(887); go to memory[1723]
+358 | rmem: r0 = memory[6068]
+359 | eq: if (r0 == 11) { r1 == 1 } else { r1 == 0 }
+360 | add: r2 = 6068 + 1
+361 | rmem: r0 = memory[r2]
+362 | eq: if (r0 == 116) { r1 == 1 } else { r1 == 0 }
+363 | wmem: memory[r2] = 84
+364 | rmem: r0 = memory[r2]
+365 | eq: if (r0 == 116) { r1 == 1 } else { r1 == 0 }
+366 | eq: if (r0 == 84) { r1 == 1 } else { r1 == 0 }
+367 | wmem: memory[937] = 21
+368 | wmem: memory[938] = 7
+369 | noop: 370 | out: printf(978);
+371 | out: printf(119);
+372 | out: printf(109);
+373 | out: printf(101);
+374 | out: printf(109);
+375 | out: printf(32);
+376 | out: printf(111);
+377 | out: printf(112);
+378 | out: printf(119);
+379 | out: printf(114);
+380 | out: printf(105);
+381 | out: printf(116);
+382 | out: printf(101);
+383 | out: printf(32);
+384 | out: printf(102);
+385 | out: printf(97);
+386 | out: printf(105);
+387 | out: printf(108);
+388 | out: printf(10);
+389 | halt: 
+390 | add: r1 = 10 + 6080
+391 | add: r1 = r1 + 1
+392 | rmem: r2 = memory[6116]
+393 | add: r2 = r2 + 6116
+394 | set: r0 = 6116
+395 | add: r0 = r0 + 1
+396 | gt: if (r0 > r2) { r3 == 1 } else { r3 == 0 }
+397 | rmem: r4 = memory[r0]
+398 | wmem: memory[r1] = r4
+399 | add: r0 = r0 + 1
+400 | add: r1 = r1 + 1
+401 | jmp: go to memory[1000]
+402 | rmem: r0 = memory[6080]
+403 | rmem: r1 = memory[6099]
+404 | add: r0 = r0 + r1
+405 | add: r0 = r0 + 1
+406 | wmem: memory[6080] = r0
+407 | wmem: memory[6099] = 44
+408 | set: r0 = 6080
+409 | call: push(1048); go to memory[1518]
+410 | push: push(r0);
+411 | push: push(r1);
+412 | push: push(r2);
+413 | set: r0 = 26851
+414 | set: r1 = 1531
+415 | add: r2 = 7511 + 159
+416 | call: push(1066); go to memory[1458]
+417 | pop: r2 = pop();
+418 | pop: r1 = pop();
+419 | pop: r0 = pop();
+420 | jmp: go to memory[2734]
 421 | out: printf(110);
-422 | out: printf(122);
-423 | out: printf(101);
-424 | out: printf(114);
-425 | out: printf(111);
-426 | out: printf(32);
-427 | out: printf(114);
-428 | out: printf(101);
-429 | out: printf(103);
-430 | out: printf(10);
-431 | halt: 
-432 | out: printf(110);
-433 | out: printf(111);
-434 | out: printf(32);
-435 | out: printf(115);
-436 | out: printf(101);
-437 | out: printf(116);
+422 | out: printf(111);
+423 | out: printf(32);
+424 | out: printf(106);
+425 | out: printf(116);
+426 | out: printf(47);
+427 | out: printf(106);
+428 | out: printf(102);
+429 | out: printf(10);
+430 | halt: 
+431 | out: printf(110);
+432 | out: printf(111);
+433 | out: printf(110);
+434 | out: printf(122);
+435 | out: printf(101);
+436 | out: printf(114);
+437 | out: printf(111);
 438 | out: printf(32);
-439 | out: printf(111);
-440 | out: printf(112);
-441 | out: printf(10);
-442 | halt: 
-443 | out: printf(110);
-444 | out: printf(111);
-445 | out: printf(32);
-446 | out: printf(103);
-447 | out: printf(116);
-448 | out: printf(32);
-449 | out: printf(111);
-450 | out: printf(112);
-451 | out: printf(10);
-452 | halt: 
-453 | out: printf(110);
-454 | out: printf(111);
-455 | out: printf(32);
-456 | out: printf(115);
-457 | out: printf(116);
-458 | out: printf(97);
-459 | out: printf(99);
-460 | out: printf(107);
-461 | out: printf(10);
-462 | halt: 
-463 | out: printf(110);
-464 | out: printf(111);
-465 | out: printf(32);
-466 | out: printf(98);
-467 | out: printf(105);
-468 | out: printf(116);
-469 | out: printf(119);
-470 | out: printf(105);
-471 | out: printf(115);
-472 | out: printf(101);
-473 | out: printf(32);
-474 | out: printf(97);
+439 | out: printf(114);
+440 | out: printf(101);
+441 | out: printf(103);
+442 | out: printf(10);
+443 | halt: 
+444 | out: printf(110);
+445 | out: printf(111);
+446 | out: printf(32);
+447 | out: printf(115);
+448 | out: printf(101);
+449 | out: printf(116);
+450 | out: printf(32);
+451 | out: printf(111);
+452 | out: printf(112);
+453 | out: printf(10);
+454 | halt: 
+455 | out: printf(110);
+456 | out: printf(111);
+457 | out: printf(32);
+458 | out: printf(103);
+459 | out: printf(116);
+460 | out: printf(32);
+461 | out: printf(111);
+462 | out: printf(112);
+463 | out: printf(10);
+464 | halt: 
+465 | out: printf(110);
+466 | out: printf(111);
+467 | out: printf(32);
+468 | out: printf(115);
+469 | out: printf(116);
+470 | out: printf(97);
+471 | out: printf(99);
+472 | out: printf(107);
+473 | out: printf(10);
+474 | halt: 
 475 | out: printf(110);
-476 | out: printf(100);
-477 | out: printf(10);
-478 | halt: 
-479 | out: printf(110);
-480 | out: printf(111);
-481 | out: printf(32);
-482 | out: printf(98);
-483 | out: printf(105);
-484 | out: printf(116);
-485 | out: printf(119);
-486 | out: printf(105);
-487 | out: printf(115);
-488 | out: printf(101);
-489 | out: printf(32);
-490 | out: printf(110);
-491 | out: printf(111);
-492 | out: printf(116);
-493 | out: printf(10);
-494 | halt: 
-495 | out: printf(110);
-496 | out: printf(111);
-497 | out: printf(32);
-498 | out: printf(114);
-499 | out: printf(109);
+476 | out: printf(111);
+477 | out: printf(32);
+478 | out: printf(98);
+479 | out: printf(105);
+480 | out: printf(116);
+481 | out: printf(119);
+482 | out: printf(105);
+483 | out: printf(115);
+484 | out: printf(101);
+485 | out: printf(32);
+486 | out: printf(97);
+487 | out: printf(110);
+488 | out: printf(100);
+489 | out: printf(10);
+490 | halt: 
+491 | out: printf(110);
+492 | out: printf(111);
+493 | out: printf(32);
+494 | out: printf(98);
+495 | out: printf(105);
+496 | out: printf(116);
+497 | out: printf(119);
+498 | out: printf(105);
+499 | out: printf(115);
 500 | out: printf(101);
-501 | out: printf(109);
-502 | out: printf(32);
+501 | out: printf(32);
+502 | out: printf(110);
 503 | out: printf(111);
-504 | out: printf(112);
+504 | out: printf(116);
 505 | out: printf(10);
 506 | halt: 
 507 | out: printf(110);
 508 | out: printf(111);
 509 | out: printf(32);
-510 | out: printf(119);
+510 | out: printf(114);
 511 | out: printf(109);
 512 | out: printf(101);
 513 | out: printf(109);
@@ -522,423 +504,411 @@ go to memory[1458]
 516 | out: printf(112);
 517 | out: printf(10);
 518 | halt: 
-519 | jmp: go to memory[708]
-520 | jmp: go to memory[731]
-521 | out: printf(110);
-522 | out: printf(111);
-523 | out: printf(32);
-524 | out: printf(99);
-525 | out: printf(97);
-526 | out: printf(108);
-527 | out: printf(108);
-528 | out: printf(32);
-529 | out: printf(111);
-530 | out: printf(112);
-531 | out: printf(10);
-532 | halt: 
+519 | out: printf(110);
+520 | out: printf(111);
+521 | out: printf(32);
+522 | out: printf(119);
+523 | out: printf(109);
+524 | out: printf(101);
+525 | out: printf(109);
+526 | out: printf(32);
+527 | out: printf(111);
+528 | out: printf(112);
+529 | out: printf(10);
+530 | halt: 
+531 | jmp: go to memory[708]
+532 | jmp: go to memory[731]
 533 | out: printf(110);
 534 | out: printf(111);
 535 | out: printf(32);
-536 | out: printf(109);
-537 | out: printf(111);
-538 | out: printf(100);
-539 | out: printf(117);
-540 | out: printf(108);
+536 | out: printf(99);
+537 | out: printf(97);
+538 | out: printf(108);
+539 | out: printf(108);
+540 | out: printf(32);
 541 | out: printf(111);
-542 | out: printf(32);
-543 | out: printf(109);
-544 | out: printf(97);
-545 | out: printf(116);
-546 | out: printf(104);
+542 | out: printf(112);
+543 | out: printf(10);
+544 | halt: 
+545 | out: printf(110);
+546 | out: printf(111);
 547 | out: printf(32);
-548 | out: printf(100);
-549 | out: printf(117);
-550 | out: printf(114);
-551 | out: printf(105);
-552 | out: printf(110);
-553 | out: printf(103);
+548 | out: printf(109);
+549 | out: printf(111);
+550 | out: printf(100);
+551 | out: printf(117);
+552 | out: printf(108);
+553 | out: printf(111);
 554 | out: printf(32);
-555 | out: printf(97);
-556 | out: printf(100);
-557 | out: printf(100);
-558 | out: printf(32);
-559 | out: printf(111);
-560 | out: printf(114);
-561 | out: printf(32);
-562 | out: printf(109);
-563 | out: printf(117);
-564 | out: printf(108);
-565 | out: printf(116);
-566 | out: printf(10);
-567 | halt: 
-568 | out: printf(110);
-569 | out: printf(111);
-570 | out: printf(116);
-571 | out: printf(32);
-572 | out: printf(104);
-573 | out: printf(105);
-574 | out: printf(116);
-575 | out: printf(99);
-576 | out: printf(104);
-577 | out: printf(104);
-578 | out: printf(105);
-579 | out: printf(107);
-580 | out: printf(105);
-581 | out: printf(110);
-582 | out: printf(103);
-583 | out: printf(10);
-584 | halt: 
-585 | out: printf(110);
-586 | out: printf(111);
-587 | out: printf(32);
-588 | out: printf(109);
-589 | out: printf(117);
-590 | out: printf(108);
-591 | out: printf(116);
-592 | out: printf(32);
-593 | out: printf(111);
-594 | out: printf(112);
+555 | out: printf(109);
+556 | out: printf(97);
+557 | out: printf(116);
+558 | out: printf(104);
+559 | out: printf(32);
+560 | out: printf(100);
+561 | out: printf(117);
+562 | out: printf(114);
+563 | out: printf(105);
+564 | out: printf(110);
+565 | out: printf(103);
+566 | out: printf(32);
+567 | out: printf(97);
+568 | out: printf(100);
+569 | out: printf(100);
+570 | out: printf(32);
+571 | out: printf(111);
+572 | out: printf(114);
+573 | out: printf(32);
+574 | out: printf(109);
+575 | out: printf(117);
+576 | out: printf(108);
+577 | out: printf(116);
+578 | out: printf(10);
+579 | halt: 
+580 | out: printf(110);
+581 | out: printf(111);
+582 | out: printf(116);
+583 | out: printf(32);
+584 | out: printf(104);
+585 | out: printf(105);
+586 | out: printf(116);
+587 | out: printf(99);
+588 | out: printf(104);
+589 | out: printf(104);
+590 | out: printf(105);
+591 | out: printf(107);
+592 | out: printf(105);
+593 | out: printf(110);
+594 | out: printf(103);
 595 | out: printf(10);
 596 | halt: 
 597 | out: printf(110);
 598 | out: printf(111);
 599 | out: printf(32);
 600 | out: printf(109);
-601 | out: printf(111);
-602 | out: printf(100);
-603 | out: printf(32);
-604 | out: printf(111);
-605 | out: printf(112);
-606 | out: printf(10);
-607 | halt: 
-608 | push: push(r0);
-609 | push: push(r3);
-610 | push: push(r4);
-611 | push: push(r5);
-612 | push: push(r6);
-613 | set: r6 = r0
-614 | set: r5 = r1
-615 | rmem: r4 = memory[r0]
-616 | set: r1 = 0
-617 | add: r3 = 1 + r1
-618 | gt: if (r3 > r4) { r0 == 1 } else { r0 == 0 }
-619 | add: r3 = r3 + r6
-620 | rmem: r0 = memory[r3]
-621 | call: push(1500);
-go to memory[r5]
-622 | add: r1 = r1 + 1
-623 | jt: if (r1 != 0 { go to memory[1480] }
-624 | pop: r6 = pop();
-625 | pop: r5 = pop();
-626 | pop: r4 = pop();
-627 | pop: r3 = pop();
-628 | pop: r0 = pop();
-629 | ret: go to memory[pop()];
-630 | push: push(r1);
-631 | set: r1 = 1528
-632 | call: push(1525);
-go to memory[1458]
-633 | pop: r1 = pop();
-634 | ret: go to memory[pop()];
-635 | out: printf(r0);
-636 | ret: go to memory[pop()];
-637 | push: push(r1);
-638 | set: r1 = r2
-639 | call: push(1538);
-go to memory[2125]
-640 | out: printf(r0);
-641 | pop: r1 = pop();
-642 | ret: go to memory[pop()];
-643 | push: push(r1);
-644 | push: push(r3);
-645 | rmem: r3 = memory[r0]
-646 | jt: if (r3 == 0 { go to 1563 }
-647 | call: push(1555);
-go to memory[1458]
-648 | jt: if (r1 != 0 { go to memory[1563] }
-649 | set: r0 = r2
-650 | jmp: go to memory[1566]
-651 | set: r0 = 32767
-652 | pop: r3 = pop();
+601 | out: printf(117);
+602 | out: printf(108);
+603 | out: printf(116);
+604 | out: printf(32);
+605 | out: printf(111);
+606 | out: printf(112);
+607 | out: printf(10);
+608 | halt: 
+609 | out: printf(110);
+610 | out: printf(111);
+611 | out: printf(32);
+612 | out: printf(109);
+613 | out: printf(111);
+614 | out: printf(100);
+615 | out: printf(32);
+616 | out: printf(111);
+617 | out: printf(112);
+618 | out: printf(10);
+619 | halt: 
+620 | push: push(r0);
+621 | push: push(r3);
+622 | push: push(r4);
+623 | push: push(r5);
+624 | push: push(r6);
+625 | set: r6 = r0
+626 | set: r5 = r1
+627 | rmem: r4 = memory[r0]
+628 | set: r1 = 0
+629 | add: r3 = 1 + r1
+630 | gt: if (r3 > r4) { r0 == 1 } else { r0 == 0 }
+631 | add: r3 = r3 + r6
+632 | rmem: r0 = memory[r3]
+633 | call: push(1500); go to memory[r5]
+634 | add: r1 = r1 + 1
+635 | jt: if (r1 != 0 { go to memory[1480] }
+636 | pop: r6 = pop();
+637 | pop: r5 = pop();
+638 | pop: r4 = pop();
+639 | pop: r3 = pop();
+640 | pop: r0 = pop();
+641 | ret: go to memory[pop()];
+642 | push: push(r1);
+643 | set: r1 = 1528
+644 | call: push(1525); go to memory[1458]
+645 | pop: r1 = pop();
+646 | ret: go to memory[pop()];
+647 | out: printf(r0);
+648 | ret: go to memory[pop()];
+649 | push: push(r1);
+650 | set: r1 = r2
+651 | call: push(1538); go to memory[2125]
+652 | out: printf(r0);
 653 | pop: r1 = pop();
 654 | ret: go to memory[pop()];
 655 | push: push(r1);
-656 | push: push(r2);
-657 | set: r2 = r1
-658 | set: r1 = 1605
-659 | call: push(1583);
-go to memory[1543]
-660 | pop: r2 = pop();
-661 | pop: r1 = pop();
-662 | ret: go to memory[pop()];
-663 | push: push(r1);
-664 | push: push(r2);
-665 | set: r2 = r1
-666 | set: r1 = 1648
-667 | call: push(1600);
-go to memory[1543]
-668 | pop: r2 = pop();
-669 | pop: r1 = pop();
-670 | ret: go to memory[pop()];
-671 | eq: if (r0 == r2) { r0 == 1 } else { r0 == 0 }
-672 | set: r2 = r1
-673 | set: r1 = 32767
+656 | push: push(r3);
+657 | rmem: r3 = memory[r0]
+658 | jt: if (r3 == 0 { go to 1563 }
+659 | call: push(1555); go to memory[1458]
+660 | jt: if (r1 != 0 { go to memory[1563] }
+661 | set: r0 = r2
+662 | jmp: go to memory[1566]
+663 | set: r0 = 32767
+664 | pop: r3 = pop();
+665 | pop: r1 = pop();
+666 | ret: go to memory[pop()];
+667 | push: push(r1);
+668 | push: push(r2);
+669 | set: r2 = r1
+670 | set: r1 = 1605
+671 | call: push(1583); go to memory[1543]
+672 | pop: r2 = pop();
+673 | pop: r1 = pop();
 674 | ret: go to memory[pop()];
-675 | push: push(r3);
-676 | add: r3 = r2 + 1
-677 | add: r3 = r3 + r1
-678 | rmem: r3 = memory[r3]
-679 | eq: if (r0 == r3) { r3 == 1 } else { r3 == 0 }
-680 | set: r2 = r1
-681 | set: r1 = 32767
-682 | pop: r3 = pop();
-683 | ret: go to memory[pop()];
-684 | push: push(r1);
-685 | set: r1 = r2
-686 | call: push(1655);
-go to memory[1667]
-687 | pop: r1 = pop();
-688 | jt: if (r0 == 0 { go to 1666 }
-689 | set: r2 = r1
-690 | set: r1 = 32767
-691 | ret: go to memory[pop()];
-692 | push: push(r1);
-693 | push: push(r2);
-694 | push: push(r3);
-695 | push: push(r4);
-696 | rmem: r3 = memory[r0]
-697 | rmem: r4 = memory[r1]
-698 | eq: if (r3 == r4) { r2 == 1 } else { r2 == 0 }
-699 | or: r2 = r3 or r4
-700 | jt: if (r2 == 0 { go to 1706 }
+675 | push: push(r1);
+676 | push: push(r2);
+677 | set: r2 = r1
+678 | set: r1 = 1648
+679 | call: push(1600); go to memory[1543]
+680 | pop: r2 = pop();
+681 | pop: r1 = pop();
+682 | ret: go to memory[pop()];
+683 | eq: if (r0 == r2) { r0 == 1 } else { r0 == 0 }
+684 | set: r2 = r1
+685 | set: r1 = 32767
+686 | ret: go to memory[pop()];
+687 | push: push(r3);
+688 | add: r3 = r2 + 1
+689 | add: r3 = r3 + r1
+690 | rmem: r3 = memory[r3]
+691 | eq: if (r0 == r3) { r3 == 1 } else { r3 == 0 }
+692 | set: r2 = r1
+693 | set: r1 = 32767
+694 | pop: r3 = pop();
+695 | ret: go to memory[pop()];
+696 | push: push(r1);
+697 | set: r1 = r2
+698 | call: push(1655); go to memory[1667]
+699 | pop: r1 = pop();
+700 | jt: if (r0 == 0 { go to 1666 }
 701 | set: r2 = r1
-702 | set: r1 = 1619
-703 | call: push(1703);
-go to memory[1458]
-704 | jt: if (r1 == 0 { go to 1711 }
-705 | set: r0 = 1
-706 | jmp: go to memory[1714]
-707 | set: r0 = 0
-708 | pop: r4 = pop();
-709 | pop: r3 = pop();
-710 | pop: r2 = pop();
-711 | pop: r1 = pop();
-712 | ret: go to memory[pop()];
-713 | push: push(r0);
-714 | push: push(r1);
-715 | set: r1 = 6068
-716 | rmem: r0 = memory[r1]
-717 | push: push(r1);
-718 | mult: r1 = r1 * r1
-719 | call: push(1741);
-go to memory[2125]
-720 | set: r1 = 16724
-721 | call: push(1746);
-go to memory[2125]
-722 | pop: r1 = pop();
-723 | wmem: memory[r1] = r0
-724 | add: r1 = r1 + 1
-725 | eq: if (30050 == r1) { r0 == 1 } else { r0 == 0 }
-726 | pop: r1 = pop();
-727 | pop: r0 = pop();
-728 | ret: go to memory[pop()];
-729 | push: push(r0);
-730 | push: push(r2);
-731 | push: push(r3);
-732 | push: push(r4);
-733 | push: push(r5);
-734 | add: r2 = r1 + r0
-735 | set: r0 = r1
-736 | set: r5 = 0
-737 | add: r0 = r0 + 1
-738 | gt: if (r0 > r2) { r3 == 1 } else { r3 == 0 }
-739 | in: r4 = getchar();
-740 | eq: if (r4 == 10) { r3 == 1 } else { r3 == 0 }
-741 | wmem: memory[r0] = r4
-742 | add: r5 = r5 + 1
-743 | jmp: go to memory[1787]
-744 | wmem: memory[r1] = r5
-745 | eq: if (r4 == 10) { r3 == 1 } else { r3 == 0 }
-746 | in: r4 = getchar();
-747 | jmp: go to memory[1819]
-748 | pop: r5 = pop();
-749 | pop: r4 = pop();
-750 | pop: r3 = pop();
-751 | pop: r2 = pop();
-752 | pop: r0 = pop();
-753 | ret: go to memory[pop()];
-754 | push: push(r3);
-755 | push: push(r4);
-756 | push: push(r5);
-757 | push: push(r6);
-758 | set: r6 = 1
-759 | add: r4 = r3 + r6
-760 | rmem: r4 = memory[r4]
-761 | add: r5 = 6125 + r6
-762 | wmem: memory[r5] = r4
-763 | add: r6 = r6 + 1
-764 | rmem: r5 = memory[6125]
-765 | gt: if (r6 > r5) { r4 == 1 } else { r4 == 0 }
-766 | set: r3 = 0
-767 | set: r4 = 0
-768 | rmem: r5 = memory[6125]
-769 | mod: r5 = r4 % r5
-770 | add: r5 = r5 + 6125
-771 | add: r5 = r5 + 1
-772 | rmem: r6 = memory[r5]
-773 | mult: r6 = r6 * 5249
-774 | add: r6 = r6 + 12345
-775 | wmem: memory[r5] = r6
-776 | push: push(r0);
-777 | push: push(r1);
-778 | set: r1 = r6
-779 | call: push(1924);
-go to memory[2125]
-780 | set: r6 = r0
-781 | pop: r1 = pop();
-782 | pop: r0 = pop();
-783 | rmem: r5 = memory[r1]
-784 | mod: r6 = r6 % r5
-785 | add: r6 = r6 + 1
-786 | gt: if (r6 > r2) { r5 == 1 } else { r5 == 0 }
-787 | set: r3 = 1
-788 | add: r6 = r6 + r1
-789 | rmem: r6 = memory[r6]
-790 | add: r4 = r4 + 1
-791 | add: r5 = r4 + 6129
-792 | wmem: memory[r5] = r6
-793 | rmem: r5 = memory[6129]
-794 | eq: if (r4 == r5) { r5 == 1 } else { r5 == 0 }
-795 | jt: if (r3 == 0 { go to 1880 }
-796 | push: push(r0);
-797 | set: r0 = 6129
-798 | call: push(1990);
-go to memory[1518]
-799 | pop: r0 = pop();
-800 | pop: r6 = pop();
-801 | pop: r5 = pop();
-802 | pop: r4 = pop();
-803 | pop: r3 = pop();
-804 | ret: go to memory[pop()];
-805 | push: push(r0);
-806 | push: push(r1);
-807 | push: push(r2);
-808 | push: push(r3);
-809 | push: push(r4);
-810 | push: push(r5);
-811 | set: r2 = 1
-812 | set: r5 = 0
-813 | jt: if (r0 == 0 { go to 2092 }
-814 | eq: if (r2 == 10000) { r4 == 1 } else { r4 == 0 }
-815 | jt: if (r4 != 0 { go to memory[2040] }
-816 | mult: r1 = r2 * 10
-817 | mod: r3 = r0 % r1
-818 | set: r4 = 0
-819 | mult: r2 = r2 * 32767
-820 | jt: if (r3 == 0 { go to 2060 }
-821 | add: r4 = r4 + 1
-822 | add: r3 = r3 + r2
-823 | jmp: go to memory[2047]
-824 | mult: r2 = r2 * 32767
-825 | mult: r3 = r4 * r2
-826 | mult: r3 = r3 * 32767
-827 | add: r0 = r0 + r3
-828 | add: r4 = r4 + 48
-829 | mult: r2 = r2 * 10
-830 | add: r5 = r5 + 1
-831 | push: push(r4);
-832 | jmp: go to memory[2019]
-833 | jt: if (r5 != 0 { go to memory[2099] }
-834 | out: printf(48);
-835 | jmp: go to memory[2112]
-836 | jt: if (r5 == 0 { go to 2112 }
-837 | pop: r0 = pop();
-838 | out: printf(r0);
-839 | add: r5 = r5 + 32767
-840 | jmp: go to memory[2099]
-841 | pop: r5 = pop();
-842 | pop: r4 = pop();
-843 | pop: r3 = pop();
-844 | pop: r2 = pop();
-845 | pop: r1 = pop();
-846 | pop: r0 = pop();
-847 | ret: go to memory[pop()];
-848 | push: push(r1);
-849 | push: push(r2);
-850 | and: r2 = r0 and r1
-851 | not: r2 = ~r2
-852 | or: r0 = r0 or r1
-853 | and: r0 = r0 and r2
-854 | pop: r2 = pop();
-855 | pop: r1 = pop();
-856 | ret: go to memory[pop()];
-857 | add: r0 = r0 + r1
-858 | gt: if (r1 > r0) { r1 == 1 } else { r1 == 0 }
-859 | push: push(r2);
-860 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
-861 | add: r0 = r0 + r1
-862 | set: r1 = r2
-863 | pop: r2 = pop();
-864 | ret: go to memory[pop()];
-865 | jt: if (r0 == 0 { go to 2241 }
-866 | jt: if (r1 == 0 { go to 2241 }
-867 | push: push(r2);
-868 | push: push(r3);
-869 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
-870 | set: r2 = r0
-871 | set: r0 = r1
-872 | set: r1 = r2
-873 | set: r2 = r0
-874 | set: r0 = 0
-875 | add: r0 = r0 + r1
-876 | gt: if (r1 > r0) { r3 == 1 } else { r3 == 0 }
-877 | add: r2 = r2 + 32767
-878 | jt: if (r2 != 0 { go to memory[2210] }
-879 | set: r1 = 0
-880 | jmp: go to memory[2236]
-881 | set: r1 = 1
-882 | pop: r3 = pop();
-883 | pop: r2 = pop();
-884 | ret: go to memory[pop()];
-885 | set: r0 = 0
-886 | set: r1 = 0
-887 | ret: go to memory[pop()];
-888 | push: push(r1);
-889 | push: push(r2);
-890 | jt: if (r1 == 0 { go to 2276 }
-891 | add: r1 = r1 + 32767
-892 | and: r2 = r0 and 16384
-893 | mult: r0 = r0 * 2
-894 | jt: if (r2 == 0 { go to 2252 }
-895 | or: r0 = r0 or 1
-896 | jmp: go to memory[2252]
-897 | pop: r2 = pop();
-898 | pop: r1 = pop();
+702 | set: r1 = 32767
+703 | ret: go to memory[pop()];
+704 | push: push(r1);
+705 | push: push(r2);
+706 | push: push(r3);
+707 | push: push(r4);
+708 | rmem: r3 = memory[r0]
+709 | rmem: r4 = memory[r1]
+710 | eq: if (r3 == r4) { r2 == 1 } else { r2 == 0 }
+711 | or: r2 = r3 or r4
+712 | jt: if (r2 == 0 { go to 1706 }
+713 | set: r2 = r1
+714 | set: r1 = 1619
+715 | call: push(1703); go to memory[1458]
+716 | jt: if (r1 == 0 { go to 1711 }
+717 | set: r0 = 1
+718 | jmp: go to memory[1714]
+719 | set: r0 = 0
+720 | pop: r4 = pop();
+721 | pop: r3 = pop();
+722 | pop: r2 = pop();
+723 | pop: r1 = pop();
+724 | ret: go to memory[pop()];
+725 | push: push(r0);
+726 | push: push(r1);
+727 | set: r1 = 6068
+728 | rmem: r0 = memory[r1]
+729 | push: push(r1);
+730 | mult: r1 = r1 * r1
+731 | call: push(1741); go to memory[2125]
+732 | set: r1 = 16724
+733 | call: push(1746); go to memory[2125]
+734 | pop: r1 = pop();
+735 | wmem: memory[r1] = r0
+736 | add: r1 = r1 + 1
+737 | eq: if (30050 == r1) { r0 == 1 } else { r0 == 0 }
+738 | pop: r1 = pop();
+739 | pop: r0 = pop();
+740 | ret: go to memory[pop()];
+741 | push: push(r0);
+742 | push: push(r2);
+743 | push: push(r3);
+744 | push: push(r4);
+745 | push: push(r5);
+746 | add: r2 = r1 + r0
+747 | set: r0 = r1
+748 | set: r5 = 0
+749 | add: r0 = r0 + 1
+750 | gt: if (r0 > r2) { r3 == 1 } else { r3 == 0 }
+751 | in: r4 = getchar();
+752 | eq: if (r4 == 10) { r3 == 1 } else { r3 == 0 }
+753 | wmem: memory[r0] = r4
+754 | add: r5 = r5 + 1
+755 | jmp: go to memory[1787]
+756 | wmem: memory[r1] = r5
+757 | eq: if (r4 == 10) { r3 == 1 } else { r3 == 0 }
+758 | in: r4 = getchar();
+759 | jmp: go to memory[1819]
+760 | pop: r5 = pop();
+761 | pop: r4 = pop();
+762 | pop: r3 = pop();
+763 | pop: r2 = pop();
+764 | pop: r0 = pop();
+765 | ret: go to memory[pop()];
+766 | push: push(r3);
+767 | push: push(r4);
+768 | push: push(r5);
+769 | push: push(r6);
+770 | set: r6 = 1
+771 | add: r4 = r3 + r6
+772 | rmem: r4 = memory[r4]
+773 | add: r5 = 6125 + r6
+774 | wmem: memory[r5] = r4
+775 | add: r6 = r6 + 1
+776 | rmem: r5 = memory[6125]
+777 | gt: if (r6 > r5) { r4 == 1 } else { r4 == 0 }
+778 | set: r3 = 0
+779 | set: r4 = 0
+780 | rmem: r5 = memory[6125]
+781 | mod: r5 = r4 % r5
+782 | add: r5 = r5 + 6125
+783 | add: r5 = r5 + 1
+784 | rmem: r6 = memory[r5]
+785 | mult: r6 = r6 * 5249
+786 | add: r6 = r6 + 12345
+787 | wmem: memory[r5] = r6
+788 | push: push(r0);
+789 | push: push(r1);
+790 | set: r1 = r6
+791 | call: push(1924); go to memory[2125]
+792 | set: r6 = r0
+793 | pop: r1 = pop();
+794 | pop: r0 = pop();
+795 | rmem: r5 = memory[r1]
+796 | mod: r6 = r6 % r5
+797 | add: r6 = r6 + 1
+798 | gt: if (r6 > r2) { r5 == 1 } else { r5 == 0 }
+799 | set: r3 = 1
+800 | add: r6 = r6 + r1
+801 | rmem: r6 = memory[r6]
+802 | add: r4 = r4 + 1
+803 | add: r5 = r4 + 6129
+804 | wmem: memory[r5] = r6
+805 | rmem: r5 = memory[6129]
+806 | eq: if (r4 == r5) { r5 == 1 } else { r5 == 0 }
+807 | jt: if (r3 == 0 { go to 1880 }
+808 | push: push(r0);
+809 | set: r0 = 6129
+810 | call: push(1990); go to memory[1518]
+811 | pop: r0 = pop();
+812 | pop: r6 = pop();
+813 | pop: r5 = pop();
+814 | pop: r4 = pop();
+815 | pop: r3 = pop();
+816 | ret: go to memory[pop()];
+817 | push: push(r0);
+818 | push: push(r1);
+819 | push: push(r2);
+820 | push: push(r3);
+821 | push: push(r4);
+822 | push: push(r5);
+823 | set: r2 = 1
+824 | set: r5 = 0
+825 | jt: if (r0 == 0 { go to 2092 }
+826 | eq: if (r2 == 10000) { r4 == 1 } else { r4 == 0 }
+827 | jt: if (r4 != 0 { go to memory[2040] }
+828 | mult: r1 = r2 * 10
+829 | mod: r3 = r0 % r1
+830 | set: r4 = 0
+831 | mult: r2 = r2 * 32767
+832 | jt: if (r3 == 0 { go to 2060 }
+833 | add: r4 = r4 + 1
+834 | add: r3 = r3 + r2
+835 | jmp: go to memory[2047]
+836 | mult: r2 = r2 * 32767
+837 | mult: r3 = r4 * r2
+838 | mult: r3 = r3 * 32767
+839 | add: r0 = r0 + r3
+840 | add: r4 = r4 + 48
+841 | mult: r2 = r2 * 10
+842 | add: r5 = r5 + 1
+843 | push: push(r4);
+844 | jmp: go to memory[2019]
+845 | jt: if (r5 != 0 { go to memory[2099] }
+846 | out: printf(48);
+847 | jmp: go to memory[2112]
+848 | jt: if (r5 == 0 { go to 2112 }
+849 | pop: r0 = pop();
+850 | out: printf(r0);
+851 | add: r5 = r5 + 32767
+852 | jmp: go to memory[2099]
+853 | pop: r5 = pop();
+854 | pop: r4 = pop();
+855 | pop: r3 = pop();
+856 | pop: r2 = pop();
+857 | pop: r1 = pop();
+858 | pop: r0 = pop();
+859 | ret: go to memory[pop()];
+860 | push: push(r1);
+861 | push: push(r2);
+862 | and: r2 = r0 and r1
+863 | not: r2 = ~r2
+864 | or: r0 = r0 or r1
+865 | and: r0 = r0 and r2
+866 | pop: r2 = pop();
+867 | pop: r1 = pop();
+868 | ret: go to memory[pop()];
+869 | add: r0 = r0 + r1
+870 | gt: if (r1 > r0) { r1 == 1 } else { r1 == 0 }
+871 | push: push(r2);
+872 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
+873 | add: r0 = r0 + r1
+874 | set: r1 = r2
+875 | pop: r2 = pop();
+876 | ret: go to memory[pop()];
+877 | jt: if (r0 == 0 { go to 2241 }
+878 | jt: if (r1 == 0 { go to 2241 }
+879 | push: push(r2);
+880 | push: push(r3);
+881 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
+882 | set: r2 = r0
+883 | set: r0 = r1
+884 | set: r1 = r2
+885 | set: r2 = r0
+886 | set: r0 = 0
+887 | add: r0 = r0 + r1
+888 | gt: if (r1 > r0) { r3 == 1 } else { r3 == 0 }
+889 | add: r2 = r2 + 32767
+890 | jt: if (r2 != 0 { go to memory[2210] }
+891 | set: r1 = 0
+892 | jmp: go to memory[2236]
+893 | set: r1 = 1
+894 | pop: r3 = pop();
+895 | pop: r2 = pop();
+896 | ret: go to memory[pop()];
+897 | set: r0 = 0
+898 | set: r1 = 0
 899 | ret: go to memory[pop()];
 900 | push: push(r1);
-901 | gt: if (r0 > 14) { r1 == 1 } else { r1 == 0 }
-902 | set: r1 = r0
-903 | set: r0 = 1
-904 | jt: if (r1 == 0 { go to 2312 }
-905 | add: r1 = r1 + 32767
-906 | mult: r0 = r0 * 2
-907 | jmp: go to memory[2296]
-908 | set: r0 = 32767
-909 | pop: r1 = pop();
-910 | ret: go to memory[pop()];
-911 | jmp: go to memory[2734]
-912 | halt: 
-913 | halt: 
-914 | halt: 
-915 | halt: 
-916 | halt: 
-917 | halt: 
-918 | halt: 
-919 | halt: 
-920 | halt: 
-921 | halt: 
-922 | halt: 
-923 | halt: 
+901 | push: push(r2);
+902 | jt: if (r1 == 0 { go to 2276 }
+903 | add: r1 = r1 + 32767
+904 | and: r2 = r0 and 16384
+905 | mult: r0 = r0 * 2
+906 | jt: if (r2 == 0 { go to 2252 }
+907 | or: r0 = r0 or 1
+908 | jmp: go to memory[2252]
+909 | pop: r2 = pop();
+910 | pop: r1 = pop();
+911 | ret: go to memory[pop()];
+912 | push: push(r1);
+913 | gt: if (r0 > 14) { r1 == 1 } else { r1 == 0 }
+914 | set: r1 = r0
+915 | set: r0 = 1
+916 | jt: if (r1 == 0 { go to 2312 }
+917 | add: r1 = r1 + 32767
+918 | mult: r0 = r0 * 2
+919 | jmp: go to memory[2296]
+920 | set: r0 = 32767
+921 | pop: r1 = pop();
+922 | ret: go to memory[pop()];
+923 | jmp: go to memory[2734]
 924 | halt: 
 925 | halt: 
 926 | halt: 
@@ -970,1802 +940,1656 @@ go to memory[1518]
 952 | halt: 
 953 | halt: 
 954 | halt: 
-955 | push: push(r0);
-956 | push: push(r1);
-957 | push: push(r2);
-958 | push: push(r3);
-959 | rmem: r1 = memory[2732]
-960 | rmem: r0 = memory[2733]
-961 | eq: if (r0 == r1) { r0 == 1 } else { r0 == 0 }
-962 | rmem: r0 = memory[2732]
-963 | add: r0 = r0 + 4
-964 | rmem: r0 = memory[r0]
-965 | jt: if (r0 == 0 { go to 2770 }
-966 | call: push(2770);
-go to memory[r0]
-967 | rmem: r1 = memory[2732]
-968 | rmem: r0 = memory[2733]
-969 | eq: if (r0 == r1) { r0 == 1 } else { r0 == 0 }
-970 | set: r0 = 25974
-971 | wmem: memory[r0] = 0
-972 | call: push(2791);
-go to memory[2964]
-973 | wmem: memory[2733] = r1
-974 | push: push(r0);
-975 | push: push(r1);
-976 | push: push(r2);
-977 | set: r0 = 27414
-978 | set: r1 = 1531
-979 | add: r2 = 961 + 12837
-980 | call: push(2812);
-go to memory[1458]
-981 | pop: r2 = pop();
-982 | pop: r1 = pop();
-983 | pop: r0 = pop();
-984 | set: r0 = 32
-985 | set: r1 = 25974
-986 | call: push(2826);
-go to memory[1767]
-987 | out: printf(10);
-988 | out: printf(10);
-989 | set: r0 = 25974
-990 | set: r1 = 32
-991 | call: push(2838);
-go to memory[1571]
-992 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
-993 | rmem: r0 = memory[25974]
-994 | set: r2 = r0
-995 | rmem: r1 = memory[25974]
-996 | push: push(r1);
-997 | wmem: memory[25974] = r2
-998 | set: r0 = 27398
-999 | set: r1 = 25974
-1000 | call: push(2867);
-go to memory[1588]
-1001 | pop: r1 = pop();
-1002 | wmem: memory[25974] = r1
-1003 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
-1004 | set: r0 = 0
-1005 | set: r2 = 0
-1006 | add: r1 = 27406 + 1
-1007 | add: r1 = r1 + r0
-1008 | rmem: r1 = memory[r1]
-1009 | rmem: r3 = memory[25974]
-1010 | eq: if (r3 == r2) { r3 == 1 } else { r3 == 0 }
-1011 | mult: r0 = r2 * 32767
-1012 | rmem: r3 = memory[25974]
-1013 | add: r3 = r0 + r3
-1014 | jt: if (r2 == 0 { go to 2924 }
-1015 | add: r3 = r3 + 32767
-1016 | mod: r3 = r3 % 32
-1017 | add: r0 = 25974 + r2
-1018 | jt: if (r2 == 0 { go to 2939 }
-1019 | add: r0 = r0 + 1
-1020 | wmem: memory[r0] = r3
-1021 | jmp: go to memory[2950]
-1022 | set: r0 = 25974
-1023 | wmem: memory[r0] = 0
-1024 | call: push(2952);
-go to memory[r1]
-1025 | jt: if (r1 != 0 { go to memory[2742] }
-1026 | pop: r3 = pop();
-1027 | pop: r2 = pop();
-1028 | pop: r1 = pop();
-1029 | pop: r0 = pop();
-1030 | ret: go to memory[pop()];
-1031 | push: push(r0);
-1032 | push: push(r1);
-1033 | push: push(r2);
-1034 | rmem: r1 = memory[r0]
-1035 | jt: if (r1 == 0 { go to 3032 }
-1036 | call: push(2978);
-go to memory[5921]
-1037 | jt: if (r0 == 0 { go to 3006 }
-1038 | push: push(r0);
-1039 | call: push(2985);
-go to memory[5990]
-1040 | set: r1 = r0
+955 | halt: 
+956 | halt: 
+957 | halt: 
+958 | halt: 
+959 | halt: 
+960 | halt: 
+961 | halt: 
+962 | halt: 
+963 | halt: 
+964 | halt: 
+965 | halt: 
+966 | halt: 
+967 | push: push(r0);
+968 | push: push(r1);
+969 | push: push(r2);
+970 | push: push(r3);
+971 | rmem: r1 = memory[2732]
+972 | rmem: r0 = memory[2733]
+973 | eq: if (r0 == r1) { r0 == 1 } else { r0 == 0 }
+974 | rmem: r0 = memory[2732]
+975 | add: r0 = r0 + 4
+976 | rmem: r0 = memory[r0]
+977 | jt: if (r0 == 0 { go to 2770 }
+978 | call: push(2770); go to memory[r0]
+979 | rmem: r1 = memory[2732]
+980 | rmem: r0 = memory[2733]
+981 | eq: if (r0 == r1) { r0 == 1 } else { r0 == 0 }
+982 | set: r0 = 25974
+983 | wmem: memory[r0] = 0
+984 | call: push(2791); go to memory[2964]
+985 | wmem: memory[2733] = r1
+986 | push: push(r0);
+987 | push: push(r1);
+988 | push: push(r2);
+989 | set: r0 = 27414
+990 | set: r1 = 1531
+991 | add: r2 = 961 + 12837
+992 | call: push(2812); go to memory[1458]
+993 | pop: r2 = pop();
+994 | pop: r1 = pop();
+995 | pop: r0 = pop();
+996 | set: r0 = 32
+997 | set: r1 = 25974
+998 | call: push(2826); go to memory[1767]
+999 | out: printf(10);
+1000 | out: printf(10);
+1001 | set: r0 = 25974
+1002 | set: r1 = 32
+1003 | call: push(2838); go to memory[1571]
+1004 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
+1005 | rmem: r0 = memory[25974]
+1006 | set: r2 = r0
+1007 | rmem: r1 = memory[25974]
+1008 | push: push(r1);
+1009 | wmem: memory[25974] = r2
+1010 | set: r0 = 27398
+1011 | set: r1 = 25974
+1012 | call: push(2867); go to memory[1588]
+1013 | pop: r1 = pop();
+1014 | wmem: memory[25974] = r1
+1015 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
+1016 | set: r0 = 0
+1017 | set: r2 = 0
+1018 | add: r1 = 27406 + 1
+1019 | add: r1 = r1 + r0
+1020 | rmem: r1 = memory[r1]
+1021 | rmem: r3 = memory[25974]
+1022 | eq: if (r3 == r2) { r3 == 1 } else { r3 == 0 }
+1023 | mult: r0 = r2 * 32767
+1024 | rmem: r3 = memory[25974]
+1025 | add: r3 = r0 + r3
+1026 | jt: if (r2 == 0 { go to 2924 }
+1027 | add: r3 = r3 + 32767
+1028 | mod: r3 = r3 % 32
+1029 | add: r0 = 25974 + r2
+1030 | jt: if (r2 == 0 { go to 2939 }
+1031 | add: r0 = r0 + 1
+1032 | wmem: memory[r0] = r3
+1033 | jmp: go to memory[2950]
+1034 | set: r0 = 25974
+1035 | wmem: memory[r0] = 0
+1036 | call: push(2952); go to memory[r1]
+1037 | jt: if (r1 != 0 { go to memory[2742] }
+1038 | pop: r3 = pop();
+1039 | pop: r2 = pop();
+1040 | pop: r1 = pop();
 1041 | pop: r0 = pop();
-1042 | jt: if (r1 == 0 { go to 3006 }
-1043 | add: r1 = r0 + 1
-1044 | rmem: r0 = memory[r1]
-1045 | call: push(3002);
-go to memory[1518]
-1046 | out: printf(10);
-1047 | jmp: go to memory[3238]
-1048 | push: push(r0);
-1049 | push: push(r1);
-1050 | push: push(r2);
-1051 | set: r0 = 27432
-1052 | set: r1 = 1531
-1053 | add: r2 = 1808 + 735
-1054 | call: push(3024);
-go to memory[1458]
-1055 | pop: r2 = pop();
-1056 | pop: r1 = pop();
-1057 | pop: r0 = pop();
-1058 | jmp: go to memory[3238]
-1059 | rmem: r0 = memory[2732]
+1042 | ret: go to memory[pop()];
+1043 | push: push(r0);
+1044 | push: push(r1);
+1045 | push: push(r2);
+1046 | rmem: r1 = memory[r0]
+1047 | jt: if (r1 == 0 { go to 3032 }
+1048 | call: push(2978); go to memory[5921]
+1049 | jt: if (r0 == 0 { go to 3006 }
+1050 | push: push(r0);
+1051 | call: push(2985); go to memory[5990]
+1052 | set: r1 = r0
+1053 | pop: r0 = pop();
+1054 | jt: if (r1 == 0 { go to 3006 }
+1055 | add: r1 = r0 + 1
+1056 | rmem: r0 = memory[r1]
+1057 | call: push(3002); go to memory[1518]
+1058 | out: printf(10);
+1059 | jmp: go to memory[3238]
 1060 | push: push(r0);
-1061 | out: printf(61);
-1062 | out: printf(61);
-1063 | out: printf(32);
-1064 | add: r0 = r0 + 0
-1065 | rmem: r0 = memory[r0]
-1066 | call: push(3052);
-go to memory[1518]
-1067 | out: printf(32);
-1068 | out: printf(61);
-1069 | out: printf(61);
-1070 | out: printf(10);
-1071 | pop: r0 = pop();
+1061 | push: push(r1);
+1062 | push: push(r2);
+1063 | set: r0 = 27432
+1064 | set: r1 = 1531
+1065 | add: r2 = 1808 + 735
+1066 | call: push(3024); go to memory[1458]
+1067 | pop: r2 = pop();
+1068 | pop: r1 = pop();
+1069 | pop: r0 = pop();
+1070 | jmp: go to memory[3238]
+1071 | rmem: r0 = memory[2732]
 1072 | push: push(r0);
-1073 | add: r0 = r0 + 1
-1074 | rmem: r0 = memory[r0]
-1075 | rmem: r1 = memory[r0]
-1076 | eq: if (r1 == 2) { r1 == 1 } else { r1 == 0 }
-1077 | push: push(r0);
-1078 | set: r0 = 2680
-1079 | call: push(3088);
-go to memory[5990]
-1080 | set: r1 = r0
-1081 | pop: r0 = pop();
-1082 | add: r0 = r0 + 1
-1083 | add: r0 = r0 + r1
-1084 | rmem: r0 = memory[r0]
-1085 | call: push(3106);
-go to memory[1518]
-1086 | out: printf(10);
-1087 | pop: r0 = pop();
-1088 | push: push(r0);
-1089 | call: push(3114);
-go to memory[5823]
-1090 | jt: if (r0 == 0 { go to 3146 }
-1091 | push: push(r0);
-1092 | push: push(r1);
-1093 | push: push(r2);
-1094 | set: r0 = 27455
-1095 | set: r1 = 1531
-1096 | add: r2 = 11048 + 15296
-1097 | call: push(3135);
-go to memory[1458]
-1098 | pop: r2 = pop();
-1099 | pop: r1 = pop();
-1100 | pop: r0 = pop();
-1101 | rmem: r2 = memory[2732]
-1102 | call: push(3146);
-go to memory[5876]
-1103 | pop: r0 = pop();
-1104 | push: push(r0);
-1105 | add: r0 = r0 + 2
-1106 | rmem: r0 = memory[r0]
-1107 | rmem: r0 = memory[r0]
-1108 | eq: if (r0 == 1) { r2 == 1 } else { r2 == 0 }
-1109 | mult: 19 = 84 * 19
-1110 | out: printf(101);
-1111 | out: printf(114);
-1112 | out: printf(101);
-1113 | out: printf(32);
-1114 | jt: if (r2 != 0 { go to memory[3189] }
-1115 | out: printf(97);
-1116 | out: printf(114);
-1117 | out: printf(101);
-1118 | jmp: go to memory[3193]
-1119 | out: printf(105);
-1120 | out: printf(115);
-1121 | out: printf(32);
-1122 | call: push(3197);
-go to memory[2001]
-1123 | out: printf(32);
+1073 | out: printf(61);
+1074 | out: printf(61);
+1075 | out: printf(32);
+1076 | add: r0 = r0 + 0
+1077 | rmem: r0 = memory[r0]
+1078 | call: push(3052); go to memory[1518]
+1079 | out: printf(32);
+1080 | out: printf(61);
+1081 | out: printf(61);
+1082 | out: printf(10);
+1083 | pop: r0 = pop();
+1084 | push: push(r0);
+1085 | add: r0 = r0 + 1
+1086 | rmem: r0 = memory[r0]
+1087 | rmem: r1 = memory[r0]
+1088 | eq: if (r1 == 2) { r1 == 1 } else { r1 == 0 }
+1089 | push: push(r0);
+1090 | set: r0 = 2680
+1091 | call: push(3088); go to memory[5990]
+1092 | set: r1 = r0
+1093 | pop: r0 = pop();
+1094 | add: r0 = r0 + 1
+1095 | add: r0 = r0 + r1
+1096 | rmem: r0 = memory[r0]
+1097 | call: push(3106); go to memory[1518]
+1098 | out: printf(10);
+1099 | pop: r0 = pop();
+1100 | push: push(r0);
+1101 | call: push(3114); go to memory[5823]
+1102 | jt: if (r0 == 0 { go to 3146 }
+1103 | push: push(r0);
+1104 | push: push(r1);
+1105 | push: push(r2);
+1106 | set: r0 = 27455
+1107 | set: r1 = 1531
+1108 | add: r2 = 11048 + 15296
+1109 | call: push(3135); go to memory[1458]
+1110 | pop: r2 = pop();
+1111 | pop: r1 = pop();
+1112 | pop: r0 = pop();
+1113 | rmem: r2 = memory[2732]
+1114 | call: push(3146); go to memory[5876]
+1115 | pop: r0 = pop();
+1116 | push: push(r0);
+1117 | add: r0 = r0 + 2
+1118 | rmem: r0 = memory[r0]
+1119 | rmem: r0 = memory[r0]
+1120 | eq: if (r0 == 1) { r2 == 1 } else { r2 == 0 }
+1121 | mult: 19 = 84 * 19
+1122 | out: printf(101);
+1123 | out: printf(114);
 1124 | out: printf(101);
-1125 | out: printf(120);
-1126 | out: printf(105);
-1127 | out: printf(116);
-1128 | eq: if (r0 == 1) { r2 == 1 } else { r2 == 0 }
-1129 | out: printf(115);
-1130 | out: printf(58);
-1131 | out: printf(10);
-1132 | pop: r0 = pop();
-1133 | push: push(r0);
-1134 | add: r0 = r0 + 2
-1135 | rmem: r0 = memory[r0]
-1136 | set: r1 = 5814
-1137 | call: push(3236);
-go to memory[1458]
-1138 | pop: r0 = pop();
-1139 | pop: r2 = pop();
-1140 | pop: r1 = pop();
-1141 | pop: r0 = pop();
-1142 | ret: go to memory[pop()];
-1143 | push: push(r0);
-1144 | push: push(r1);
-1145 | push: push(r2);
-1146 | set: r1 = r0
-1147 | rmem: r0 = memory[2732]
-1148 | add: r0 = r0 + 2
-1149 | rmem: r0 = memory[r0]
-1150 | call: push(3266);
-go to memory[1588]
-1151 | eq: if (r0 == 32767) { r2 == 1 } else { r2 == 0 }
-1152 | rmem: r2 = memory[2732]
-1153 | add: r2 = r2 + 3
-1154 | rmem: r2 = memory[r2]
-1155 | add: r2 = r2 + 1
-1156 | add: r2 = r2 + r0
-1157 | rmem: r2 = memory[r2]
-1158 | wmem: memory[2732] = r2
-1159 | wmem: memory[2733] = 0
-1160 | jmp: go to memory[3326]
-1161 | push: push(r0);
-1162 | push: push(r1);
-1163 | push: push(r2);
-1164 | set: r0 = 27482
-1165 | set: r1 = 1531
-1166 | add: r2 = 3414 + 19101
-1167 | call: push(3320);
-go to memory[1458]
-1168 | pop: r2 = pop();
-1169 | pop: r1 = pop();
-1170 | pop: r0 = pop();
-1171 | pop: r2 = pop();
-1172 | pop: r1 = pop();
-1173 | pop: r0 = pop();
-1174 | ret: go to memory[pop()];
-1175 | push: push(r0);
-1176 | push: push(r0);
-1177 | push: push(r1);
-1178 | push: push(r2);
-1179 | set: r0 = 27532
-1180 | set: r1 = 1531
-1181 | add: r2 = 24913 + 1440
-1182 | call: push(3353);
-go to memory[1458]
+1125 | out: printf(32);
+1126 | jt: if (r2 != 0 { go to memory[3189] }
+1127 | out: printf(97);
+1128 | out: printf(114);
+1129 | out: printf(101);
+1130 | jmp: go to memory[3193]
+1131 | out: printf(105);
+1132 | out: printf(115);
+1133 | out: printf(32);
+1134 | call: push(3197); go to memory[2001]
+1135 | out: printf(32);
+1136 | out: printf(101);
+1137 | out: printf(120);
+1138 | out: printf(105);
+1139 | out: printf(116);
+1140 | eq: if (r0 == 1) { r2 == 1 } else { r2 == 0 }
+1141 | out: printf(115);
+1142 | out: printf(58);
+1143 | out: printf(10);
+1144 | pop: r0 = pop();
+1145 | push: push(r0);
+1146 | add: r0 = r0 + 2
+1147 | rmem: r0 = memory[r0]
+1148 | set: r1 = 5814
+1149 | call: push(3236); go to memory[1458]
+1150 | pop: r0 = pop();
+1151 | pop: r2 = pop();
+1152 | pop: r1 = pop();
+1153 | pop: r0 = pop();
+1154 | ret: go to memory[pop()];
+1155 | push: push(r0);
+1156 | push: push(r1);
+1157 | push: push(r2);
+1158 | set: r1 = r0
+1159 | rmem: r0 = memory[2732]
+1160 | add: r0 = r0 + 2
+1161 | rmem: r0 = memory[r0]
+1162 | call: push(3266); go to memory[1588]
+1163 | eq: if (r0 == 32767) { r2 == 1 } else { r2 == 0 }
+1164 | rmem: r2 = memory[2732]
+1165 | add: r2 = r2 + 3
+1166 | rmem: r2 = memory[r2]
+1167 | add: r2 = r2 + 1
+1168 | add: r2 = r2 + r0
+1169 | rmem: r2 = memory[r2]
+1170 | wmem: memory[2732] = r2
+1171 | wmem: memory[2733] = 0
+1172 | jmp: go to memory[3326]
+1173 | push: push(r0);
+1174 | push: push(r1);
+1175 | push: push(r2);
+1176 | set: r0 = 27482
+1177 | set: r1 = 1531
+1178 | add: r2 = 3414 + 19101
+1179 | call: push(3320); go to memory[1458]
+1180 | pop: r2 = pop();
+1181 | pop: r1 = pop();
+1182 | pop: r0 = pop();
 1183 | pop: r2 = pop();
 1184 | pop: r1 = pop();
 1185 | pop: r0 = pop();
-1186 | pop: r0 = pop();
-1187 | ret: go to memory[pop()];
+1186 | ret: go to memory[pop()];
+1187 | push: push(r0);
 1188 | push: push(r0);
-1189 | push: push(r2);
-1190 | push: push(r0);
-1191 | push: push(r1);
-1192 | push: push(r2);
-1193 | set: r0 = 28037
-1194 | set: r1 = 1531
-1195 | add: r2 = 1736 + 4775
-1196 | call: push(3384);
-go to memory[1458]
-1197 | pop: r2 = pop();
-1198 | pop: r1 = pop();
-1199 | pop: r0 = pop();
-1200 | set: r2 = 0
-1201 | call: push(3395);
-go to memory[5876]
-1202 | pop: r2 = pop();
-1203 | pop: r0 = pop();
-1204 | ret: go to memory[pop()];
-1205 | push: push(r0);
-1206 | push: push(r1);
-1207 | push: push(r2);
-1208 | call: push(3408);
-go to memory[5921]
-1209 | jt: if (r0 == 0 { go to 3457 }
-1210 | add: r1 = r0 + 2
-1211 | rmem: r0 = memory[r1]
-1212 | rmem: r2 = memory[2732]
-1213 | eq: if (r0 == r2) { r2 == 1 } else { r2 == 0 }
-1214 | wmem: memory[r1] = 0
-1215 | push: push(r0);
-1216 | push: push(r1);
-1217 | push: push(r2);
-1218 | set: r0 = 28054
-1219 | set: r1 = 1531
-1220 | add: r2 = 149 + 22998
-1221 | call: push(3449);
-go to memory[1458]
-1222 | pop: r2 = pop();
-1223 | pop: r1 = pop();
-1224 | pop: r0 = pop();
-1225 | jmp: go to memory[3481]
-1226 | push: push(r0);
-1227 | push: push(r1);
-1228 | push: push(r2);
-1229 | set: r0 = 28062
-1230 | set: r1 = 1531
-1231 | add: r2 = 2956 + 231
-1232 | call: push(3475);
-go to memory[1458]
-1233 | pop: r2 = pop();
-1234 | pop: r1 = pop();
-1235 | pop: r0 = pop();
-1236 | pop: r2 = pop();
-1237 | pop: r1 = pop();
-1238 | pop: r0 = pop();
-1239 | ret: go to memory[pop()];
-1240 | push: push(r0);
-1241 | push: push(r1);
-1242 | call: push(3494);
-go to memory[5921]
-1243 | jt: if (r0 == 0 { go to 3539 }
-1244 | add: r1 = r0 + 2
-1245 | rmem: r0 = memory[r1]
-1246 | jt: if (r0 != 0 { go to memory[3539] }
-1247 | rmem: r0 = memory[2732]
-1248 | wmem: memory[r1] = r0
-1249 | push: push(r0);
-1250 | push: push(r1);
-1251 | push: push(r2);
-1252 | set: r0 = 28090
-1253 | set: r1 = 1531
-1254 | add: r2 = 27045 + 5314
-1255 | call: push(3531);
-go to memory[1458]
-1256 | pop: r2 = pop();
-1257 | pop: r1 = pop();
-1258 | pop: r0 = pop();
-1259 | jmp: go to memory[3563]
-1260 | push: push(r0);
-1261 | push: push(r1);
-1262 | push: push(r2);
-1263 | set: r0 = 28100
-1264 | set: r1 = 1531
-1265 | add: r2 = 5789 + 21597
-1266 | call: push(3557);
-go to memory[1458]
-1267 | pop: r2 = pop();
-1268 | pop: r1 = pop();
-1269 | pop: r0 = pop();
-1270 | pop: r1 = pop();
-1271 | pop: r0 = pop();
-1272 | ret: go to memory[pop()];
-1273 | push: push(r0);
-1274 | push: push(r1);
-1275 | call: push(3574);
-go to memory[5921]
-1276 | jt: if (r0 == 0 { go to 3601 }
-1277 | add: r1 = r0 + 2
-1278 | rmem: r1 = memory[r1]
-1279 | jt: if (r1 != 0 { go to memory[3601] }
-1280 | add: r1 = r0 + 3
-1281 | rmem: r1 = memory[r1]
-1282 | jt: if (r1 == 0 { go to 3627 }
-1283 | call: push(3599);
-go to memory[r1]
-1284 | jmp: go to memory[3651]
+1189 | push: push(r1);
+1190 | push: push(r2);
+1191 | set: r0 = 27532
+1192 | set: r1 = 1531
+1193 | add: r2 = 24913 + 1440
+1194 | call: push(3353); go to memory[1458]
+1195 | pop: r2 = pop();
+1196 | pop: r1 = pop();
+1197 | pop: r0 = pop();
+1198 | pop: r0 = pop();
+1199 | ret: go to memory[pop()];
+1200 | push: push(r0);
+1201 | push: push(r2);
+1202 | push: push(r0);
+1203 | push: push(r1);
+1204 | push: push(r2);
+1205 | set: r0 = 28037
+1206 | set: r1 = 1531
+1207 | add: r2 = 1736 + 4775
+1208 | call: push(3384); go to memory[1458]
+1209 | pop: r2 = pop();
+1210 | pop: r1 = pop();
+1211 | pop: r0 = pop();
+1212 | set: r2 = 0
+1213 | call: push(3395); go to memory[5876]
+1214 | pop: r2 = pop();
+1215 | pop: r0 = pop();
+1216 | ret: go to memory[pop()];
+1217 | push: push(r0);
+1218 | push: push(r1);
+1219 | push: push(r2);
+1220 | call: push(3408); go to memory[5921]
+1221 | jt: if (r0 == 0 { go to 3457 }
+1222 | add: r1 = r0 + 2
+1223 | rmem: r0 = memory[r1]
+1224 | rmem: r2 = memory[2732]
+1225 | eq: if (r0 == r2) { r2 == 1 } else { r2 == 0 }
+1226 | wmem: memory[r1] = 0
+1227 | push: push(r0);
+1228 | push: push(r1);
+1229 | push: push(r2);
+1230 | set: r0 = 28054
+1231 | set: r1 = 1531
+1232 | add: r2 = 149 + 22998
+1233 | call: push(3449); go to memory[1458]
+1234 | pop: r2 = pop();
+1235 | pop: r1 = pop();
+1236 | pop: r0 = pop();
+1237 | jmp: go to memory[3481]
+1238 | push: push(r0);
+1239 | push: push(r1);
+1240 | push: push(r2);
+1241 | set: r0 = 28062
+1242 | set: r1 = 1531
+1243 | add: r2 = 2956 + 231
+1244 | call: push(3475); go to memory[1458]
+1245 | pop: r2 = pop();
+1246 | pop: r1 = pop();
+1247 | pop: r0 = pop();
+1248 | pop: r2 = pop();
+1249 | pop: r1 = pop();
+1250 | pop: r0 = pop();
+1251 | ret: go to memory[pop()];
+1252 | push: push(r0);
+1253 | push: push(r1);
+1254 | call: push(3494); go to memory[5921]
+1255 | jt: if (r0 == 0 { go to 3539 }
+1256 | add: r1 = r0 + 2
+1257 | rmem: r0 = memory[r1]
+1258 | jt: if (r0 != 0 { go to memory[3539] }
+1259 | rmem: r0 = memory[2732]
+1260 | wmem: memory[r1] = r0
+1261 | push: push(r0);
+1262 | push: push(r1);
+1263 | push: push(r2);
+1264 | set: r0 = 28090
+1265 | set: r1 = 1531
+1266 | add: r2 = 27045 + 5314
+1267 | call: push(3531); go to memory[1458]
+1268 | pop: r2 = pop();
+1269 | pop: r1 = pop();
+1270 | pop: r0 = pop();
+1271 | jmp: go to memory[3563]
+1272 | push: push(r0);
+1273 | push: push(r1);
+1274 | push: push(r2);
+1275 | set: r0 = 28100
+1276 | set: r1 = 1531
+1277 | add: r2 = 5789 + 21597
+1278 | call: push(3557); go to memory[1458]
+1279 | pop: r2 = pop();
+1280 | pop: r1 = pop();
+1281 | pop: r0 = pop();
+1282 | pop: r1 = pop();
+1283 | pop: r0 = pop();
+1284 | ret: go to memory[pop()];
 1285 | push: push(r0);
 1286 | push: push(r1);
-1287 | push: push(r2);
-1288 | set: r0 = 28135
-1289 | set: r1 = 1531
-1290 | add: r2 = 17722 + 8111
-1291 | call: push(3619);
-go to memory[1458]
-1292 | pop: r2 = pop();
-1293 | pop: r1 = pop();
-1294 | pop: r0 = pop();
-1295 | jmp: go to memory[3651]
-1296 | push: push(r0);
-1297 | push: push(r1);
-1298 | push: push(r2);
-1299 | set: r0 = 28170
-1300 | set: r1 = 1531
-1301 | add: r2 = 17316 + 2764
-1302 | call: push(3645);
-go to memory[1458]
-1303 | pop: r2 = pop();
-1304 | pop: r1 = pop();
-1305 | pop: r0 = pop();
-1306 | pop: r1 = pop();
-1307 | pop: r0 = pop();
-1308 | ret: go to memory[pop()];
-1309 | push: push(r0);
-1310 | push: push(r1);
-1311 | push: push(r2);
-1312 | set: r0 = 2680
-1313 | call: push(3667);
-go to memory[5990]
-1314 | jt: if (r0 != 0 { go to memory[3694] }
-1315 | add: r0 = 2676 + 2
-1316 | wmem: memory[r0] = 32767
-1317 | add: r0 = 2680 + 2
-1318 | wmem: memory[r0] = 32767
-1319 | add: r0 = 2672 + 2
-1320 | wmem: memory[r0] = 32767
-1321 | wmem: memory[2732] = 2648
-1322 | pop: r2 = pop();
-1323 | pop: r1 = pop();
-1324 | pop: r0 = pop();
-1325 | ret: go to memory[pop()];
-1326 | push: push(r0);
-1327 | push: push(r1);
-1328 | push: push(r2);
-1329 | set: r0 = 28204
-1330 | set: r1 = 1531
-1331 | add: r2 = 19975 + 3675
-1332 | call: push(3719);
-go to memory[1458]
-1333 | pop: r2 = pop();
-1334 | pop: r1 = pop();
-1335 | pop: r0 = pop();
-1336 | halt: 
-1337 | halt: 
-1338 | push: push(r1);
-1339 | rmem: r1 = memory[3726]
-1340 | or: r1 = r1 or r0
-1341 | wmem: memory[3726] = r1
-1342 | pop: r1 = pop();
-1343 | ret: go to memory[pop()];
-1344 | wmem: memory[3726] = 0
-1345 | ret: go to memory[pop()];
-1346 | push: push(r0);
-1347 | set: r0 = 1
-1348 | call: push(3753);
-go to memory[3727]
-1349 | pop: r0 = pop();
-1350 | ret: go to memory[pop()];
-1351 | push: push(r0);
-1352 | set: r0 = 2
-1353 | call: push(3763);
-go to memory[3727]
-1354 | pop: r0 = pop();
+1287 | call: push(3574); go to memory[5921]
+1288 | jt: if (r0 == 0 { go to 3601 }
+1289 | add: r1 = r0 + 2
+1290 | rmem: r1 = memory[r1]
+1291 | jt: if (r1 != 0 { go to memory[3601] }
+1292 | add: r1 = r0 + 3
+1293 | rmem: r1 = memory[r1]
+1294 | jt: if (r1 == 0 { go to 3627 }
+1295 | call: push(3599); go to memory[r1]
+1296 | jmp: go to memory[3651]
+1297 | push: push(r0);
+1298 | push: push(r1);
+1299 | push: push(r2);
+1300 | set: r0 = 28135
+1301 | set: r1 = 1531
+1302 | add: r2 = 17722 + 8111
+1303 | call: push(3619); go to memory[1458]
+1304 | pop: r2 = pop();
+1305 | pop: r1 = pop();
+1306 | pop: r0 = pop();
+1307 | jmp: go to memory[3651]
+1308 | push: push(r0);
+1309 | push: push(r1);
+1310 | push: push(r2);
+1311 | set: r0 = 28170
+1312 | set: r1 = 1531
+1313 | add: r2 = 17316 + 2764
+1314 | call: push(3645); go to memory[1458]
+1315 | pop: r2 = pop();
+1316 | pop: r1 = pop();
+1317 | pop: r0 = pop();
+1318 | pop: r1 = pop();
+1319 | pop: r0 = pop();
+1320 | ret: go to memory[pop()];
+1321 | push: push(r0);
+1322 | push: push(r1);
+1323 | push: push(r2);
+1324 | set: r0 = 2680
+1325 | call: push(3667); go to memory[5990]
+1326 | jt: if (r0 != 0 { go to memory[3694] }
+1327 | add: r0 = 2676 + 2
+1328 | wmem: memory[r0] = 32767
+1329 | add: r0 = 2680 + 2
+1330 | wmem: memory[r0] = 32767
+1331 | add: r0 = 2672 + 2
+1332 | wmem: memory[r0] = 32767
+1333 | wmem: memory[2732] = 2648
+1334 | pop: r2 = pop();
+1335 | pop: r1 = pop();
+1336 | pop: r0 = pop();
+1337 | ret: go to memory[pop()];
+1338 | push: push(r0);
+1339 | push: push(r1);
+1340 | push: push(r2);
+1341 | set: r0 = 28204
+1342 | set: r1 = 1531
+1343 | add: r2 = 19975 + 3675
+1344 | call: push(3719); go to memory[1458]
+1345 | pop: r2 = pop();
+1346 | pop: r1 = pop();
+1347 | pop: r0 = pop();
+1348 | halt: 
+1349 | halt: 
+1350 | push: push(r1);
+1351 | rmem: r1 = memory[3726]
+1352 | or: r1 = r1 or r0
+1353 | wmem: memory[3726] = r1
+1354 | pop: r1 = pop();
 1355 | ret: go to memory[pop()];
-1356 | push: push(r0);
-1357 | set: r0 = 4
-1358 | call: push(3773);
-go to memory[3727]
-1359 | pop: r0 = pop();
-1360 | ret: go to memory[pop()];
-1361 | push: push(r0);
-1362 | set: r0 = 8
-1363 | call: push(3783);
-go to memory[3727]
-1364 | pop: r0 = pop();
-1365 | ret: go to memory[pop()];
-1366 | push: push(r0);
-1367 | set: r0 = 16
-1368 | call: push(3793);
-go to memory[3727]
-1369 | pop: r0 = pop();
-1370 | ret: go to memory[pop()];
-1371 | push: push(r0);
-1372 | set: r0 = 32
-1373 | call: push(3803);
-go to memory[3727]
-1374 | pop: r0 = pop();
-1375 | ret: go to memory[pop()];
-1376 | push: push(r0);
-1377 | push: push(r1);
-1378 | push: push(r2);
-1379 | push: push(r3);
-1380 | set: r0 = 64
-1381 | call: push(3819);
-go to memory[3727]
-1382 | push: push(r0);
-1383 | push: push(r1);
-1384 | push: push(r2);
-1385 | set: r0 = 28236
-1386 | set: r1 = 1531
-1387 | add: r2 = 7385 + 11042
-1388 | call: push(3837);
-go to memory[1458]
-1389 | pop: r2 = pop();
-1390 | pop: r1 = pop();
-1391 | pop: r0 = pop();
-1392 | rmem: r0 = memory[3726]
-1393 | set: r1 = 25866
-1394 | set: r2 = 32767
-1395 | set: r3 = 28299
-1396 | call: push(3857);
-go to memory[1841]
-1397 | push: push(r0);
-1398 | push: push(r1);
-1399 | push: push(r2);
-1400 | set: r0 = 28303
-1401 | set: r1 = 1531
-1402 | add: r2 = 17281 + 9448
-1403 | call: push(3875);
-go to memory[1458]
-1404 | pop: r2 = pop();
-1405 | pop: r1 = pop();
-1406 | pop: r0 = pop();
-1407 | wmem: memory[2732] = 2417
-1408 | pop: r3 = pop();
-1409 | pop: r2 = pop();
-1410 | pop: r1 = pop();
-1411 | pop: r0 = pop();
-1412 | ret: go to memory[pop()];
-1413 | push: push(r0);
-1414 | push: push(r1);
-1415 | rmem: r0 = memory[2462]
-1416 | rmem: r1 = memory[27101]
-1417 | eq: if (r0 == r1) { r0 == 1 } else { r0 == 0 }
-1418 | push: push(r0);
-1419 | push: push(r1);
-1420 | push: push(r2);
-1421 | set: r0 = 28347
-1422 | set: r1 = 1531
-1423 | add: r2 = 3847 + 21852
-1424 | call: push(3928);
-go to memory[1458]
-1425 | pop: r2 = pop();
-1426 | pop: r1 = pop();
-1427 | pop: r0 = pop();
-1428 | wmem: memory[2732] = 2457
-1429 | wmem: memory[2733] = 2457
-1430 | pop: r1 = pop();
-1431 | pop: r0 = pop();
-1432 | ret: go to memory[pop()];
-1433 | halt: 
-1434 | halt: 
-1435 | halt: 
-1436 | halt: 
-1437 | halt: 
-1438 | halt: 
-1439 | push: push(r0);
-1440 | push: push(r1);
-1441 | set: r0 = 2
-1442 | set: r1 = 0
-1443 | call: push(3970);
-go to memory[4218]
-1444 | pop: r1 = pop();
-1445 | pop: r0 = pop();
-1446 | ret: go to memory[pop()];
-1447 | push: push(r0);
-1448 | push: push(r1);
-1449 | set: r0 = 8
-1450 | set: r1 = 1
-1451 | call: push(3987);
-go to memory[4279]
-1452 | pop: r1 = pop();
-1453 | pop: r0 = pop();
-1454 | ret: go to memory[pop()];
-1455 | push: push(r0);
-1456 | push: push(r1);
-1457 | set: r0 = 1
-1458 | set: r1 = 2
-1459 | call: push(4004);
-go to memory[4218]
-1460 | pop: r1 = pop();
-1461 | pop: r0 = pop();
-1462 | ret: go to memory[pop()];
-1463 | push: push(r0);
-1464 | push: push(r1);
-1465 | set: r0 = 1
-1466 | set: r1 = 3
-1467 | call: push(4021);
-go to memory[4279]
-1468 | call: push(4023);
-go to memory[4533]
-1469 | pop: r1 = pop();
-1470 | pop: r0 = pop();
-1471 | ret: go to memory[pop()];
-1472 | push: push(r0);
-1473 | push: push(r1);
-1474 | set: r0 = 4
-1475 | set: r1 = 4
-1476 | call: push(4040);
-go to memory[4279]
-1477 | pop: r1 = pop();
-1478 | pop: r0 = pop();
-1479 | ret: go to memory[pop()];
-1480 | push: push(r0);
-1481 | push: push(r1);
-1482 | set: r0 = 2
-1483 | set: r1 = 5
-1484 | call: push(4057);
-go to memory[4218]
-1485 | pop: r1 = pop();
-1486 | pop: r0 = pop();
-1487 | ret: go to memory[pop()];
-1488 | push: push(r0);
-1489 | push: push(r1);
-1490 | set: r0 = 11
-1491 | set: r1 = 6
-1492 | call: push(4074);
-go to memory[4279]
-1493 | pop: r1 = pop();
-1494 | pop: r0 = pop();
-1495 | ret: go to memory[pop()];
-1496 | push: push(r0);
-1497 | push: push(r1);
-1498 | set: r0 = 2
-1499 | set: r1 = 7
-1500 | call: push(4091);
-go to memory[4218]
-1501 | pop: r1 = pop();
-1502 | pop: r0 = pop();
-1503 | ret: go to memory[pop()];
-1504 | push: push(r0);
-1505 | push: push(r1);
-1506 | set: r0 = 0
-1507 | set: r1 = 8
-1508 | call: push(4108);
-go to memory[4218]
-1509 | pop: r1 = pop();
-1510 | pop: r0 = pop();
-1511 | ret: go to memory[pop()];
-1512 | push: push(r0);
-1513 | push: push(r1);
-1514 | set: r0 = 4
-1515 | set: r1 = 9
-1516 | call: push(4125);
-go to memory[4279]
-1517 | pop: r1 = pop();
-1518 | pop: r0 = pop();
-1519 | ret: go to memory[pop()];
-1520 | push: push(r0);
-1521 | push: push(r1);
-1522 | set: r0 = 1
-1523 | set: r1 = 10
-1524 | call: push(4142);
-go to memory[4218]
-1525 | pop: r1 = pop();
-1526 | pop: r0 = pop();
-1527 | ret: go to memory[pop()];
-1528 | push: push(r0);
-1529 | push: push(r1);
-1530 | set: r0 = 18
-1531 | set: r1 = 11
-1532 | call: push(4159);
-go to memory[4279]
-1533 | pop: r1 = pop();
-1534 | pop: r0 = pop();
-1535 | ret: go to memory[pop()];
-1536 | call: push(4166);
-go to memory[4611]
-1537 | ret: go to memory[pop()];
-1538 | push: push(r0);
-1539 | push: push(r1);
-1540 | set: r0 = 1
-1541 | set: r1 = 12
-1542 | call: push(4179);
-go to memory[4218]
-1543 | pop: r1 = pop();
-1544 | pop: r0 = pop();
-1545 | ret: go to memory[pop()];
-1546 | push: push(r0);
-1547 | push: push(r1);
-1548 | set: r0 = 9
-1549 | set: r1 = 13
-1550 | call: push(4196);
-go to memory[4279]
-1551 | pop: r1 = pop();
-1552 | pop: r0 = pop();
-1553 | ret: go to memory[pop()];
-1554 | push: push(r0);
-1555 | push: push(r1);
-1556 | set: r0 = 2
-1557 | set: r1 = 14
-1558 | call: push(4213);
-go to memory[4218]
-1559 | pop: r1 = pop();
-1560 | pop: r0 = pop();
-1561 | ret: go to memory[pop()];
-1562 | push: push(r0);
-1563 | push: push(r1);
-1564 | push: push(r2);
-1565 | add: r2 = 2716 + 2
-1566 | rmem: r2 = memory[r2]
-1567 | jt: if (r2 != 0 { go to memory[4272] }
-1568 | call: push(4236);
-go to memory[4405]
-1569 | wmem: memory[3951] = r0
-1570 | add: r1 = r0 + 3945
-1571 | rmem: r1 = memory[r1]
-1572 | set: r0 = 26024
-1573 | call: push(4251);
-go to memory[1518]
-1574 | set: r0 = r1
-1575 | call: push(4256);
-go to memory[1518]
-1576 | set: r0 = 26088
-1577 | call: push(4261);
-go to memory[1518]
-1578 | set: r0 = r1
-1579 | call: push(4266);
-go to memory[1518]
-1580 | out: printf(46);
-1581 | out: printf(10);
-1582 | out: printf(10);
-1583 | pop: r2 = pop();
-1584 | pop: r1 = pop();
-1585 | pop: r0 = pop();
-1586 | ret: go to memory[pop()];
-1587 | push: push(r0);
-1588 | push: push(r1);
-1589 | push: push(r2);
-1590 | add: r2 = 2716 + 2
-1591 | rmem: r2 = memory[r2]
-1592 | jt: if (r2 != 0 { go to memory[4398] }
-1593 | call: push(4297);
-go to memory[4405]
-1594 | push: push(r0);
-1595 | rmem: r0 = memory[3951]
-1596 | add: r1 = r0 + 3945
-1597 | rmem: r1 = memory[r1]
-1598 | set: r0 = 26122
-1599 | call: push(4314);
-go to memory[1518]
-1600 | set: r0 = r1
-1601 | call: push(4319);
-go to memory[1518]
-1602 | set: r0 = 26170
-1603 | call: push(4324);
-go to memory[1518]
-1604 | pop: r0 = pop();
-1605 | set: r1 = r0
-1606 | rmem: r0 = memory[3952]
-1607 | rmem: r2 = memory[3951]
-1608 | add: r2 = r2 + 3948
-1609 | rmem: r2 = memory[r2]
-1610 | call: push(4344);
-go to memory[r2]
-1611 | jt: if (r1 != 0 { go to memory[4391] }
-1612 | rmem: r1 = memory[3952]
-1613 | wmem: memory[3952] = r0
-1614 | gt: if (r0 > r1) { r2 == 1 } else { r2 == 0 }
-1615 | push: push(r0);
-1616 | set: r0 = 26235
-1617 | call: push(4367);
-go to memory[1518]
-1618 | pop: r0 = pop();
-1619 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
-1620 | push: push(r0);
-1621 | set: r0 = 26267
-1622 | call: push(4383);
-go to memory[1518]
-1623 | pop: r0 = pop();
-1624 | out: printf(10);
-1625 | out: printf(10);
-1626 | jmp: go to memory[4398]
-1627 | call: push(4393);
-go to memory[4660]
-1628 | set: r0 = 26299
-1629 | call: push(4398);
-go to memory[1518]
-1630 | pop: r2 = pop();
-1631 | pop: r1 = pop();
-1632 | pop: r0 = pop();
-1633 | ret: go to memory[pop()];
-1634 | push: push(r0);
-1635 | push: push(r1);
-1636 | push: push(r2);
-1637 | push: push(r3);
-1638 | push: push(r4);
-1639 | push: push(r5);
-1640 | rmem: r5 = memory[3953]
-1641 | gt: if (r5 > 29999) { r3 == 1 } else { r3 == 0 }
-1642 | add: r5 = r5 + 1
-1643 | wmem: memory[3953] = r5
-1644 | set: r3 = r0
-1645 | set: r4 = r1
-1646 | add: r0 = r5 + 2
-1647 | call: push(4446);
-go to memory[2281]
-1648 | rmem: r1 = memory[3954]
-1649 | or: r0 = r1 or r0
-1650 | set: r1 = r4
-1651 | call: push(4458);
-go to memory[2248]
-1652 | wmem: memory[3954] = r0
-1653 | set: r0 = 3955
-1654 | add: r1 = r5 + 2
-1655 | set: r2 = r4
-1656 | call: push(4473);
-go to memory[4515]
-1657 | set: r0 = 3956
-1658 | mult: r1 = r5 * r5
-1659 | mult: r2 = r4 * r4
-1660 | call: push(4486);
-go to memory[4515]
-1661 | set: r0 = 3957
-1662 | set: r1 = 13
-1663 | mult: r2 = r3 * 9
-1664 | mult: r2 = r2 * r2
-1665 | call: push(4502);
-go to memory[4515]
-1666 | pop: r5 = pop();
-1667 | pop: r4 = pop();
-1668 | pop: r3 = pop();
-1669 | pop: r2 = pop();
-1670 | pop: r1 = pop();
-1671 | pop: r0 = pop();
-1672 | ret: go to memory[pop()];
-1673 | push: push(r0);
-1674 | rmem: r0 = memory[r0]
-1675 | call: push(4522);
-go to memory[2248]
-1676 | set: r1 = r2
-1677 | call: push(4527);
-go to memory[2125]
-1678 | pop: r1 = pop();
-1679 | wmem: memory[r1] = r0
-1680 | ret: go to memory[pop()];
-1681 | push: push(r0);
-1682 | add: r0 = 2716 + 2
-1683 | rmem: r0 = memory[r0]
-1684 | jt: if (r0 != 0 { go to memory[4608] }
-1685 | set: r0 = 26321
-1686 | call: push(4550);
-go to memory[1518]
-1687 | rmem: r0 = memory[3952]
-1688 | eq: if (r0 == 30) { r0 == 1 } else { r0 == 0 }
-1689 | set: r0 = 26354
-1690 | call: push(4565);
-go to memory[1518]
-1691 | set: r0 = 26398
-1692 | call: push(4570);
-go to memory[1518]
-1693 | call: push(4572);
-go to memory[4660]
-1694 | jmp: go to memory[4608]
-1695 | set: r0 = 26440
-1696 | call: push(4579);
-go to memory[1518]
-1697 | rmem: r0 = memory[3954]
-1698 | add: r0 = r0 + 1
-1699 | jt: if (r0 != 0 { go to memory[4596] }
-1700 | set: r0 = 26484
-1701 | call: push(4594);
-go to memory[1518]
-1702 | jmp: go to memory[4565]
-1703 | set: r0 = 26584
-1704 | call: push(4601);
-go to memory[1518]
-1705 | add: r0 = 2716 + 2
-1706 | wmem: memory[r0] = 32767
-1707 | pop: r0 = pop();
-1708 | ret: go to memory[pop()];
-1709 | push: push(r0);
-1710 | add: r0 = 2716 + 2
-1711 | rmem: r0 = memory[r0]
-1712 | jt: if (r0 != 0 { go to memory[4657] }
-1713 | set: r0 = 26717
-1714 | call: push(4628);
-go to memory[1518]
-1715 | rmem: r0 = memory[2732]
-1716 | eq: if (r0 == 2623) { r0 == 1 } else { r0 == 0 }
-1717 | set: r0 = 26725
-1718 | call: push(4643);
-go to memory[1518]
-1719 | jmp: go to memory[4650]
-1720 | set: r0 = 26731
-1721 | call: push(4650);
-go to memory[1518]
-1722 | set: r0 = 26737
-1723 | call: push(4655);
-go to memory[1518]
-1724 | call: push(4657);
-go to memory[4660]
-1725 | pop: r0 = pop();
-1726 | ret: go to memory[pop()];
-1727 | push: push(r0);
-1728 | wmem: memory[3952] = 22
-1729 | wmem: memory[3953] = 0
-1730 | wmem: memory[3954] = 0
-1731 | wmem: memory[3955] = 0
-1732 | wmem: memory[3956] = 0
-1733 | wmem: memory[3957] = 0
-1734 | add: r0 = 2716 + 2
-1735 | wmem: memory[r0] = 2623
-1736 | pop: r0 = pop();
-1737 | ret: go to memory[pop()];
-1738 | push: push(r0);
-1739 | add: r0 = 2716 + 2
-1740 | rmem: r0 = memory[r0]
-1741 | eq: if (r0 == 32767) { r0 == 1 } else { r0 == 0 }
-1742 | set: r0 = 26824
-1743 | call: push(4711);
-go to memory[1518]
-1744 | wmem: memory[2732] = 2578
-1745 | wmem: memory[2733] = 2578
-1746 | pop: r0 = pop();
-1747 | ret: go to memory[pop()];
-1748 | push: push(r0);
-1749 | push: push(r1);
-1750 | push: push(r2);
-1751 | push: push(r3);
-1752 | push: push(r0);
-1753 | push: push(r1);
-1754 | push: push(r2);
-1755 | set: r0 = 28369
-1756 | set: r1 = 1531
-1757 | add: r2 = 22584 + 2859
-1758 | call: push(4746);
-go to memory[1458]
-1759 | pop: r2 = pop();
-1760 | pop: r1 = pop();
-1761 | pop: r0 = pop();
-1762 | set: r0 = 4242
-1763 | set: r1 = 25866
-1764 | set: r2 = 32767
-1765 | set: r3 = 28397
-1766 | call: push(4766);
-go to memory[1841]
-1767 | push: push(r0);
-1768 | push: push(r1);
-1769 | push: push(r2);
-1770 | set: r0 = 28401
-1771 | set: r1 = 1531
-1772 | add: r2 = 19892 + 6964
-1773 | call: push(4784);
-go to memory[1458]
-1774 | pop: r2 = pop();
-1775 | pop: r1 = pop();
-1776 | pop: r0 = pop();
-1777 | pop: r3 = pop();
-1778 | pop: r2 = pop();
-1779 | pop: r1 = pop();
-1780 | pop: r0 = pop();
-1781 | ret: go to memory[pop()];
-1782 | push: push(r0);
-1783 | add: r0 = 2672 + 2
-1784 | rmem: r0 = memory[r0]
-1785 | jt: if (r0 != 0 { go to memory[4858] }
-1786 | add: r0 = 2684 + 2
-1787 | wmem: memory[r0] = 32767
-1788 | add: r0 = 2672 + 2
-1789 | wmem: memory[r0] = 32767
-1790 | add: r0 = 2676 + 2
-1791 | wmem: memory[r0] = 0
-1792 | push: push(r0);
-1793 | push: push(r1);
-1794 | push: push(r2);
-1795 | set: r0 = 28453
-1796 | set: r1 = 1531
-1797 | add: r2 = 3547 + 1312
-1798 | call: push(4850);
-go to memory[1458]
-1799 | pop: r2 = pop();
-1800 | pop: r1 = pop();
-1801 | pop: r0 = pop();
-1802 | jmp: go to memory[4882]
-1803 | push: push(r0);
-1804 | push: push(r1);
-1805 | push: push(r2);
-1806 | set: r0 = 28510
-1807 | set: r1 = 1531
-1808 | add: r2 = 415 + 7516
-1809 | call: push(4876);
-go to memory[1458]
-1810 | pop: r2 = pop();
-1811 | pop: r1 = pop();
-1812 | pop: r0 = pop();
+1356 | wmem: memory[3726] = 0
+1357 | ret: go to memory[pop()];
+1358 | push: push(r0);
+1359 | set: r0 = 1
+1360 | call: push(3753); go to memory[3727]
+1361 | pop: r0 = pop();
+1362 | ret: go to memory[pop()];
+1363 | push: push(r0);
+1364 | set: r0 = 2
+1365 | call: push(3763); go to memory[3727]
+1366 | pop: r0 = pop();
+1367 | ret: go to memory[pop()];
+1368 | push: push(r0);
+1369 | set: r0 = 4
+1370 | call: push(3773); go to memory[3727]
+1371 | pop: r0 = pop();
+1372 | ret: go to memory[pop()];
+1373 | push: push(r0);
+1374 | set: r0 = 8
+1375 | call: push(3783); go to memory[3727]
+1376 | pop: r0 = pop();
+1377 | ret: go to memory[pop()];
+1378 | push: push(r0);
+1379 | set: r0 = 16
+1380 | call: push(3793); go to memory[3727]
+1381 | pop: r0 = pop();
+1382 | ret: go to memory[pop()];
+1383 | push: push(r0);
+1384 | set: r0 = 32
+1385 | call: push(3803); go to memory[3727]
+1386 | pop: r0 = pop();
+1387 | ret: go to memory[pop()];
+1388 | push: push(r0);
+1389 | push: push(r1);
+1390 | push: push(r2);
+1391 | push: push(r3);
+1392 | set: r0 = 64
+1393 | call: push(3819); go to memory[3727]
+1394 | push: push(r0);
+1395 | push: push(r1);
+1396 | push: push(r2);
+1397 | set: r0 = 28236
+1398 | set: r1 = 1531
+1399 | add: r2 = 7385 + 11042
+1400 | call: push(3837); go to memory[1458]
+1401 | pop: r2 = pop();
+1402 | pop: r1 = pop();
+1403 | pop: r0 = pop();
+1404 | rmem: r0 = memory[3726]
+1405 | set: r1 = 25866
+1406 | set: r2 = 32767
+1407 | set: r3 = 28299
+1408 | call: push(3857); go to memory[1841]
+1409 | push: push(r0);
+1410 | push: push(r1);
+1411 | push: push(r2);
+1412 | set: r0 = 28303
+1413 | set: r1 = 1531
+1414 | add: r2 = 17281 + 9448
+1415 | call: push(3875); go to memory[1458]
+1416 | pop: r2 = pop();
+1417 | pop: r1 = pop();
+1418 | pop: r0 = pop();
+1419 | wmem: memory[2732] = 2417
+1420 | pop: r3 = pop();
+1421 | pop: r2 = pop();
+1422 | pop: r1 = pop();
+1423 | pop: r0 = pop();
+1424 | ret: go to memory[pop()];
+1425 | push: push(r0);
+1426 | push: push(r1);
+1427 | rmem: r0 = memory[2462]
+1428 | rmem: r1 = memory[27101]
+1429 | eq: if (r0 == r1) { r0 == 1 } else { r0 == 0 }
+1430 | push: push(r0);
+1431 | push: push(r1);
+1432 | push: push(r2);
+1433 | set: r0 = 28347
+1434 | set: r1 = 1531
+1435 | add: r2 = 3847 + 21852
+1436 | call: push(3928); go to memory[1458]
+1437 | pop: r2 = pop();
+1438 | pop: r1 = pop();
+1439 | pop: r0 = pop();
+1440 | wmem: memory[2732] = 2457
+1441 | wmem: memory[2733] = 2457
+1442 | pop: r1 = pop();
+1443 | pop: r0 = pop();
+1444 | ret: go to memory[pop()];
+1445 | halt: 
+1446 | halt: 
+1447 | halt: 
+1448 | halt: 
+1449 | halt: 
+1450 | halt: 
+1451 | push: push(r0);
+1452 | push: push(r1);
+1453 | set: r0 = 2
+1454 | set: r1 = 0
+1455 | call: push(3970); go to memory[4218]
+1456 | pop: r1 = pop();
+1457 | pop: r0 = pop();
+1458 | ret: go to memory[pop()];
+1459 | push: push(r0);
+1460 | push: push(r1);
+1461 | set: r0 = 8
+1462 | set: r1 = 1
+1463 | call: push(3987); go to memory[4279]
+1464 | pop: r1 = pop();
+1465 | pop: r0 = pop();
+1466 | ret: go to memory[pop()];
+1467 | push: push(r0);
+1468 | push: push(r1);
+1469 | set: r0 = 1
+1470 | set: r1 = 2
+1471 | call: push(4004); go to memory[4218]
+1472 | pop: r1 = pop();
+1473 | pop: r0 = pop();
+1474 | ret: go to memory[pop()];
+1475 | push: push(r0);
+1476 | push: push(r1);
+1477 | set: r0 = 1
+1478 | set: r1 = 3
+1479 | call: push(4021); go to memory[4279]
+1480 | call: push(4023); go to memory[4533]
+1481 | pop: r1 = pop();
+1482 | pop: r0 = pop();
+1483 | ret: go to memory[pop()];
+1484 | push: push(r0);
+1485 | push: push(r1);
+1486 | set: r0 = 4
+1487 | set: r1 = 4
+1488 | call: push(4040); go to memory[4279]
+1489 | pop: r1 = pop();
+1490 | pop: r0 = pop();
+1491 | ret: go to memory[pop()];
+1492 | push: push(r0);
+1493 | push: push(r1);
+1494 | set: r0 = 2
+1495 | set: r1 = 5
+1496 | call: push(4057); go to memory[4218]
+1497 | pop: r1 = pop();
+1498 | pop: r0 = pop();
+1499 | ret: go to memory[pop()];
+1500 | push: push(r0);
+1501 | push: push(r1);
+1502 | set: r0 = 11
+1503 | set: r1 = 6
+1504 | call: push(4074); go to memory[4279]
+1505 | pop: r1 = pop();
+1506 | pop: r0 = pop();
+1507 | ret: go to memory[pop()];
+1508 | push: push(r0);
+1509 | push: push(r1);
+1510 | set: r0 = 2
+1511 | set: r1 = 7
+1512 | call: push(4091); go to memory[4218]
+1513 | pop: r1 = pop();
+1514 | pop: r0 = pop();
+1515 | ret: go to memory[pop()];
+1516 | push: push(r0);
+1517 | push: push(r1);
+1518 | set: r0 = 0
+1519 | set: r1 = 8
+1520 | call: push(4108); go to memory[4218]
+1521 | pop: r1 = pop();
+1522 | pop: r0 = pop();
+1523 | ret: go to memory[pop()];
+1524 | push: push(r0);
+1525 | push: push(r1);
+1526 | set: r0 = 4
+1527 | set: r1 = 9
+1528 | call: push(4125); go to memory[4279]
+1529 | pop: r1 = pop();
+1530 | pop: r0 = pop();
+1531 | ret: go to memory[pop()];
+1532 | push: push(r0);
+1533 | push: push(r1);
+1534 | set: r0 = 1
+1535 | set: r1 = 10
+1536 | call: push(4142); go to memory[4218]
+1537 | pop: r1 = pop();
+1538 | pop: r0 = pop();
+1539 | ret: go to memory[pop()];
+1540 | push: push(r0);
+1541 | push: push(r1);
+1542 | set: r0 = 18
+1543 | set: r1 = 11
+1544 | call: push(4159); go to memory[4279]
+1545 | pop: r1 = pop();
+1546 | pop: r0 = pop();
+1547 | ret: go to memory[pop()];
+1548 | call: push(4166); go to memory[4611]
+1549 | ret: go to memory[pop()];
+1550 | push: push(r0);
+1551 | push: push(r1);
+1552 | set: r0 = 1
+1553 | set: r1 = 12
+1554 | call: push(4179); go to memory[4218]
+1555 | pop: r1 = pop();
+1556 | pop: r0 = pop();
+1557 | ret: go to memory[pop()];
+1558 | push: push(r0);
+1559 | push: push(r1);
+1560 | set: r0 = 9
+1561 | set: r1 = 13
+1562 | call: push(4196); go to memory[4279]
+1563 | pop: r1 = pop();
+1564 | pop: r0 = pop();
+1565 | ret: go to memory[pop()];
+1566 | push: push(r0);
+1567 | push: push(r1);
+1568 | set: r0 = 2
+1569 | set: r1 = 14
+1570 | call: push(4213); go to memory[4218]
+1571 | pop: r1 = pop();
+1572 | pop: r0 = pop();
+1573 | ret: go to memory[pop()];
+1574 | push: push(r0);
+1575 | push: push(r1);
+1576 | push: push(r2);
+1577 | add: r2 = 2716 + 2
+1578 | rmem: r2 = memory[r2]
+1579 | jt: if (r2 != 0 { go to memory[4272] }
+1580 | call: push(4236); go to memory[4405]
+1581 | wmem: memory[3951] = r0
+1582 | add: r1 = r0 + 3945
+1583 | rmem: r1 = memory[r1]
+1584 | set: r0 = 26024
+1585 | call: push(4251); go to memory[1518]
+1586 | set: r0 = r1
+1587 | call: push(4256); go to memory[1518]
+1588 | set: r0 = 26088
+1589 | call: push(4261); go to memory[1518]
+1590 | set: r0 = r1
+1591 | call: push(4266); go to memory[1518]
+1592 | out: printf(46);
+1593 | out: printf(10);
+1594 | out: printf(10);
+1595 | pop: r2 = pop();
+1596 | pop: r1 = pop();
+1597 | pop: r0 = pop();
+1598 | ret: go to memory[pop()];
+1599 | push: push(r0);
+1600 | push: push(r1);
+1601 | push: push(r2);
+1602 | add: r2 = 2716 + 2
+1603 | rmem: r2 = memory[r2]
+1604 | jt: if (r2 != 0 { go to memory[4398] }
+1605 | call: push(4297); go to memory[4405]
+1606 | push: push(r0);
+1607 | rmem: r0 = memory[3951]
+1608 | add: r1 = r0 + 3945
+1609 | rmem: r1 = memory[r1]
+1610 | set: r0 = 26122
+1611 | call: push(4314); go to memory[1518]
+1612 | set: r0 = r1
+1613 | call: push(4319); go to memory[1518]
+1614 | set: r0 = 26170
+1615 | call: push(4324); go to memory[1518]
+1616 | pop: r0 = pop();
+1617 | set: r1 = r0
+1618 | rmem: r0 = memory[3952]
+1619 | rmem: r2 = memory[3951]
+1620 | add: r2 = r2 + 3948
+1621 | rmem: r2 = memory[r2]
+1622 | call: push(4344); go to memory[r2]
+1623 | jt: if (r1 != 0 { go to memory[4391] }
+1624 | rmem: r1 = memory[3952]
+1625 | wmem: memory[3952] = r0
+1626 | gt: if (r0 > r1) { r2 == 1 } else { r2 == 0 }
+1627 | push: push(r0);
+1628 | set: r0 = 26235
+1629 | call: push(4367); go to memory[1518]
+1630 | pop: r0 = pop();
+1631 | gt: if (r1 > r0) { r2 == 1 } else { r2 == 0 }
+1632 | push: push(r0);
+1633 | set: r0 = 26267
+1634 | call: push(4383); go to memory[1518]
+1635 | pop: r0 = pop();
+1636 | out: printf(10);
+1637 | out: printf(10);
+1638 | jmp: go to memory[4398]
+1639 | call: push(4393); go to memory[4660]
+1640 | set: r0 = 26299
+1641 | call: push(4398); go to memory[1518]
+1642 | pop: r2 = pop();
+1643 | pop: r1 = pop();
+1644 | pop: r0 = pop();
+1645 | ret: go to memory[pop()];
+1646 | push: push(r0);
+1647 | push: push(r1);
+1648 | push: push(r2);
+1649 | push: push(r3);
+1650 | push: push(r4);
+1651 | push: push(r5);
+1652 | rmem: r5 = memory[3953]
+1653 | gt: if (r5 > 29999) { r3 == 1 } else { r3 == 0 }
+1654 | add: r5 = r5 + 1
+1655 | wmem: memory[3953] = r5
+1656 | set: r3 = r0
+1657 | set: r4 = r1
+1658 | add: r0 = r5 + 2
+1659 | call: push(4446); go to memory[2281]
+1660 | rmem: r1 = memory[3954]
+1661 | or: r0 = r1 or r0
+1662 | set: r1 = r4
+1663 | call: push(4458); go to memory[2248]
+1664 | wmem: memory[3954] = r0
+1665 | set: r0 = 3955
+1666 | add: r1 = r5 + 2
+1667 | set: r2 = r4
+1668 | call: push(4473); go to memory[4515]
+1669 | set: r0 = 3956
+1670 | mult: r1 = r5 * r5
+1671 | mult: r2 = r4 * r4
+1672 | call: push(4486); go to memory[4515]
+1673 | set: r0 = 3957
+1674 | set: r1 = 13
+1675 | mult: r2 = r3 * 9
+1676 | mult: r2 = r2 * r2
+1677 | call: push(4502); go to memory[4515]
+1678 | pop: r5 = pop();
+1679 | pop: r4 = pop();
+1680 | pop: r3 = pop();
+1681 | pop: r2 = pop();
+1682 | pop: r1 = pop();
+1683 | pop: r0 = pop();
+1684 | ret: go to memory[pop()];
+1685 | push: push(r0);
+1686 | rmem: r0 = memory[r0]
+1687 | call: push(4522); go to memory[2248]
+1688 | set: r1 = r2
+1689 | call: push(4527); go to memory[2125]
+1690 | pop: r1 = pop();
+1691 | wmem: memory[r1] = r0
+1692 | ret: go to memory[pop()];
+1693 | push: push(r0);
+1694 | add: r0 = 2716 + 2
+1695 | rmem: r0 = memory[r0]
+1696 | jt: if (r0 != 0 { go to memory[4608] }
+1697 | set: r0 = 26321
+1698 | call: push(4550); go to memory[1518]
+1699 | rmem: r0 = memory[3952]
+1700 | eq: if (r0 == 30) { r0 == 1 } else { r0 == 0 }
+1701 | set: r0 = 26354
+1702 | call: push(4565); go to memory[1518]
+1703 | set: r0 = 26398
+1704 | call: push(4570); go to memory[1518]
+1705 | call: push(4572); go to memory[4660]
+1706 | jmp: go to memory[4608]
+1707 | set: r0 = 26440
+1708 | call: push(4579); go to memory[1518]
+1709 | rmem: r0 = memory[3954]
+1710 | add: r0 = r0 + 1
+1711 | jt: if (r0 != 0 { go to memory[4596] }
+1712 | set: r0 = 26484
+1713 | call: push(4594); go to memory[1518]
+1714 | jmp: go to memory[4565]
+1715 | set: r0 = 26584
+1716 | call: push(4601); go to memory[1518]
+1717 | add: r0 = 2716 + 2
+1718 | wmem: memory[r0] = 32767
+1719 | pop: r0 = pop();
+1720 | ret: go to memory[pop()];
+1721 | push: push(r0);
+1722 | add: r0 = 2716 + 2
+1723 | rmem: r0 = memory[r0]
+1724 | jt: if (r0 != 0 { go to memory[4657] }
+1725 | set: r0 = 26717
+1726 | call: push(4628); go to memory[1518]
+1727 | rmem: r0 = memory[2732]
+1728 | eq: if (r0 == 2623) { r0 == 1 } else { r0 == 0 }
+1729 | set: r0 = 26725
+1730 | call: push(4643); go to memory[1518]
+1731 | jmp: go to memory[4650]
+1732 | set: r0 = 26731
+1733 | call: push(4650); go to memory[1518]
+1734 | set: r0 = 26737
+1735 | call: push(4655); go to memory[1518]
+1736 | call: push(4657); go to memory[4660]
+1737 | pop: r0 = pop();
+1738 | ret: go to memory[pop()];
+1739 | push: push(r0);
+1740 | wmem: memory[3952] = 22
+1741 | wmem: memory[3953] = 0
+1742 | wmem: memory[3954] = 0
+1743 | wmem: memory[3955] = 0
+1744 | wmem: memory[3956] = 0
+1745 | wmem: memory[3957] = 0
+1746 | add: r0 = 2716 + 2
+1747 | wmem: memory[r0] = 2623
+1748 | pop: r0 = pop();
+1749 | ret: go to memory[pop()];
+1750 | push: push(r0);
+1751 | add: r0 = 2716 + 2
+1752 | rmem: r0 = memory[r0]
+1753 | eq: if (r0 == 32767) { r0 == 1 } else { r0 == 0 }
+1754 | set: r0 = 26824
+1755 | call: push(4711); go to memory[1518]
+1756 | wmem: memory[2732] = 2578
+1757 | wmem: memory[2733] = 2578
+1758 | pop: r0 = pop();
+1759 | ret: go to memory[pop()];
+1760 | push: push(r0);
+1761 | push: push(r1);
+1762 | push: push(r2);
+1763 | push: push(r3);
+1764 | push: push(r0);
+1765 | push: push(r1);
+1766 | push: push(r2);
+1767 | set: r0 = 28369
+1768 | set: r1 = 1531
+1769 | add: r2 = 22584 + 2859
+1770 | call: push(4746); go to memory[1458]
+1771 | pop: r2 = pop();
+1772 | pop: r1 = pop();
+1773 | pop: r0 = pop();
+1774 | set: r0 = 4242
+1775 | set: r1 = 25866
+1776 | set: r2 = 32767
+1777 | set: r3 = 28397
+1778 | call: push(4766); go to memory[1841]
+1779 | push: push(r0);
+1780 | push: push(r1);
+1781 | push: push(r2);
+1782 | set: r0 = 28401
+1783 | set: r1 = 1531
+1784 | add: r2 = 19892 + 6964
+1785 | call: push(4784); go to memory[1458]
+1786 | pop: r2 = pop();
+1787 | pop: r1 = pop();
+1788 | pop: r0 = pop();
+1789 | pop: r3 = pop();
+1790 | pop: r2 = pop();
+1791 | pop: r1 = pop();
+1792 | pop: r0 = pop();
+1793 | ret: go to memory[pop()];
+1794 | push: push(r0);
+1795 | add: r0 = 2672 + 2
+1796 | rmem: r0 = memory[r0]
+1797 | jt: if (r0 != 0 { go to memory[4858] }
+1798 | add: r0 = 2684 + 2
+1799 | wmem: memory[r0] = 32767
+1800 | add: r0 = 2672 + 2
+1801 | wmem: memory[r0] = 32767
+1802 | add: r0 = 2676 + 2
+1803 | wmem: memory[r0] = 0
+1804 | push: push(r0);
+1805 | push: push(r1);
+1806 | push: push(r2);
+1807 | set: r0 = 28453
+1808 | set: r1 = 1531
+1809 | add: r2 = 3547 + 1312
+1810 | call: push(4850); go to memory[1458]
+1811 | pop: r2 = pop();
+1812 | pop: r1 = pop();
 1813 | pop: r0 = pop();
-1814 | ret: go to memory[pop()];
+1814 | jmp: go to memory[4882]
 1815 | push: push(r0);
-1816 | add: r0 = 2676 + 2
-1817 | wmem: memory[r0] = 32767
-1818 | add: r0 = 2680 + 2
-1819 | wmem: memory[r0] = 0
-1820 | push: push(r0);
-1821 | push: push(r1);
-1822 | push: push(r2);
-1823 | set: r0 = 28569
-1824 | set: r1 = 1531
-1825 | add: r2 = 1728 + 9889
-1826 | call: push(4919);
-go to memory[1458]
-1827 | pop: r2 = pop();
-1828 | pop: r1 = pop();
-1829 | pop: r0 = pop();
-1830 | wmem: memory[2733] = 0
-1831 | pop: r0 = pop();
-1832 | ret: go to memory[pop()];
-1833 | push: push(r0);
-1834 | add: r0 = 2676 + 2
-1835 | wmem: memory[r0] = 0
-1836 | add: r0 = 2680 + 2
-1837 | wmem: memory[r0] = 32767
-1838 | push: push(r0);
-1839 | push: push(r1);
-1840 | push: push(r2);
-1841 | set: r0 = 28595
-1842 | set: r1 = 1531
-1843 | add: r2 = 15889 + 6356
-1844 | call: push(4965);
-go to memory[1458]
-1845 | pop: r2 = pop();
-1846 | pop: r1 = pop();
-1847 | pop: r0 = pop();
-1848 | wmem: memory[2733] = 0
-1849 | pop: r0 = pop();
-1850 | ret: go to memory[pop()];
-1851 | push: push(r2);
-1852 | push: push(r3);
-1853 | rmem: r2 = memory[2732]
-1854 | eq: if (r2 == 2457) { r2 == 1 } else { r2 == 0 }
-1855 | push: push(r0);
-1856 | push: push(r1);
-1857 | push: push(r2);
-1858 | set: r0 = 28621
-1859 | set: r1 = 1531
-1860 | add: r2 = 8339 + 3287
-1861 | call: push(5009);
-go to memory[1458]
-1862 | pop: r2 = pop();
-1863 | pop: r1 = pop();
-1864 | pop: r0 = pop();
-1865 | jmp: go to memory[5336]
-1866 | add: r2 = r0 + 2
-1867 | wmem: memory[r2] = 32767
-1868 | rmem: r2 = memory[2462]
-1869 | add: r2 = r2 + 27095
-1870 | add: r2 = r2 + 1
-1871 | rmem: r2 = memory[r2]
-1872 | add: r3 = 2457 + 1
-1873 | rmem: r3 = memory[r3]
-1874 | add: r3 = r3 + r2
-1875 | add: r2 = r1 + 48
-1876 | wmem: memory[r3] = r2
-1877 | rmem: r2 = memory[2462]
-1878 | add: r2 = r2 + 27101
-1879 | add: r2 = r2 + 1
-1880 | wmem: memory[r2] = r1
-1881 | push: push(r0);
-1882 | push: push(r0);
-1883 | push: push(r1);
-1884 | push: push(r2);
-1885 | set: r0 = 28664
-1886 | set: r1 = 1531
-1887 | add: r2 = 1418 + 6113
-1888 | call: push(5090);
-go to memory[1458]
-1889 | pop: r2 = pop();
-1890 | pop: r1 = pop();
-1891 | pop: r0 = pop();
-1892 | pop: r0 = pop();
+1816 | push: push(r1);
+1817 | push: push(r2);
+1818 | set: r0 = 28510
+1819 | set: r1 = 1531
+1820 | add: r2 = 415 + 7516
+1821 | call: push(4876); go to memory[1458]
+1822 | pop: r2 = pop();
+1823 | pop: r1 = pop();
+1824 | pop: r0 = pop();
+1825 | pop: r0 = pop();
+1826 | ret: go to memory[pop()];
+1827 | push: push(r0);
+1828 | add: r0 = 2676 + 2
+1829 | wmem: memory[r0] = 32767
+1830 | add: r0 = 2680 + 2
+1831 | wmem: memory[r0] = 0
+1832 | push: push(r0);
+1833 | push: push(r1);
+1834 | push: push(r2);
+1835 | set: r0 = 28569
+1836 | set: r1 = 1531
+1837 | add: r2 = 1728 + 9889
+1838 | call: push(4919); go to memory[1458]
+1839 | pop: r2 = pop();
+1840 | pop: r1 = pop();
+1841 | pop: r0 = pop();
+1842 | wmem: memory[2733] = 0
+1843 | pop: r0 = pop();
+1844 | ret: go to memory[pop()];
+1845 | push: push(r0);
+1846 | add: r0 = 2676 + 2
+1847 | wmem: memory[r0] = 0
+1848 | add: r0 = 2680 + 2
+1849 | wmem: memory[r0] = 32767
+1850 | push: push(r0);
+1851 | push: push(r1);
+1852 | push: push(r2);
+1853 | set: r0 = 28595
+1854 | set: r1 = 1531
+1855 | add: r2 = 15889 + 6356
+1856 | call: push(4965); go to memory[1458]
+1857 | pop: r2 = pop();
+1858 | pop: r1 = pop();
+1859 | pop: r0 = pop();
+1860 | wmem: memory[2733] = 0
+1861 | pop: r0 = pop();
+1862 | ret: go to memory[pop()];
+1863 | push: push(r2);
+1864 | push: push(r3);
+1865 | rmem: r2 = memory[2732]
+1866 | eq: if (r2 == 2457) { r2 == 1 } else { r2 == 0 }
+1867 | push: push(r0);
+1868 | push: push(r1);
+1869 | push: push(r2);
+1870 | set: r0 = 28621
+1871 | set: r1 = 1531
+1872 | add: r2 = 8339 + 3287
+1873 | call: push(5009); go to memory[1458]
+1874 | pop: r2 = pop();
+1875 | pop: r1 = pop();
+1876 | pop: r0 = pop();
+1877 | jmp: go to memory[5336]
+1878 | add: r2 = r0 + 2
+1879 | wmem: memory[r2] = 32767
+1880 | rmem: r2 = memory[2462]
+1881 | add: r2 = r2 + 27095
+1882 | add: r2 = r2 + 1
+1883 | rmem: r2 = memory[r2]
+1884 | add: r3 = 2457 + 1
+1885 | rmem: r3 = memory[r3]
+1886 | add: r3 = r3 + r2
+1887 | add: r2 = r1 + 48
+1888 | wmem: memory[r3] = r2
+1889 | rmem: r2 = memory[2462]
+1890 | add: r2 = r2 + 27101
+1891 | add: r2 = r2 + 1
+1892 | wmem: memory[r2] = r1
 1893 | push: push(r0);
-1894 | add: r2 = r0 + 0
-1895 | rmem: r0 = memory[r2]
-1896 | call: push(5109);
-go to memory[1518]
-1897 | pop: r0 = pop();
-1898 | push: push(r0);
-1899 | push: push(r0);
-1900 | push: push(r1);
-1901 | push: push(r2);
-1902 | set: r0 = 28679
-1903 | set: r1 = 1531
-1904 | add: r2 = 14257 + 17220
-1905 | call: push(5131);
-go to memory[1458]
-1906 | pop: r2 = pop();
-1907 | pop: r1 = pop();
-1908 | pop: r0 = pop();
+1894 | push: push(r0);
+1895 | push: push(r1);
+1896 | push: push(r2);
+1897 | set: r0 = 28664
+1898 | set: r1 = 1531
+1899 | add: r2 = 1418 + 6113
+1900 | call: push(5090); go to memory[1458]
+1901 | pop: r2 = pop();
+1902 | pop: r1 = pop();
+1903 | pop: r0 = pop();
+1904 | pop: r0 = pop();
+1905 | push: push(r0);
+1906 | add: r2 = r0 + 0
+1907 | rmem: r0 = memory[r2]
+1908 | call: push(5109); go to memory[1518]
 1909 | pop: r0 = pop();
-1910 | rmem: r2 = memory[2462]
-1911 | add: r2 = r2 + 1
-1912 | wmem: memory[2462] = r2
-1913 | rmem: r3 = memory[27101]
-1914 | eq: if (r2 == r3) { r3 == 1 } else { r3 == 0 }
-1915 | set: r0 = 0
-1916 | add: r1 = 27101 + 1
-1917 | rmem: r1 = memory[r1]
-1918 | add: r0 = r0 + r1
-1919 | add: r1 = 27101 + 2
-1920 | rmem: r1 = memory[r1]
-1921 | add: r2 = 27101 + 3
-1922 | rmem: r2 = memory[r2]
-1923 | mult: r2 = r2 * r2
-1924 | mult: r1 = r1 * r2
-1925 | add: r0 = r0 + r1
-1926 | add: r1 = 27101 + 4
-1927 | rmem: r1 = memory[r1]
-1928 | mult: r2 = r1 * r1
-1929 | mult: r2 = r2 * r1
-1930 | add: r0 = r0 + r2
-1931 | add: r1 = 27101 + 5
+1910 | push: push(r0);
+1911 | push: push(r0);
+1912 | push: push(r1);
+1913 | push: push(r2);
+1914 | set: r0 = 28679
+1915 | set: r1 = 1531
+1916 | add: r2 = 14257 + 17220
+1917 | call: push(5131); go to memory[1458]
+1918 | pop: r2 = pop();
+1919 | pop: r1 = pop();
+1920 | pop: r0 = pop();
+1921 | pop: r0 = pop();
+1922 | rmem: r2 = memory[2462]
+1923 | add: r2 = r2 + 1
+1924 | wmem: memory[2462] = r2
+1925 | rmem: r3 = memory[27101]
+1926 | eq: if (r2 == r3) { r3 == 1 } else { r3 == 0 }
+1927 | set: r0 = 0
+1928 | add: r1 = 27101 + 1
+1929 | rmem: r1 = memory[r1]
+1930 | add: r0 = r0 + r1
+1931 | add: r1 = 27101 + 2
 1932 | rmem: r1 = memory[r1]
-1933 | mult: r1 = r1 * 32767
-1934 | add: r0 = r0 + r1
-1935 | eq: if (r0 == 399) { r1 == 1 } else { r1 == 0 }
-1936 | add: r2 = 2688 + 2
-1937 | wmem: memory[r2] = 2457
-1938 | add: r2 = 2692 + 2
-1939 | wmem: memory[r2] = 2457
-1940 | add: r2 = 2696 + 2
-1941 | wmem: memory[r2] = 2457
-1942 | add: r2 = 2700 + 2
-1943 | wmem: memory[r2] = 2457
-1944 | add: r2 = 2704 + 2
-1945 | wmem: memory[r2] = 2457
-1946 | wmem: memory[2462] = 0
-1947 | set: r0 = 27095
-1948 | set: r1 = 5341
-1949 | call: push(5286);
-go to memory[1458]
-1950 | push: push(r0);
-1951 | push: push(r1);
-1952 | push: push(r2);
-1953 | set: r0 = 28710
-1954 | set: r1 = 1531
-1955 | add: r2 = 7370 + 9114
-1956 | call: push(5304);
-go to memory[1458]
-1957 | pop: r2 = pop();
-1958 | pop: r1 = pop();
-1959 | pop: r0 = pop();
-1960 | jmp: go to memory[5336]
-1961 | push: push(r0);
-1962 | push: push(r1);
-1963 | push: push(r2);
-1964 | set: r0 = 28777
-1965 | set: r1 = 1531
-1966 | add: r2 = 2171 + 20463
-1967 | call: push(5330);
-go to memory[1458]
-1968 | pop: r2 = pop();
-1969 | pop: r1 = pop();
-1970 | pop: r0 = pop();
-1971 | pop: r3 = pop();
-1972 | pop: r2 = pop();
-1973 | ret: go to memory[pop()];
-1974 | push: push(r2);
-1975 | add: r2 = 2457 + 1
-1976 | rmem: r2 = memory[r2]
-1977 | add: r2 = r2 + r0
-1978 | wmem: memory[r2] = 95
-1979 | pop: r2 = pop();
-1980 | ret: go to memory[pop()];
-1981 | push: push(r0);
-1982 | push: push(r1);
-1983 | set: r0 = 2688
-1984 | set: r1 = 2
-1985 | call: push(5372);
-go to memory[4977]
-1986 | pop: r1 = pop();
-1987 | pop: r0 = pop();
-1988 | ret: go to memory[pop()];
-1989 | push: push(r0);
-1990 | push: push(r1);
-1991 | set: r0 = 2692
-1992 | set: r1 = 3
-1993 | call: push(5389);
-go to memory[4977]
-1994 | pop: r1 = pop();
-1995 | pop: r0 = pop();
-1996 | ret: go to memory[pop()];
-1997 | push: push(r0);
-1998 | push: push(r1);
-1999 | set: r0 = 2696
-2000 | set: r1 = 5
-2001 | call: push(5406);
-go to memory[4977]
-2002 | pop: r1 = pop();
-2003 | pop: r0 = pop();
-2004 | ret: go to memory[pop()];
-2005 | push: push(r0);
-2006 | push: push(r1);
-2007 | set: r0 = 2700
-2008 | set: r1 = 7
-2009 | call: push(5423);
-go to memory[4977]
-2010 | pop: r1 = pop();
-2011 | pop: r0 = pop();
-2012 | ret: go to memory[pop()];
-2013 | push: push(r0);
-2014 | push: push(r1);
-2015 | set: r0 = 2704
-2016 | set: r1 = 9
-2017 | call: push(5440);
-go to memory[4977]
-2018 | pop: r1 = pop();
-2019 | pop: r0 = pop();
-2020 | ret: go to memory[pop()];
-2021 | push: push(r0);
-2022 | push: push(r1);
-2023 | push: push(r2);
-2024 | jt: if (r7 == 0 { go to 5605 }
+1933 | add: r2 = 27101 + 3
+1934 | rmem: r2 = memory[r2]
+1935 | mult: r2 = r2 * r2
+1936 | mult: r1 = r1 * r2
+1937 | add: r0 = r0 + r1
+1938 | add: r1 = 27101 + 4
+1939 | rmem: r1 = memory[r1]
+1940 | mult: r2 = r1 * r1
+1941 | mult: r2 = r2 * r1
+1942 | add: r0 = r0 + r2
+1943 | add: r1 = 27101 + 5
+1944 | rmem: r1 = memory[r1]
+1945 | mult: r1 = r1 * 32767
+1946 | add: r0 = r0 + r1
+1947 | eq: if (r0 == 399) { r1 == 1 } else { r1 == 0 }
+1948 | add: r2 = 2688 + 2
+1949 | wmem: memory[r2] = 2457
+1950 | add: r2 = 2692 + 2
+1951 | wmem: memory[r2] = 2457
+1952 | add: r2 = 2696 + 2
+1953 | wmem: memory[r2] = 2457
+1954 | add: r2 = 2700 + 2
+1955 | wmem: memory[r2] = 2457
+1956 | add: r2 = 2704 + 2
+1957 | wmem: memory[r2] = 2457
+1958 | wmem: memory[2462] = 0
+1959 | set: r0 = 27095
+1960 | set: r1 = 5341
+1961 | call: push(5286); go to memory[1458]
+1962 | push: push(r0);
+1963 | push: push(r1);
+1964 | push: push(r2);
+1965 | set: r0 = 28710
+1966 | set: r1 = 1531
+1967 | add: r2 = 7370 + 9114
+1968 | call: push(5304); go to memory[1458]
+1969 | pop: r2 = pop();
+1970 | pop: r1 = pop();
+1971 | pop: r0 = pop();
+1972 | jmp: go to memory[5336]
+1973 | push: push(r0);
+1974 | push: push(r1);
+1975 | push: push(r2);
+1976 | set: r0 = 28777
+1977 | set: r1 = 1531
+1978 | add: r2 = 2171 + 20463
+1979 | call: push(5330); go to memory[1458]
+1980 | pop: r2 = pop();
+1981 | pop: r1 = pop();
+1982 | pop: r0 = pop();
+1983 | pop: r3 = pop();
+1984 | pop: r2 = pop();
+1985 | ret: go to memory[pop()];
+1986 | push: push(r2);
+1987 | add: r2 = 2457 + 1
+1988 | rmem: r2 = memory[r2]
+1989 | add: r2 = r2 + r0
+1990 | wmem: memory[r2] = 95
+1991 | pop: r2 = pop();
+1992 | ret: go to memory[pop()];
+1993 | push: push(r0);
+1994 | push: push(r1);
+1995 | set: r0 = 2688
+1996 | set: r1 = 2
+1997 | call: push(5372); go to memory[4977]
+1998 | pop: r1 = pop();
+1999 | pop: r0 = pop();
+2000 | ret: go to memory[pop()];
+2001 | push: push(r0);
+2002 | push: push(r1);
+2003 | set: r0 = 2692
+2004 | set: r1 = 3
+2005 | call: push(5389); go to memory[4977]
+2006 | pop: r1 = pop();
+2007 | pop: r0 = pop();
+2008 | ret: go to memory[pop()];
+2009 | push: push(r0);
+2010 | push: push(r1);
+2011 | set: r0 = 2696
+2012 | set: r1 = 5
+2013 | call: push(5406); go to memory[4977]
+2014 | pop: r1 = pop();
+2015 | pop: r0 = pop();
+2016 | ret: go to memory[pop()];
+2017 | push: push(r0);
+2018 | push: push(r1);
+2019 | set: r0 = 2700
+2020 | set: r1 = 7
+2021 | call: push(5423); go to memory[4977]
+2022 | pop: r1 = pop();
+2023 | pop: r0 = pop();
+2024 | ret: go to memory[pop()];
 2025 | push: push(r0);
 2026 | push: push(r1);
-2027 | push: push(r2);
-2028 | set: r0 = 28844
-2029 | set: r1 = 1531
-2030 | add: r2 = 1543 + 866
-2031 | call: push(5472);
-go to memory[1458]
-2032 | pop: r2 = pop();
-2033 | pop: r1 = pop();
-2034 | pop: r0 = pop();
-2035 | set: r0 = 4
-2036 | set: r1 = 1
-2037 | call: push(5491);
-go to memory[6027]
-2038 | eq: if (r0 == 6) { r1 == 1 } else { r1 == 0 }
-2039 | push: push(r0);
-2040 | push: push(r1);
-2041 | push: push(r2);
-2042 | set: r0 = 29014
-2043 | set: r1 = 1531
-2044 | add: r2 = 8025 + 7965
-2045 | call: push(5516);
-go to memory[1458]
-2046 | pop: r2 = pop();
-2047 | pop: r1 = pop();
-2048 | pop: r0 = pop();
-2049 | set: r0 = r7
-2050 | set: r1 = 25866
-2051 | set: r2 = 32767
-2052 | push: push(r3);
-2053 | set: r3 = 29241
-2054 | call: push(5538);
-go to memory[1841]
-2055 | pop: r3 = pop();
-2056 | push: push(r0);
-2057 | push: push(r1);
-2058 | push: push(r2);
-2059 | set: r0 = 29245
-2060 | set: r1 = 1531
-2061 | add: r2 = 1211 + 23978
-2062 | call: push(5558);
-go to memory[1458]
-2063 | pop: r2 = pop();
-2064 | pop: r1 = pop();
-2065 | pop: r0 = pop();
-2066 | wmem: memory[2732] = 2498
-2067 | wmem: memory[2733] = 0
-2068 | add: r1 = 2708 + 2
-2069 | wmem: memory[r1] = 32767
-2070 | jmp: go to memory[5714]
-2071 | push: push(r0);
-2072 | push: push(r1);
-2073 | push: push(r2);
-2074 | set: r0 = 29400
-2075 | set: r1 = 1531
-2076 | add: r2 = 10577 + 19216
-2077 | call: push(5597);
-go to memory[1458]
-2078 | pop: r2 = pop();
-2079 | pop: r1 = pop();
-2080 | pop: r0 = pop();
-2081 | jmp: go to memory[5714]
-2082 | push: push(r0);
-2083 | push: push(r1);
-2084 | push: push(r2);
-2085 | set: r0 = 29545
-2086 | set: r1 = 1531
-2087 | add: r2 = 13726 + 9414
-2088 | call: push(5623);
-go to memory[1458]
-2089 | pop: r2 = pop();
-2090 | pop: r1 = pop();
-2091 | pop: r0 = pop();
-2092 | set: r0 = 0
-2093 | add: r2 = 1 + 27101
-2094 | rmem: r1 = memory[r2]
-2095 | add: r0 = r0 + r1
-2096 | mult: r0 = r0 * 31660
-2097 | call: push(5649);
-go to memory[2125]
-2098 | rmem: r1 = memory[27101]
-2099 | add: r1 = r1 + 27101
-2100 | add: r2 = r2 + 1
-2101 | gt: if (r2 > r1) { r1 == 1 } else { r1 == 0 }
-2102 | set: r1 = 25866
-2103 | set: r2 = 32767
-2104 | push: push(r3);
-2105 | set: r3 = 29663
-2106 | call: push(5680);
-go to memory[1841]
-2107 | pop: r3 = pop();
-2108 | push: push(r0);
-2109 | push: push(r1);
-2110 | push: push(r2);
-2111 | set: r0 = 29667
-2112 | set: r1 = 1531
-2113 | add: r2 = 74 + 44
-2114 | call: push(5700);
-go to memory[1458]
-2115 | pop: r2 = pop();
-2116 | pop: r1 = pop();
-2117 | pop: r0 = pop();
-2118 | wmem: memory[2732] = 2488
-2119 | wmem: memory[2733] = 0
-2120 | jmp: go to memory[5714]
-2121 | pop: r2 = pop();
-2122 | pop: r1 = pop();
-2123 | pop: r0 = pop();
-2124 | ret: go to memory[pop()];
-2125 | push: push(r0);
-2126 | push: push(r1);
-2127 | push: push(r2);
-2128 | push: push(r3);
-2129 | push: push(r0);
-2130 | push: push(r1);
-2131 | push: push(r2);
-2132 | set: r0 = 29757
-2133 | set: r1 = 1531
-2134 | add: r2 = 2318 + 8533
-2135 | call: push(5747);
-go to memory[1458]
-2136 | pop: r2 = pop();
-2137 | pop: r1 = pop();
-2138 | pop: r0 = pop();
-2139 | rmem: r0 = memory[3955]
-2140 | rmem: r1 = memory[3956]
-2141 | call: push(5761);
-go to memory[2125]
-2142 | rmem: r1 = memory[3957]
-2143 | call: push(5766);
-go to memory[2125]
-2144 | set: r1 = 25919
-2145 | set: r2 = 4
-2146 | push: push(r3);
-2147 | set: r3 = 29942
-2148 | call: push(5779);
-go to memory[1841]
-2149 | pop: r3 = pop();
-2150 | push: push(r0);
-2151 | push: push(r1);
-2152 | push: push(r2);
-2153 | set: r0 = 29946
-2154 | set: r1 = 1531
-2155 | add: r2 = 16156 + 6613
-2156 | call: push(5799);
-go to memory[1458]
-2157 | pop: r2 = pop();
-2158 | pop: r1 = pop();
-2159 | pop: r0 = pop();
-2160 | pop: r3 = pop();
-2161 | pop: r2 = pop();
-2162 | pop: r1 = pop();
-2163 | pop: r0 = pop();
-2164 | ret: go to memory[pop()];
-2165 | out: printf(45);
-2166 | out: printf(32);
-2167 | call: push(5820);
-go to memory[1518]
-2168 | out: printf(10);
-2169 | ret: go to memory[pop()];
-2170 | push: push(r1);
-2171 | push: push(r2);
-2172 | set: r0 = 27381
-2173 | set: r1 = 5846
-2174 | set: r2 = 0
-2175 | call: push(5838);
-go to memory[1458]
-2176 | set: r0 = r2
-2177 | pop: r2 = pop();
-2178 | pop: r1 = pop();
-2179 | ret: go to memory[pop()];
-2180 | push: push(r3);
-2181 | push: push(r4);
-2182 | rmem: r3 = memory[2732]
-2183 | add: r4 = r0 + 2
-2184 | rmem: r4 = memory[r4]
-2185 | eq: if (r3 == r4) { r3 == 1 } else { r3 == 0 }
-2186 | add: r2 = r2 + 1
-2187 | pop: r4 = pop();
-2188 | pop: r3 = pop();
-2189 | ret: go to memory[pop()];
-2190 | push: push(r0);
-2191 | push: push(r1);
-2192 | set: r0 = 27381
-2193 | set: r1 = 5893
-2194 | call: push(5888);
-go to memory[1458]
-2195 | pop: r1 = pop();
-2196 | pop: r0 = pop();
-2197 | ret: go to memory[pop()];
-2198 | push: push(r3);
-2199 | add: r3 = r0 + 2
-2200 | rmem: r3 = memory[r3]
-2201 | eq: if (r2 == r3) { r3 == 1 } else { r3 == 0 }
-2202 | add: r0 = r0 + 0
-2203 | rmem: r0 = memory[r0]
-2204 | call: push(5918);
-go to memory[5814]
-2205 | pop: r3 = pop();
-2206 | ret: go to memory[pop()];
-2207 | push: push(r1);
-2208 | push: push(r2);
-2209 | set: r2 = r0
-2210 | set: r0 = 27381
-2211 | set: r1 = 5964
-2212 | call: push(5936);
-go to memory[1543]
-2213 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
-2214 | add: r1 = 27381 + r0
-2215 | add: r1 = r1 + 1
-2216 | rmem: r0 = memory[r1]
-2217 | jmp: go to memory[5959]
-2218 | set: r0 = 0
-2219 | pop: r2 = pop();
-2220 | pop: r1 = pop();
-2221 | ret: go to memory[pop()];
-2222 | push: push(r1);
-2223 | set: r1 = r2
-2224 | add: r0 = r0 + 0
-2225 | rmem: r0 = memory[r0]
-2226 | call: push(5978);
-go to memory[1667]
-2227 | pop: r1 = pop();
-2228 | jt: if (r0 == 0 { go to 5989 }
-2229 | set: r2 = r1
-2230 | set: r1 = 32767
-2231 | ret: go to memory[pop()];
-2232 | push: push(r1);
-2233 | push: push(r2);
-2234 | add: r0 = r0 + 2
-2235 | rmem: r0 = memory[r0]
-2236 | jt: if (r0 == 0 { go to 6019 }
-2237 | rmem: r1 = memory[2732]
-2238 | eq: if (r0 == r1) { r1 == 1 } else { r1 == 0 }
-2239 | set: r0 = 0
-2240 | jmp: go to memory[6022]
-2241 | set: r0 = 1
-2242 | pop: r2 = pop();
-2243 | pop: r1 = pop();
+2027 | set: r0 = 2704
+2028 | set: r1 = 9
+2029 | call: push(5440); go to memory[4977]
+2030 | pop: r1 = pop();
+2031 | pop: r0 = pop();
+2032 | ret: go to memory[pop()];
+2033 | push: push(r0);
+2034 | push: push(r1);
+2035 | push: push(r2);
+2036 | jt: if (r7 == 0 { go to 5605 }
+2037 | push: push(r0);
+2038 | push: push(r1);
+2039 | push: push(r2);
+2040 | set: r0 = 28844
+2041 | set: r1 = 1531
+2042 | add: r2 = 1543 + 866
+2043 | call: push(5472); go to memory[1458]
+2044 | pop: r2 = pop();
+2045 | pop: r1 = pop();
+2046 | pop: r0 = pop();
+2047 | noop: 2048 | noop: 2049 | noop: 2050 | eq: if (r1 == 1) { 1 == 1 } else { 1 == 0 }
+2051 | eq: if (r0 == 6) { r1 == 1 } else { r1 == 0 }
+2052 | push: push(r0);
+2053 | push: push(r1);
+2054 | push: push(r2);
+2055 | set: r0 = 29014
+2056 | set: r1 = 1531
+2057 | add: r2 = 8025 + 7965
+2058 | call: push(5516); go to memory[1458]
+2059 | pop: r2 = pop();
+2060 | pop: r1 = pop();
+2061 | pop: r0 = pop();
+2062 | set: r0 = r7
+2063 | set: r1 = 25866
+2064 | set: r2 = 32767
+2065 | push: push(r3);
+2066 | set: r3 = 29241
+2067 | call: push(5538); go to memory[1841]
+2068 | pop: r3 = pop();
+2069 | push: push(r0);
+2070 | push: push(r1);
+2071 | push: push(r2);
+2072 | set: r0 = 29245
+2073 | set: r1 = 1531
+2074 | add: r2 = 1211 + 23978
+2075 | call: push(5558); go to memory[1458]
+2076 | pop: r2 = pop();
+2077 | pop: r1 = pop();
+2078 | pop: r0 = pop();
+2079 | wmem: memory[2732] = 2498
+2080 | wmem: memory[2733] = 0
+2081 | add: r1 = 2708 + 2
+2082 | wmem: memory[r1] = 32767
+2083 | jmp: go to memory[5714]
+2084 | push: push(r0);
+2085 | push: push(r1);
+2086 | push: push(r2);
+2087 | set: r0 = 29400
+2088 | set: r1 = 1531
+2089 | add: r2 = 10577 + 19216
+2090 | call: push(5597); go to memory[1458]
+2091 | pop: r2 = pop();
+2092 | pop: r1 = pop();
+2093 | pop: r0 = pop();
+2094 | jmp: go to memory[5714]
+2095 | push: push(r0);
+2096 | push: push(r1);
+2097 | push: push(r2);
+2098 | set: r0 = 29545
+2099 | set: r1 = 1531
+2100 | add: r2 = 13726 + 9414
+2101 | call: push(5623); go to memory[1458]
+2102 | pop: r2 = pop();
+2103 | pop: r1 = pop();
+2104 | pop: r0 = pop();
+2105 | set: r0 = 0
+2106 | add: r2 = 1 + 27101
+2107 | rmem: r1 = memory[r2]
+2108 | add: r0 = r0 + r1
+2109 | mult: r0 = r0 * 31660
+2110 | call: push(5649); go to memory[2125]
+2111 | rmem: r1 = memory[27101]
+2112 | add: r1 = r1 + 27101
+2113 | add: r2 = r2 + 1
+2114 | gt: if (r2 > r1) { r1 == 1 } else { r1 == 0 }
+2115 | set: r1 = 25866
+2116 | set: r2 = 32767
+2117 | push: push(r3);
+2118 | set: r3 = 29663
+2119 | call: push(5680); go to memory[1841]
+2120 | pop: r3 = pop();
+2121 | push: push(r0);
+2122 | push: push(r1);
+2123 | push: push(r2);
+2124 | set: r0 = 29667
+2125 | set: r1 = 1531
+2126 | add: r2 = 74 + 44
+2127 | call: push(5700); go to memory[1458]
+2128 | pop: r2 = pop();
+2129 | pop: r1 = pop();
+2130 | pop: r0 = pop();
+2131 | wmem: memory[2732] = 2488
+2132 | wmem: memory[2733] = 0
+2133 | jmp: go to memory[5714]
+2134 | pop: r2 = pop();
+2135 | pop: r1 = pop();
+2136 | pop: r0 = pop();
+2137 | ret: go to memory[pop()];
+2138 | push: push(r0);
+2139 | push: push(r1);
+2140 | push: push(r2);
+2141 | push: push(r3);
+2142 | push: push(r0);
+2143 | push: push(r1);
+2144 | push: push(r2);
+2145 | set: r0 = 29757
+2146 | set: r1 = 1531
+2147 | add: r2 = 2318 + 8533
+2148 | call: push(5747); go to memory[1458]
+2149 | pop: r2 = pop();
+2150 | pop: r1 = pop();
+2151 | pop: r0 = pop();
+2152 | rmem: r0 = memory[3955]
+2153 | rmem: r1 = memory[3956]
+2154 | call: push(5761); go to memory[2125]
+2155 | rmem: r1 = memory[3957]
+2156 | call: push(5766); go to memory[2125]
+2157 | set: r1 = 25919
+2158 | set: r2 = 4
+2159 | push: push(r3);
+2160 | set: r3 = 29942
+2161 | call: push(5779); go to memory[1841]
+2162 | pop: r3 = pop();
+2163 | push: push(r0);
+2164 | push: push(r1);
+2165 | push: push(r2);
+2166 | set: r0 = 29946
+2167 | set: r1 = 1531
+2168 | add: r2 = 16156 + 6613
+2169 | call: push(5799); go to memory[1458]
+2170 | pop: r2 = pop();
+2171 | pop: r1 = pop();
+2172 | pop: r0 = pop();
+2173 | pop: r3 = pop();
+2174 | pop: r2 = pop();
+2175 | pop: r1 = pop();
+2176 | pop: r0 = pop();
+2177 | ret: go to memory[pop()];
+2178 | out: printf(45);
+2179 | out: printf(32);
+2180 | call: push(5820); go to memory[1518]
+2181 | out: printf(10);
+2182 | ret: go to memory[pop()];
+2183 | push: push(r1);
+2184 | push: push(r2);
+2185 | set: r0 = 27381
+2186 | set: r1 = 5846
+2187 | set: r2 = 0
+2188 | call: push(5838); go to memory[1458]
+2189 | set: r0 = r2
+2190 | pop: r2 = pop();
+2191 | pop: r1 = pop();
+2192 | ret: go to memory[pop()];
+2193 | push: push(r3);
+2194 | push: push(r4);
+2195 | rmem: r3 = memory[2732]
+2196 | add: r4 = r0 + 2
+2197 | rmem: r4 = memory[r4]
+2198 | eq: if (r3 == r4) { r3 == 1 } else { r3 == 0 }
+2199 | add: r2 = r2 + 1
+2200 | pop: r4 = pop();
+2201 | pop: r3 = pop();
+2202 | ret: go to memory[pop()];
+2203 | push: push(r0);
+2204 | push: push(r1);
+2205 | set: r0 = 27381
+2206 | set: r1 = 5893
+2207 | call: push(5888); go to memory[1458]
+2208 | pop: r1 = pop();
+2209 | pop: r0 = pop();
+2210 | ret: go to memory[pop()];
+2211 | push: push(r3);
+2212 | add: r3 = r0 + 2
+2213 | rmem: r3 = memory[r3]
+2214 | eq: if (r2 == r3) { r3 == 1 } else { r3 == 0 }
+2215 | add: r0 = r0 + 0
+2216 | rmem: r0 = memory[r0]
+2217 | call: push(5918); go to memory[5814]
+2218 | pop: r3 = pop();
+2219 | ret: go to memory[pop()];
+2220 | push: push(r1);
+2221 | push: push(r2);
+2222 | set: r2 = r0
+2223 | set: r0 = 27381
+2224 | set: r1 = 5964
+2225 | call: push(5936); go to memory[1543]
+2226 | eq: if (r0 == 32767) { r1 == 1 } else { r1 == 0 }
+2227 | add: r1 = 27381 + r0
+2228 | add: r1 = r1 + 1
+2229 | rmem: r0 = memory[r1]
+2230 | jmp: go to memory[5959]
+2231 | set: r0 = 0
+2232 | pop: r2 = pop();
+2233 | pop: r1 = pop();
+2234 | ret: go to memory[pop()];
+2235 | push: push(r1);
+2236 | set: r1 = r2
+2237 | add: r0 = r0 + 0
+2238 | rmem: r0 = memory[r0]
+2239 | call: push(5978); go to memory[1667]
+2240 | pop: r1 = pop();
+2241 | jt: if (r0 == 0 { go to 5989 }
+2242 | set: r2 = r1
+2243 | set: r1 = 32767
 2244 | ret: go to memory[pop()];
-2245 | jt: if (r0 != 0 { go to memory[6035] }
-2246 | add: r0 = r1 + 1
-2247 | ret: go to memory[pop()];
-2248 | jt: if (r1 != 0 { go to memory[6048] }
-2249 | add: r0 = r0 + 32767
-2250 | set: r1 = r7
-2251 | call: push(6047);
-go to memory[6027]
-2252 | ret: go to memory[pop()];
-2253 | push: push(r0);
-2254 | add: r1 = r1 + 32767
-2255 | call: push(6056);
-go to memory[6027]
-2256 | set: r1 = r0
-2257 | pop: r0 = pop();
-2258 | add: r0 = r0 + 32767
-2259 | call: push(6067);
-go to memory[6027]
+2245 | push: push(r1);
+2246 | push: push(r2);
+2247 | add: r0 = r0 + 2
+2248 | rmem: r0 = memory[r0]
+2249 | jt: if (r0 == 0 { go to 6019 }
+2250 | rmem: r1 = memory[2732]
+2251 | eq: if (r0 == r1) { r1 == 1 } else { r1 == 0 }
+2252 | set: r0 = 0
+2253 | jmp: go to memory[6022]
+2254 | set: r0 = 1
+2255 | pop: r2 = pop();
+2256 | pop: r1 = pop();
+2257 | ret: go to memory[pop()];
+2258 | jt: if (r0 != 0 { go to memory[6035] }
+2259 | add: r0 = r1 + 1
 2260 | ret: go to memory[pop()];
-2261 | mod: 84 = 101 % 115
-2262 | mult: 8 = 99 * 111
-2263 | pop: 0 = pop();
-2264 | halt: 
-2265 | halt: 
-2266 | and: 0 = 0 and 0
-2267 | halt: 
-2268 | halt: 
-2269 | halt: 
-2270 | halt: 
-2271 | halt: 
-2272 | halt: 
-2273 | halt: 
-2274 | halt: 
-2275 | halt: 
-2276 | add: 70 = 111 + 111
-2277 | jt: if (100 != 0 { go to memory[111] }
-2278 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2279 | add: 70 = 111 + 111
-2280 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2281 | add: 68 = 97 + 114
-2282 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2283 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2284 | add: 68 = 97 + 114
-2285 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2286 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2287 | add: 68 = 97 + 114
-2288 | jmp: go to memory[98]
-2289 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2290 | mod: 82 = 111 % 112
-2291 | jt: if (99 == 0 { go to 111 }
-2292 | eq: if (97 == 99) { 98 == 1 } else { 98 == 0 }
-2293 | eq: if (111 == 119) { 100 == 1 } else { 100 == 0 }
-2294 | mod: 77 = 111 % 115
-2295 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2296 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2297 | mod: 77 = 111 % 115
-2298 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2299 | mod: 77 = 111 % 115
-2300 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2301 | jt: if (112 != 0 { go to memory[97] }
-2302 | jt: if (80 != 0 { go to memory[97] }
-2303 | jmp: go to memory[99]
-2304 | jmp: go to memory[108]
-2305 | jt: if (100 == 0 { go to 97 }
-2306 | jt: if (80 != 0 { go to memory[97] }
-2307 | jt: if (99 == 0 { go to 111 }
-2308 | eq: if (97 == 99) { 98 == 1 } else { 98 == 0 }
-2309 | rmem: 84 = memory[119]
-2310 | jmp: go to memory[108]
-2311 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2312 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2261 | jt: if (r1 != 0 { go to memory[6048] }
+2262 | add: r0 = r0 + 32767
+2263 | set: r1 = r7
+2264 | call: push(6047); go to memory[6027]
+2265 | ret: go to memory[pop()];
+2266 | push: push(r0);
+2267 | add: r1 = r1 + 32767
+2268 | call: push(6056); go to memory[6027]
+2269 | set: r1 = r0
+2270 | pop: r0 = pop();
+2271 | add: r0 = r0 + 32767
+2272 | call: push(6067); go to memory[6027]
+2273 | ret: go to memory[pop()];
+2274 | mod: 84 = 101 % 115
+2275 | mult: 8 = 99 * 111
+2276 | pop: 0 = pop();
+2277 | halt: 
+2278 | halt: 
+2279 | and: 0 = 0 and 0
+2280 | halt: 
+2281 | halt: 
+2282 | halt: 
+2283 | halt: 
+2284 | halt: 
+2285 | halt: 
+2286 | halt: 
+2287 | halt: 
+2288 | halt: 
+2289 | add: 70 = 111 + 111
+2290 | jt: if (100 != 0 { go to memory[111] }
+2291 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2292 | add: 70 = 111 + 111
+2293 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2294 | add: 68 = 97 + 114
+2295 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2296 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2297 | add: 68 = 97 + 114
+2298 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2299 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2300 | add: 68 = 97 + 114
+2301 | jmp: go to memory[98]
+2302 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2303 | mod: 82 = 111 % 112
+2304 | jt: if (99 == 0 { go to 111 }
+2305 | eq: if (97 == 99) { 98 == 1 } else { 98 == 0 }
+2306 | eq: if (111 == 119) { 100 == 1 } else { 100 == 0 }
+2307 | mod: 77 = 111 % 115
+2308 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2309 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2310 | mod: 77 = 111 % 115
+2311 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2312 | mod: 77 = 111 % 115
 2313 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2314 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2315 | rmem: 84 = memory[119]
-2316 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2317 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2318 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2319 | rmem: 84 = memory[119]
-2320 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2321 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2322 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2323 | rmem: 84 = memory[119]
-2324 | mult: 10 = 84 * 104
-2325 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2326 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2314 | jt: if (112 != 0 { go to memory[97] }
+2315 | jt: if (80 != 0 { go to memory[97] }
+2316 | jmp: go to memory[99]
+2317 | jmp: go to memory[108]
+2318 | jt: if (100 == 0 { go to 97 }
+2319 | jt: if (80 != 0 { go to memory[97] }
+2320 | jt: if (99 == 0 { go to 111 }
+2321 | eq: if (97 == 99) { 98 == 1 } else { 98 == 0 }
+2322 | rmem: 84 = memory[119]
+2323 | jmp: go to memory[108]
+2324 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2325 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2326 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
 2327 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2328 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2329 | rmem: 84 = memory[119]
-2330 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2331 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2332 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2333 | rmem: 84 = memory[119]
-2334 | mult: 10 = 84 * 104
-2335 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2336 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2337 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2338 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2339 | rmem: 84 = memory[119]
-2340 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2328 | rmem: 84 = memory[119]
+2329 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2330 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2331 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2332 | rmem: 84 = memory[119]
+2333 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2334 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2335 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2336 | rmem: 84 = memory[119]
+2337 | mult: 10 = 84 * 104
+2338 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2339 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2340 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
 2341 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2342 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2343 | rmem: 84 = memory[119]
-2344 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2345 | rmem: 84 = memory[119]
-2346 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2347 | rmem: 84 = memory[119]
+2342 | rmem: 84 = memory[119]
+2343 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2344 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2345 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2346 | rmem: 84 = memory[119]
+2347 | mult: 10 = 84 * 104
 2348 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
 2349 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2350 | and: 68 = 97 and 114
-2351 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2352 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2353 | and: 68 = 97 and 114
+2350 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2351 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2352 | rmem: 84 = memory[119]
+2353 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
 2354 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2355 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2356 | and: 68 = 97 and 114
-2357 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2358 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2359 | and: 68 = 97 and 114
-2360 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2361 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2362 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2363 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2364 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2365 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2366 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2367 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2368 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2369 | mult: 10 = 95 * 32
-2370 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2371 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2372 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2373 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2374 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2375 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2376 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2377 | eq: if (111 == 119) { 100 == 1 } else { 100 == 0 }
-2378 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2379 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2380 | push: push(117);
+2355 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2356 | rmem: 84 = memory[119]
+2357 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2358 | rmem: 84 = memory[119]
+2359 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2360 | rmem: 84 = memory[119]
+2361 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2362 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2363 | and: 68 = 97 and 114
+2364 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2365 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2366 | and: 68 = 97 and 114
+2367 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2368 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2369 | and: 68 = 97 and 114
+2370 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2371 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2372 | and: 68 = 97 and 114
+2373 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2374 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2375 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2376 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2377 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2378 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2379 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2380 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
 2381 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2382 | push: push(117);
-2383 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2384 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
-2385 | eq: if (111 == 119) { 100 == 1 } else { 100 == 0 }
-2386 | in: 83 = getchar();
-2387 | jt: if (111 != 0 { go to memory[117] }
-2388 | in: 83 = getchar();
-2389 | jmp: go to memory[105]
-2390 | gt: if (101 > 97) { 66 == 1 } else { 66 == 0 }
+2382 | mult: 10 = 95 * 32
+2383 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2384 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2385 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2386 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2387 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2388 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2389 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2390 | eq: if (111 == 119) { 100 == 1 } else { 100 == 0 }
 2391 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2392 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2393 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2394 | gt: if (101 > 97) { 66 == 1 } else { 66 == 0 }
-2395 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2396 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2397 | gt: if (101 > 97) { 66 == 1 } else { 66 == 0 }
-2398 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2399 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2400 | rmem: 84 = memory[114]
-2401 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2402 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2403 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2404 | rmem: 84 = memory[114]
-2405 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2406 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2407 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2408 | rmem: 84 = memory[114]
+2392 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2393 | push: push(117);
+2394 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2395 | push: push(117);
+2396 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2397 | gt: if (117 > 105) { 82 == 1 } else { 82 == 0 }
+2398 | eq: if (111 == 119) { 100 == 1 } else { 100 == 0 }
+2399 | in: 83 = getchar();
+2400 | jt: if (111 != 0 { go to memory[117] }
+2401 | in: 83 = getchar();
+2402 | jmp: go to memory[105]
+2403 | gt: if (101 > 97) { 66 == 1 } else { 66 == 0 }
+2404 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2405 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2406 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2407 | gt: if (101 > 97) { 66 == 1 } else { 66 == 0 }
+2408 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
 2409 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2410 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2411 | rmem: 84 = memory[114]
+2410 | gt: if (101 > 97) { 66 == 1 } else { 66 == 0 }
+2411 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
 2412 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2413 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2414 | rmem: 84 = memory[114]
-2415 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2416 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2417 | or: 84 = 114 or 111
+2413 | rmem: 84 = memory[114]
+2414 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2415 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2416 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2417 | rmem: 84 = memory[114]
 2418 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
 2419 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2420 | or: 84 = 114 or 111
-2421 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2422 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2423 | or: 84 = 114 or 111
-2424 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2425 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2426 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2427 | in: 84 = getchar();
-2428 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2429 | or: 84 = 114 or 111
-2430 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2431 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2432 | mult: 86 = 97 * 117
-2433 | mult: 10 = 84 * 104
-2434 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2420 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2421 | rmem: 84 = memory[114]
+2422 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2423 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2424 | rmem: 84 = memory[114]
+2425 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2426 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2427 | rmem: 84 = memory[114]
+2428 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2429 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2430 | or: 84 = 114 or 111
+2431 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2432 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2433 | or: 84 = 114 or 111
+2434 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
 2435 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2436 | mult: 86 = 97 * 117
-2437 | mult: 10 = 84 * 104
-2438 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2439 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2440 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2441 | mult: 86 = 97 * 117
-2442 | mult: 10 = 84 * 104
-2443 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2436 | or: 84 = 114 or 111
+2437 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2438 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2439 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2440 | in: 84 = getchar();
+2441 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2442 | or: 84 = 114 or 111
+2443 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
 2444 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2445 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2446 | mult: 86 = 97 * 117
-2447 | mult: 10 = 84 * 104
+2445 | mult: 86 = 97 * 117
+2446 | mult: 10 = 84 * 104
+2447 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
 2448 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2449 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2450 | gt: if (97 > 117) { 118 == 1 } else { 118 == 0 }
-2451 | mult: 86 = 97 * 117
-2452 | mult: 10 = 84 * 104
-2453 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2454 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2455 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2456 | mult: 86 = 97 * 117
-2457 | mult: 10 = 84 * 104
-2458 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2459 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2460 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2461 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2462 | mult: 86 = 97 * 117
-2463 | mult: 10 = 84 * 104
-2464 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2465 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2466 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2467 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2468 | mult: 86 = 97 * 117
-2469 | mult: 10 = 84 * 104
-2470 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2471 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2472 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2473 | mult: 86 = 97 * 117
-2474 | mult: 10 = 84 * 104
-2475 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2476 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2477 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2478 | mult: 86 = 97 * 117
-2479 | mult: 10 = 84 * 104
-2480 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2481 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2482 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2483 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2484 | mult: 86 = 97 * 117
-2485 | mult: 10 = 84 * 104
-2486 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2487 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2488 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2489 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2490 | mult: 86 = 97 * 117
-2491 | mult: 10 = 84 * 104
-2492 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2493 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2494 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2495 | call: push(16793);
-go to memory[86]
-2496 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2497 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2498 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
-2499 | mult: 86 = 97 * 117
-2500 | mult: 10 = 84 * 104
-2501 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2502 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2503 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2504 | mult: 86 = 97 * 117
-2505 | mult: 10 = 84 * 104
-2506 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2507 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
-2508 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2509 | mult: 86 = 97 * 117
-2510 | mult: 10 = 84 * 104
-2511 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
-2512 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
-2513 | gt: if (97 > 117) { 86 == 1 } else { 86 == 0 }
-2514 | gt: if (101 > 97) { 108 == 1 } else { 108 == 0 }
-2515 | jt: if (102 != 0 { go to memory[111] }
-2516 | eq: if (97 == 99) { 98 == 1 } else { 98 == 0 }
-2517 | pop: 114 = pop();
-2518 | mod: 105 = 110 % 118
-2519 | call: push(17951);
-go to memory[80]
-2520 | pop: 114 = pop();
-2521 | eq: if (97 == 105) { 119 == 1 } else { 119 == 0 }
-2522 | eq: if (105 == 100) { 104 == 1 } else { 104 == 0 }
-2523 | gt: if (97 > 116) { 101 == 1 } else { 101 == 0 }
-2524 | halt: 
-2525 | jmp: go to memory[116]
-2526 | or: 101 = 109 or 112
-2527 | jt: if (108 != 0 { go to memory[97] }
-2528 | mod: 108 = 105 % 116
-2529 | pop: 99 = pop();
-2530 | jt: if (114 == 0 { go to 101 }
-2531 | or: 99 = 111 or 114
-2532 | mult: 115 = 104 * 105
-2533 | and: 99 = 111 and 110
-2534 | add: 98 = 108 + 117
-2535 | mult: 116 = 101 * 108
-2536 | or: 98 = 117 or 115
-2537 | pop: 111 = pop();
-2538 | jmp: go to memory[109]
-2539 | and: 115 = 116 and 114
-2540 | mult: 10 = 82 * 101
-2541 | mult: 112 = 114 * 101
-2542 | mult: 105 = 110 * 116
-2543 | mult: 112 = 117 * 114
-2544 | mult: 105 = 110 * 116
-2545 | mult: 70 = 117 * 114
-2546 | mult: 116 = 104 * 105
-2547 | mult: 114 = 101 * 103
-2548 | mult: 10 = 65 * 32
-2549 | mult: 100 = 101 * 115
-2550 | mult: 109 = 105 * 110
-2551 | mult: 104 = 97 * 115
-2552 | mult: 115 = 104 * 111
-2553 | mult: 10 = 84 * 104
-2554 | mult: 101 = 110 * 101
-2555 | mult: 99 = 111 * 110
-2556 | mult: 73 = 102 * 32
-2557 | mult: 108 = 111 * 99
-2558 | mult: 105 = 116 * 115
-2559 | mult: 116 = 104 * 101
-2560 | mult: 101 = 120 * 97
-2561 | mult: 10 = 84 * 104
-2562 | mult: 99 = 111 * 109
-2563 | mult: 115 = 99 * 97
-2564 | mult: 121 = 101 * 97
-2565 | mult: 10 = 73 * 102
-2566 | mult: 104 = 97 * 110
-2567 | mult: 114 = 101 * 105
-2568 | mult: 118 = 101 * 114
-2569 | mult: 104 = 97 * 118
-2570 | mult: 10 = 84 * 104
-2571 | mult: 98 = 121 * 112
-2572 | mult: 97 = 110 * 111
-2573 | mult: 110 = 111 * 119
-2574 | mult: 10 = 79 * 102
-2575 | jt: if (106 != 0 { go to memory[111] }
-2576 | mult: 10 = 68 * 97
-2577 | mult: 10 = 68 * 97
-2578 | mult: 10 = 68 * 97
-2579 | mult: 10 = 68 * 97
-2580 | mult: 10 = 68 * 97
-2581 | mult: 10 = 68 * 97
-2582 | mult: 10 = 68 * 97
-2583 | mult: 10 = 68 * 97
-2584 | mult: 10 = 68 * 97
-2585 | mult: 10 = 68 * 97
-2586 | mult: 10 = 68 * 97
-2587 | mult: 10 = 68 * 97
-2588 | push: push(103);
-2589 | eq: if (111 == 111) { 108 == 1 } else { 108 == 0 }
-2590 | eq: if (101 == 108) { 104 == 1 } else { 104 == 0 }
-2591 | pop: 105 = pop();
-2592 | eq: if (97 == 107) { 116 == 1 } else { 116 == 0 }
-2593 | eq: if (114 == 111) { 100 == 1 } else { 100 == 0 }
-2594 | pop: 117 = pop();
-2595 | halt: 
-2596 | halt: 
-2597 | halt: 
-2598 | halt: 
-2599 | halt: 
-2600 | halt: 
-2601 | halt: 
-2602 | halt: 
-2603 | halt: 
-2604 | halt: 
-2605 | halt: 
-2606 | halt: 
-2607 | halt: 
+2449 | mult: 86 = 97 * 117
+2450 | mult: 10 = 84 * 104
+2451 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2452 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2453 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2454 | mult: 86 = 97 * 117
+2455 | mult: 10 = 84 * 104
+2456 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2457 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2458 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2459 | mult: 86 = 97 * 117
+2460 | mult: 10 = 84 * 104
+2461 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2462 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2463 | gt: if (97 > 117) { 118 == 1 } else { 118 == 0 }
+2464 | mult: 86 = 97 * 117
+2465 | mult: 10 = 84 * 104
+2466 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2467 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2468 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2469 | mult: 86 = 97 * 117
+2470 | mult: 10 = 84 * 104
+2471 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2472 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2473 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2474 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2475 | mult: 86 = 97 * 117
+2476 | mult: 10 = 84 * 104
+2477 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2478 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2479 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2480 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2481 | mult: 86 = 97 * 117
+2482 | mult: 10 = 84 * 104
+2483 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2484 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2485 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2486 | mult: 86 = 97 * 117
+2487 | mult: 10 = 84 * 104
+2488 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2489 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2490 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2491 | mult: 86 = 97 * 117
+2492 | mult: 10 = 84 * 104
+2493 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2494 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2495 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2496 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2497 | mult: 86 = 97 * 117
+2498 | mult: 10 = 84 * 104
+2499 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2500 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2501 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2502 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2503 | mult: 86 = 97 * 117
+2504 | mult: 10 = 84 * 104
+2505 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2506 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2507 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2508 | call: push(16793); go to memory[86]
+2509 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2510 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2511 | gt: if (111 > 117) { 115 == 1 } else { 115 == 0 }
+2512 | mult: 86 = 97 * 117
+2513 | mult: 10 = 84 * 104
+2514 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2515 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2516 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2517 | mult: 86 = 97 * 117
+2518 | mult: 10 = 84 * 104
+2519 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2520 | eq: if (97 == 115) { 101 == 1 } else { 101 == 0 }
+2521 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2522 | mult: 86 = 97 * 117
+2523 | mult: 10 = 84 * 104
+2524 | gt: if (111 > 114) { 110 == 1 } else { 110 == 0 }
+2525 | eq: if (101 == 115) { 119 == 1 } else { 119 == 0 }
+2526 | gt: if (97 > 117) { 86 == 1 } else { 86 == 0 }
+2527 | gt: if (101 > 97) { 108 == 1 } else { 108 == 0 }
+2528 | jt: if (102 != 0 { go to memory[111] }
+2529 | eq: if (97 == 99) { 98 == 1 } else { 98 == 0 }
+2530 | pop: 114 = pop();
+2531 | mod: 105 = 110 % 118
+2532 | call: push(17951); go to memory[80]
+2533 | pop: 114 = pop();
+2534 | eq: if (97 == 105) { 119 == 1 } else { 119 == 0 }
+2535 | eq: if (105 == 100) { 104 == 1 } else { 104 == 0 }
+2536 | gt: if (97 > 116) { 101 == 1 } else { 101 == 0 }
+2537 | halt: 
+2538 | jmp: go to memory[116]
+2539 | or: 101 = 109 or 112
+2540 | jt: if (108 != 0 { go to memory[97] }
+2541 | mod: 108 = 105 % 116
+2542 | pop: 99 = pop();
+2543 | jt: if (114 == 0 { go to 101 }
+2544 | or: 99 = 111 or 114
+2545 | mult: 115 = 104 * 105
+2546 | and: 99 = 111 and 110
+2547 | add: 98 = 108 + 117
+2548 | mult: 116 = 101 * 108
+2549 | or: 98 = 117 or 115
+2550 | pop: 111 = pop();
+2551 | jmp: go to memory[109]
+2552 | and: 115 = 116 and 114
+2553 | mult: 10 = 82 * 101
+2554 | mult: 112 = 114 * 101
+2555 | mult: 105 = 110 * 116
+2556 | mult: 112 = 117 * 114
+2557 | mult: 105 = 110 * 116
+2558 | mult: 70 = 117 * 114
+2559 | mult: 116 = 104 * 105
+2560 | mult: 114 = 101 * 103
+2561 | mult: 10 = 65 * 32
+2562 | mult: 100 = 101 * 115
+2563 | mult: 109 = 105 * 110
+2564 | mult: 104 = 97 * 115
+2565 | mult: 115 = 104 * 111
+2566 | mult: 10 = 84 * 104
+2567 | mult: 101 = 110 * 101
+2568 | mult: 99 = 111 * 110
+2569 | mult: 73 = 102 * 32
+2570 | mult: 108 = 111 * 99
+2571 | mult: 105 = 116 * 115
+2572 | mult: 116 = 104 * 101
+2573 | mult: 101 = 120 * 97
+2574 | mult: 10 = 84 * 104
+2575 | mult: 99 = 111 * 109
+2576 | mult: 115 = 99 * 97
+2577 | mult: 121 = 101 * 97
+2578 | mult: 10 = 73 * 102
+2579 | mult: 104 = 97 * 110
+2580 | mult: 114 = 101 * 105
+2581 | mult: 118 = 101 * 114
+2582 | mult: 104 = 97 * 118
+2583 | mult: 10 = 84 * 104
+2584 | mult: 98 = 121 * 112
+2585 | mult: 97 = 110 * 111
+2586 | mult: 110 = 111 * 119
+2587 | mult: 10 = 79 * 102
+2588 | jt: if (106 != 0 { go to memory[111] }
+2589 | mult: 10 = 68 * 97
+2590 | mult: 10 = 68 * 97
+2591 | mult: 10 = 68 * 97
+2592 | mult: 10 = 68 * 97
+2593 | mult: 10 = 68 * 97
+2594 | mult: 10 = 68 * 97
+2595 | mult: 10 = 68 * 97
+2596 | mult: 10 = 68 * 97
+2597 | mult: 10 = 68 * 97
+2598 | mult: 10 = 68 * 97
+2599 | mult: 10 = 68 * 97
+2600 | mult: 10 = 68 * 97
+2601 | push: push(103);
+2602 | eq: if (111 == 111) { 108 == 1 } else { 108 == 0 }
+2603 | eq: if (101 == 108) { 104 == 1 } else { 104 == 0 }
+2604 | pop: 105 = pop();
+2605 | eq: if (97 == 107) { 116 == 1 } else { 116 == 0 }
+2606 | eq: if (114 == 111) { 100 == 1 } else { 100 == 0 }
+2607 | pop: 117 = pop();
 2608 | halt: 
 2609 | halt: 
 2610 | halt: 
@@ -2786,201 +2610,196 @@ go to memory[80]
 2625 | halt: 
 2626 | halt: 
 2627 | halt: 
-2628 | gt: if (114 > 101) { 103 == 1 } else { 103 == 0 }
-2629 | pop: 114 = pop();
-2630 | jmp: go to memory[121]
-2631 | mult: 10 = 32 * 65
-2632 | mult: 10 = 43 * 116
-2633 | mult: 10 = 7 * 65
-2634 | gt: if (101 > 97) { 108 == 1 } else { 108 == 0 }
-2635 | gt: if (110 > 116) { 101 == 1 } else { 101 == 0 }
-2636 | mult: 10 = 26 * 84
-2637 | mult: 48 = 7586 * 7582
-2638 | push: push(6336);
-2639 | push: push(2327);
-2640 | set: 6435 = 1
-2641 | push: push(6585);
-2642 | push: push(2332);
-2643 | push: push(6699);
-2644 | push: push(2337);
-2645 | push: push(6909);
-2646 | push: push(2342);
-2647 | push: push(7056);
-2648 | push: push(2347);
-2649 | set: 7265 = 1
-2650 | push: push(7492);
-2651 | push: push(2362);
-2652 | set: 7611 = 1
-2653 | push: push(7786);
-2654 | push: push(2352);
-2655 | pop: 7984 = pop();
-2656 | pop: 2362 = pop();
-2657 | push: push(8015);
-2658 | push: push(8149);
-2659 | push: push(2427);
-2660 | gt: if (8310 > 8316) { 8303 == 1 } else { 8303 == 0 }
-2661 | gt: if (2382 > 2387) { 2367 == 1 } else { 2367 == 0 }
-2662 | pop: 8404 = pop();
-2663 | pop: 2387 = pop();
-2664 | pop: 8493 = pop();
-2665 | pop: 2377 = pop();
-2666 | eq: if (8657 == 8663) { 8651 == 1 } else { 8651 == 0 }
-2667 | eq: if (2392 == 2377) { 2407 == 1 } else { 2407 == 0 }
-2668 | pop: 8745 = pop();
-2669 | pop: 2397 = pop();
-2670 | eq: if (8916 == 8922) { 8910 == 1 } else { 8910 == 0 }
-2671 | eq: if (2382 == 2387) { 2412 == 1 } else { 2412 == 0 }
-2672 | pop: 9004 = pop();
-2673 | pop: 2387 = pop();
-2674 | set: 9093 = 1
-2675 | set: 9170 = 1
-2676 | push: push(9247);
-2677 | push: push(2387);
-2678 | push: push(9387);
-2679 | push: push(2432);
-2680 | push: push(9445);
-2681 | push: push(2427);
-2682 | push: push(9503);
-2683 | push: push(2432);
-2684 | push: push(9627);
-2685 | push: push(2437);
-2686 | push: push(9892);
-2687 | push: push(2442);
-2688 | push: push(10091);
-2689 | push: push(2457);
-2690 | eq: if (10409 == 10415) { 10403 == 1 } else { 10403 == 0 }
-2691 | eq: if (2452 == 2468) { 2463 == 1 } else { 2463 == 0 }
-2692 | gt: if (271 > 275) { 267 == 1 } else { 267 == 0 }
-2693 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
-2694 | halt: 
-2695 | set: 10599 = 1
-2696 | push: push(10750);
-2697 | push: push(2473);
-2698 | set: 10889 = 1
-2699 | push: push(11078);
-2700 | push: push(2483);
-2701 | set: 11262 = 1
-2702 | set: 11544 = 1
-2703 | set: 11719 = 1
-2704 | pop: 11903 = pop();
-2705 | pop: 2503 = pop();
-2706 | push: push(12188);
-2707 | push: push(2498);
-2708 | push: push(12448);
-2709 | push: push(2498);
-2710 | pop: 12674 = pop();
-2711 | pop: 2523 = pop();
-2712 | pop: 12830 = pop();
-2713 | pop: 2523 = pop();
-2714 | push: push(13094);
-2715 | push: push(2528);
-2716 | push: push(13408);
-2717 | push: push(2533);
-2718 | push: push(13682);
-2719 | push: push(2538);
-2720 | push: push(13929);
-2721 | push: push(2543);
-2722 | push: push(14078);
-2723 | push: push(2548);
-2724 | pop: 14427 = pop();
-2725 | pop: 2558 = pop();
-2726 | set: 14629 = 1
-2727 | push: push(14753);
-2728 | push: push(2623);
-2729 | push: push(14905);
-2730 | push: push(2568);
-2731 | pop: 15058 = pop();
-2732 | pop: 2573 = pop();
-2733 | pop: 15214 = pop();
-2734 | pop: 2578 = pop();
-2735 | pop: 15488 = pop();
-2736 | pop: 2598 = pop();
-2737 | pop: 15647 = pop();
-2738 | pop: 2563 = pop();
-2739 | eq: if (15810 == 15815) { 15804 == 1 } else { 15804 == 0 }
-2740 | eq: if (2593 == 2608) { 2568 == 1 } else { 2568 == 0 }
-2741 | eq: if (15975 == 15980) { 15969 == 1 } else { 15969 == 0 }
-2742 | eq: if (2598 == 2613) { 2573 == 1 } else { 2573 == 0 }
-2743 | pop: 16131 = pop();
-2744 | pop: 2578 = pop();
-2745 | pop: 16288 = pop();
-2746 | pop: 2583 = pop();
-2747 | eq: if (16453 == 16458) { 16447 == 1 } else { 16447 == 0 }
-2748 | eq: if (2613 == 2628) { 2588 == 1 } else { 2588 == 0 }
-2749 | eq: if (16615 == 16620) { 16609 == 1 } else { 16609 == 0 }
-2750 | eq: if (2618 == 2633) { 2593 == 1 } else { 2593 == 0 }
-2751 | pop: 16774 = pop();
-2752 | pop: 2598 = pop();
-2753 | pop: 16954 = pop();
-2754 | pop: 2603 = pop();
-2755 | pop: 17111 = pop();
-2756 | pop: 2608 = pop();
-2757 | pop: 17269 = pop();
-2758 | pop: 2613 = pop();
-2759 | push: push(17425);
-2760 | push: push(2618);
-2761 | set: 17655 = 1
-2762 | push: push(17793);
-2763 | push: push(2653);
-2764 | push: push(17933);
-2765 | push: push(2658);
-2766 | pop: 18041 = pop();
-2767 | pop: 2663 = pop();
-2768 | halt: 
-2769 | halt: 
-2770 | wmem: memory[2668] = 2672
-2771 | jt: if (25943 != 0 { go to memory[25946] }
-2772 | jt: if (3245 != 0 { go to memory[2964] }
-2773 | call: push(27416);
-go to memory[13804]
-2774 | wmem: memory[6454] = 6400
-2775 | jt: if (23103 != 0 { go to memory[23050] }
-2776 | add: 32291 = 32277 + 32264
-2777 | pop: 7174 = pop();
-2778 | pop: 25220 = pop();
-2779 | not: 7474 = ~7428
-2780 | pop: 16822 = pop();
-2781 | pop: 18634 = pop();
-2782 | wmem: memory[2] = 19
-2783 | eq: if (23 == 86) { 86 == 1 } else { 86 == 0 }
-2784 | out: printf(1);
-2785 | out: printf(24);
-2786 | push: push(5);
-2787 | rmem: 25 = memory[3]
-2788 | wmem: memory[31] = 24
-2789 | ret: go to memory[pop()];
-2790 | rmem: 25 = memory[3]
-2791 | eq: if (19 == 26) { 5 == 1 } else { 5 == 0 }
-2792 | in: 23 = getchar();
-2793 | gt: if (26 > 31) { 25 == 1 } else { 25 == 0 }
-2794 | call: push(29725);
-go to memory[4]
-2795 | pop: 24 = pop();
-2796 | ret: go to memory[pop()];
-2797 | ret: go to memory[pop()];
-2798 | push: push(2);
-2799 | out: printf(86);
-2800 | ret: go to memory[pop()];
-2801 | gt: if (4 > 31) { 25 == 1 } else { 25 == 0 }
-2802 | push: push(19);
-2803 | ret: go to memory[pop()];
-2804 | pop: 7905 = pop();
-2805 | halt: 
-2806 | halt: 
-2807 | halt: 
-2808 | halt: 
-2809 | halt: 
-2810 | halt: 
-2811 | halt: 
-2812 | halt: 
-2813 | halt: 
-2814 | halt: 
-2815 | halt: 
-2816 | halt: 
-2817 | halt: 
-2818 | halt: 
-2819 | halt: 
-2820 | halt: 
+2628 | halt: 
+2629 | halt: 
+2630 | halt: 
+2631 | halt: 
+2632 | halt: 
+2633 | halt: 
+2634 | halt: 
+2635 | halt: 
+2636 | halt: 
+2637 | halt: 
+2638 | halt: 
+2639 | halt: 
+2640 | halt: 
+2641 | gt: if (114 > 101) { 103 == 1 } else { 103 == 0 }
+2642 | pop: 114 = pop();
+2643 | jmp: go to memory[121]
+2644 | noop: 2645 | mult: 10 = 32 * 65
+2646 | mult: 10 = 43 * 116
+2647 | mult: 10 = 7 * 65
+2648 | gt: if (101 > 97) { 108 == 1 } else { 108 == 0 }
+2649 | gt: if (110 > 116) { 101 == 1 } else { 101 == 0 }
+2650 | mult: 10 = 26 * 84
+2651 | mult: 48 = 7586 * 7582
+2652 | push: push(6336);
+2653 | push: push(2327);
+2654 | set: 6435 = 1
+2655 | push: push(6585);
+2656 | push: push(2332);
+2657 | push: push(6699);
+2658 | push: push(2337);
+2659 | push: push(6909);
+2660 | push: push(2342);
+2661 | push: push(7056);
+2662 | push: push(2347);
+2663 | set: 7265 = 1
+2664 | push: push(7492);
+2665 | push: push(2362);
+2666 | set: 7611 = 1
+2667 | push: push(7786);
+2668 | push: push(2352);
+2669 | pop: 7984 = pop();
+2670 | pop: 2362 = pop();
+2671 | push: push(8015);
+2672 | push: push(8149);
+2673 | push: push(2427);
+2674 | gt: if (8310 > 8316) { 8303 == 1 } else { 8303 == 0 }
+2675 | gt: if (2382 > 2387) { 2367 == 1 } else { 2367 == 0 }
+2676 | pop: 8404 = pop();
+2677 | pop: 2387 = pop();
+2678 | pop: 8493 = pop();
+2679 | pop: 2377 = pop();
+2680 | eq: if (8657 == 8663) { 8651 == 1 } else { 8651 == 0 }
+2681 | eq: if (2392 == 2377) { 2407 == 1 } else { 2407 == 0 }
+2682 | pop: 8745 = pop();
+2683 | pop: 2397 = pop();
+2684 | eq: if (8916 == 8922) { 8910 == 1 } else { 8910 == 0 }
+2685 | eq: if (2382 == 2387) { 2412 == 1 } else { 2412 == 0 }
+2686 | pop: 9004 = pop();
+2687 | pop: 2387 = pop();
+2688 | set: 9093 = 1
+2689 | set: 9170 = 1
+2690 | push: push(9247);
+2691 | push: push(2387);
+2692 | push: push(9387);
+2693 | push: push(2432);
+2694 | push: push(9445);
+2695 | push: push(2427);
+2696 | push: push(9503);
+2697 | push: push(2432);
+2698 | push: push(9627);
+2699 | push: push(2437);
+2700 | push: push(9892);
+2701 | push: push(2442);
+2702 | push: push(10091);
+2703 | push: push(2457);
+2704 | eq: if (10409 == 10415) { 10403 == 1 } else { 10403 == 0 }
+2705 | eq: if (2452 == 2468) { 2463 == 1 } else { 2463 == 0 }
+2706 | gt: if (271 > 275) { 267 == 1 } else { 267 == 0 }
+2707 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
+2708 | halt: 
+2709 | set: 10599 = 1
+2710 | push: push(10750);
+2711 | push: push(2473);
+2712 | set: 10889 = 1
+2713 | push: push(11078);
+2714 | push: push(2483);
+2715 | set: 11262 = 1
+2716 | set: 11544 = 1
+2717 | set: 11719 = 1
+2718 | pop: 11903 = pop();
+2719 | pop: 2503 = pop();
+2720 | push: push(12188);
+2721 | push: push(2498);
+2722 | push: push(12448);
+2723 | push: push(2498);
+2724 | pop: 12674 = pop();
+2725 | pop: 2523 = pop();
+2726 | pop: 12830 = pop();
+2727 | pop: 2523 = pop();
+2728 | push: push(13094);
+2729 | push: push(2528);
+2730 | push: push(13408);
+2731 | push: push(2533);
+2732 | push: push(13682);
+2733 | push: push(2538);
+2734 | push: push(13929);
+2735 | push: push(2543);
+2736 | push: push(14078);
+2737 | push: push(2548);
+2738 | pop: 14427 = pop();
+2739 | pop: 2558 = pop();
+2740 | set: 14629 = 1
+2741 | push: push(14753);
+2742 | push: push(2623);
+2743 | push: push(14905);
+2744 | push: push(2568);
+2745 | pop: 15058 = pop();
+2746 | pop: 2573 = pop();
+2747 | pop: 15214 = pop();
+2748 | pop: 2578 = pop();
+2749 | pop: 15488 = pop();
+2750 | pop: 2598 = pop();
+2751 | pop: 15647 = pop();
+2752 | pop: 2563 = pop();
+2753 | eq: if (15810 == 15815) { 15804 == 1 } else { 15804 == 0 }
+2754 | eq: if (2593 == 2608) { 2568 == 1 } else { 2568 == 0 }
+2755 | eq: if (15975 == 15980) { 15969 == 1 } else { 15969 == 0 }
+2756 | eq: if (2598 == 2613) { 2573 == 1 } else { 2573 == 0 }
+2757 | pop: 16131 = pop();
+2758 | pop: 2578 = pop();
+2759 | pop: 16288 = pop();
+2760 | pop: 2583 = pop();
+2761 | eq: if (16453 == 16458) { 16447 == 1 } else { 16447 == 0 }
+2762 | eq: if (2613 == 2628) { 2588 == 1 } else { 2588 == 0 }
+2763 | eq: if (16615 == 16620) { 16609 == 1 } else { 16609 == 0 }
+2764 | eq: if (2618 == 2633) { 2593 == 1 } else { 2593 == 0 }
+2765 | pop: 16774 = pop();
+2766 | pop: 2598 = pop();
+2767 | pop: 16954 = pop();
+2768 | pop: 2603 = pop();
+2769 | pop: 17111 = pop();
+2770 | pop: 2608 = pop();
+2771 | pop: 17269 = pop();
+2772 | pop: 2613 = pop();
+2773 | push: push(17425);
+2774 | push: push(2618);
+2775 | set: 17655 = 1
+2776 | push: push(17793);
+2777 | push: push(2653);
+2778 | push: push(17933);
+2779 | push: push(2658);
+2780 | pop: 18041 = pop();
+2781 | pop: 2663 = pop();
+2782 | halt: 
+2783 | halt: 
+2784 | wmem: memory[2668] = 2672
+2785 | jt: if (25943 != 0 { go to memory[25946] }
+2786 | jt: if (3245 != 0 { go to memory[2964] }
+2787 | call: push(27416); go to memory[13804]
+2788 | wmem: memory[6454] = 6400
+2789 | jt: if (23103 != 0 { go to memory[23050] }
+2790 | add: 32291 = 32277 + 32264
+2791 | pop: 7174 = pop();
+2792 | noop: 2793 | pop: 25220 = pop();
+2794 | not: 7474 = ~7428
+2795 | pop: 16822 = pop();
+2796 | pop: 18634 = pop();
+2797 | wmem: memory[2] = 19
+2798 | eq: if (23 == 86) { 86 == 1 } else { 86 == 0 }
+2799 | out: printf(1);
+2800 | out: printf(24);
+2801 | push: push(5);
+2802 | rmem: 25 = memory[3]
+2803 | wmem: memory[31] = 24
+2804 | ret: go to memory[pop()];
+2805 | rmem: 25 = memory[3]
+2806 | eq: if (19 == 26) { 5 == 1 } else { 5 == 0 }
+2807 | in: 23 = getchar();
+2808 | noop: 2809 | gt: if (26 > 31) { 25 == 1 } else { 25 == 0 }
+2810 | call: push(29725); go to memory[4]
+2811 | pop: 24 = pop();
+2812 | ret: go to memory[pop()];
+2813 | ret: go to memory[pop()];
+2814 | push: push(2);
+2815 | out: printf(86);
+2816 | ret: go to memory[pop()];
+2817 | gt: if (4 > 31) { 25 == 1 } else { 25 == 0 }
+2818 | push: push(19);
+2819 | ret: go to memory[pop()];
+2820 | pop: 7905 = pop();
 2821 | halt: 
 2822 | halt: 
 2823 | halt: 
@@ -4174,7 +3993,7 @@ go to memory[4]
 4011 | halt: 
 4012 | halt: 
 4013 | halt: 
-4014 | push: push(0);
+4014 | halt: 
 4015 | halt: 
 4016 | halt: 
 4017 | halt: 
@@ -4190,9 +4009,9 @@ go to memory[4]
 4027 | halt: 
 4028 | halt: 
 4029 | halt: 
-4030 | halt: 
+4030 | push: push(0);
 4031 | halt: 
-4032 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
+4032 | halt: 
 4033 | halt: 
 4034 | halt: 
 4035 | halt: 
@@ -4203,12 +4022,12 @@ go to memory[4]
 4040 | halt: 
 4041 | halt: 
 4042 | halt: 
-4043 | pop: 0 = pop();
+4043 | halt: 
 4044 | halt: 
 4045 | halt: 
 4046 | halt: 
 4047 | halt: 
-4048 | halt: 
+4048 | gt: if (0 > 0) { 0 == 1 } else { 0 == 0 }
 4049 | halt: 
 4050 | halt: 
 4051 | halt: 
@@ -4219,7 +4038,7 @@ go to memory[4]
 4056 | halt: 
 4057 | halt: 
 4058 | halt: 
-4059 | halt: 
+4059 | pop: 0 = pop();
 4060 | halt: 
 4061 | halt: 
 4062 | halt: 
@@ -4334,7 +4153,7 @@ go to memory[4]
 4171 | halt: 
 4172 | halt: 
 4173 | halt: 
-4174 | add: 0 = 0 + 0
+4174 | halt: 
 4175 | halt: 
 4176 | halt: 
 4177 | halt: 
@@ -4344,13 +4163,13 @@ go to memory[4]
 4181 | halt: 
 4182 | halt: 
 4183 | halt: 
-4184 | mult: 0 = 0 * 0
+4184 | halt: 
 4185 | halt: 
 4186 | halt: 
 4187 | halt: 
 4188 | halt: 
 4189 | halt: 
-4190 | halt: 
+4190 | add: 0 = 0 + 0
 4191 | halt: 
 4192 | halt: 
 4193 | halt: 
@@ -4360,10 +4179,10 @@ go to memory[4]
 4197 | halt: 
 4198 | halt: 
 4199 | halt: 
-4200 | halt: 
+4200 | mult: 0 = 0 * 0
 4201 | halt: 
 4202 | halt: 
-4203 | set: 0 = 0
+4203 | halt: 
 4204 | halt: 
 4205 | halt: 
 4206 | halt: 
@@ -4377,32 +4196,32 @@ go to memory[4]
 4214 | halt: 
 4215 | halt: 
 4216 | halt: 
-4217 | jmp: go to memory[1]
+4217 | halt: 
 4218 | halt: 
-4219 | jmp: go to memory[0]
+4219 | set: 0 = 0
 4220 | halt: 
 4221 | halt: 
 4222 | halt: 
 4223 | halt: 
 4224 | halt: 
 4225 | halt: 
-4226 | pop: 0 = pop();
+4226 | halt: 
 4227 | halt: 
 4228 | halt: 
 4229 | halt: 
 4230 | halt: 
 4231 | halt: 
 4232 | halt: 
-4233 | halt: 
-4234 | jmp: go to memory[0]
-4235 | halt: 
-4236 | set: 0 = 0
+4233 | jmp: go to memory[1]
+4234 | halt: 
+4235 | jmp: go to memory[0]
+4236 | halt: 
 4237 | halt: 
 4238 | halt: 
 4239 | halt: 
 4240 | halt: 
 4241 | halt: 
-4242 | halt: 
+4242 | pop: 0 = pop();
 4243 | halt: 
 4244 | halt: 
 4245 | halt: 
@@ -4410,9 +4229,9 @@ go to memory[4]
 4247 | halt: 
 4248 | halt: 
 4249 | halt: 
-4250 | halt: 
+4250 | jmp: go to memory[0]
 4251 | halt: 
-4252 | halt: 
+4252 | set: 0 = 0
 4253 | halt: 
 4254 | halt: 
 4255 | halt: 
@@ -4460,7 +4279,7 @@ go to memory[4]
 4297 | halt: 
 4298 | halt: 
 4299 | halt: 
-4300 | set: 0 = 0
+4300 | halt: 
 4301 | halt: 
 4302 | halt: 
 4303 | halt: 
@@ -4476,8 +4295,8 @@ go to memory[4]
 4313 | halt: 
 4314 | halt: 
 4315 | halt: 
-4316 | halt: 
-4317 | set: 0 = 10
+4316 | set: 0 = 0
+4317 | halt: 
 4318 | halt: 
 4319 | halt: 
 4320 | halt: 
@@ -4493,7 +4312,7 @@ go to memory[4]
 4330 | halt: 
 4331 | halt: 
 4332 | halt: 
-4333 | halt: 
+4333 | set: 0 = 10
 4334 | halt: 
 4335 | halt: 
 4336 | halt: 
@@ -4517,9 +4336,9 @@ go to memory[4]
 4354 | halt: 
 4355 | halt: 
 4356 | halt: 
-4357 | pop: 62 = pop();
-4358 | set: 0 = 4832
-4359 | push: push(0);
+4357 | halt: 
+4358 | halt: 
+4359 | halt: 
 4360 | halt: 
 4361 | halt: 
 4362 | halt: 
@@ -4528,14 +4347,14 @@ go to memory[4]
 4365 | halt: 
 4366 | halt: 
 4367 | halt: 
-4368 | mult: 64 = 73 * 72
-4369 | jmp: go to memory[0]
-4370 | gt: if (64 > 0) { 0 == 1 } else { 0 == 0 }
+4368 | halt: 
+4369 | halt: 
+4370 | halt: 
 4371 | halt: 
 4372 | halt: 
-4373 | halt: 
-4374 | halt: 
-4375 | halt: 
+4373 | pop: 62 = pop();
+4374 | set: 0 = 4832
+4375 | push: push(0);
 4376 | halt: 
 4377 | halt: 
 4378 | halt: 
@@ -4544,10 +4363,10 @@ go to memory[4]
 4381 | halt: 
 4382 | halt: 
 4383 | halt: 
-4384 | jt: if (0 == 0 { go to 0 }
-4385 | halt: 
-4386 | pop: 0 = pop();
-4387 | eq: if (r23792 == 26) { 0 == 1 } else { 0 == 0 }
+4384 | mult: 64 = 73 * 72
+4385 | jmp: go to memory[0]
+4386 | gt: if (64 > 0) { 0 == 1 } else { 0 == 0 }
+4387 | halt: 
 4388 | halt: 
 4389 | halt: 
 4390 | halt: 
@@ -4559,11 +4378,11 @@ go to memory[4]
 4396 | halt: 
 4397 | halt: 
 4398 | halt: 
-4399 | wmem: memory[0] = 0
-4400 | halt: 
-4401 | set: 0 = 5
-4402 | halt: 
-4403 | halt: 
+4399 | halt: 
+4400 | jt: if (0 == 0 { go to 0 }
+4401 | halt: 
+4402 | pop: 0 = pop();
+4403 | eq: if (r23792 == 26) { 0 == 1 } else { 0 == 0 }
 4404 | halt: 
 4405 | halt: 
 4406 | halt: 
@@ -4575,14 +4394,14 @@ go to memory[4]
 4412 | halt: 
 4413 | halt: 
 4414 | halt: 
-4415 | halt: 
+4415 | wmem: memory[0] = 0
 4416 | halt: 
-4417 | halt: 
+4417 | set: 0 = 5
 4418 | halt: 
 4419 | halt: 
 4420 | halt: 
 4421 | halt: 
-4422 | set: 0 = 6
+4422 | halt: 
 4423 | halt: 
 4424 | halt: 
 4425 | halt: 
@@ -4598,9 +4417,9 @@ go to memory[4]
 4435 | halt: 
 4436 | halt: 
 4437 | halt: 
-4438 | halt: 
-4439 | push: push(0);
-4440 | jmp: go to memory[0]
+4438 | set: 0 = 6
+4439 | halt: 
+4440 | halt: 
 4441 | halt: 
 4442 | halt: 
 4443 | halt: 
@@ -4613,10 +4432,10 @@ go to memory[4]
 4450 | halt: 
 4451 | halt: 
 4452 | halt: 
-4453 | jt: if (0 == 0 { go to 0 }
+4453 | halt: 
 4454 | halt: 
-4455 | eq: if (4 == 0) { 0 == 1 } else { 0 == 0 }
-4456 | halt: 
+4455 | push: push(0);
+4456 | jmp: go to memory[0]
 4457 | halt: 
 4458 | halt: 
 4459 | halt: 
@@ -4629,40 +4448,40 @@ go to memory[4]
 4466 | halt: 
 4467 | halt: 
 4468 | halt: 
-4469 | halt: 
+4469 | jt: if (0 == 0 { go to 0 }
 4470 | halt: 
-4471 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
+4471 | eq: if (4 == 0) { 0 == 1 } else { 0 == 0 }
 4472 | halt: 
-4473 | eq: if (26456 == 29) { 0 == 1 } else { 0 == 0 }
+4473 | halt: 
 4474 | halt: 
 4475 | halt: 
 4476 | halt: 
 4477 | halt: 
 4478 | halt: 
-4479 | wmem: memory[0] = 0
+4479 | halt: 
 4480 | halt: 
 4481 | halt: 
 4482 | halt: 
 4483 | halt: 
-4484 | jt: if (0 == 0 { go to 0 }
+4484 | halt: 
 4485 | halt: 
-4486 | eq: if (r23820 == 26) { 0 == 1 } else { 0 == 0 }
-4487 | halt: 
+4486 | halt: 
+4487 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
 4488 | halt: 
-4489 | halt: 
+4489 | eq: if (26456 == 29) { 0 == 1 } else { 0 == 0 }
 4490 | halt: 
 4491 | halt: 
 4492 | halt: 
 4493 | halt: 
 4494 | halt: 
-4495 | halt: 
+4495 | wmem: memory[0] = 0
 4496 | halt: 
 4497 | halt: 
-4498 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
-4499 | jmp: go to memory[0]
-4500 | halt: 
+4498 | halt: 
+4499 | halt: 
+4500 | jt: if (0 == 0 { go to 0 }
 4501 | halt: 
-4502 | halt: 
+4502 | eq: if (r23820 == 26) { 0 == 1 } else { 0 == 0 }
 4503 | halt: 
 4504 | halt: 
 4505 | halt: 
@@ -4674,14 +4493,14 @@ go to memory[4]
 4511 | halt: 
 4512 | halt: 
 4513 | halt: 
-4514 | push: push(0);
-4515 | halt: 
+4514 | eq: if (0 == 0) { 0 == 1 } else { 0 == 0 }
+4515 | jmp: go to memory[0]
 4516 | halt: 
 4517 | halt: 
 4518 | halt: 
 4519 | halt: 
 4520 | halt: 
-4521 | push: push(0);
+4521 | halt: 
 4522 | halt: 
 4523 | halt: 
 4524 | halt: 
@@ -4690,14 +4509,14 @@ go to memory[4]
 4527 | halt: 
 4528 | halt: 
 4529 | halt: 
-4530 | halt: 
+4530 | push: push(0);
 4531 | halt: 
 4532 | halt: 
 4533 | halt: 
 4534 | halt: 
 4535 | halt: 
 4536 | halt: 
-4537 | halt: 
+4537 | push: push(0);
 4538 | halt: 
 4539 | halt: 
 4540 | halt: 
@@ -4707,7 +4526,7 @@ go to memory[4]
 4544 | halt: 
 4545 | halt: 
 4546 | halt: 
-4547 | set: 0 = 0
+4547 | halt: 
 4548 | halt: 
 4549 | halt: 
 4550 | halt: 
@@ -4723,11 +4542,11 @@ go to memory[4]
 4560 | halt: 
 4561 | halt: 
 4562 | halt: 
-4563 | halt: 
+4563 | set: 0 = 0
 4564 | halt: 
 4565 | halt: 
 4566 | halt: 
-4567 | pop: 0 = pop();
+4567 | halt: 
 4568 | halt: 
 4569 | halt: 
 4570 | halt: 
@@ -4743,13 +4562,13 @@ go to memory[4]
 4580 | halt: 
 4581 | halt: 
 4582 | halt: 
-4583 | halt: 
+4583 | pop: 0 = pop();
 4584 | halt: 
 4585 | halt: 
 4586 | halt: 
 4587 | halt: 
 4588 | halt: 
-4589 | set: 0 = 0
+4589 | halt: 
 4590 | halt: 
 4591 | halt: 
 4592 | halt: 
@@ -4757,32 +4576,32 @@ go to memory[4]
 4594 | halt: 
 4595 | halt: 
 4596 | halt: 
-4597 | set: 0 = 0
+4597 | halt: 
 4598 | halt: 
 4599 | halt: 
-4600 | set: 0 = 0
+4600 | halt: 
 4601 | halt: 
 4602 | halt: 
 4603 | halt: 
 4604 | halt: 
-4605 | halt: 
-4606 | set: 0 = 0
+4605 | set: 0 = 0
+4606 | halt: 
 4607 | halt: 
 4608 | halt: 
 4609 | halt: 
 4610 | halt: 
 4611 | halt: 
 4612 | halt: 
-4613 | halt: 
+4613 | set: 0 = 0
 4614 | halt: 
 4615 | halt: 
-4616 | halt: 
+4616 | set: 0 = 0
 4617 | halt: 
 4618 | halt: 
 4619 | halt: 
-4620 | set: 0 = r2512
+4620 | halt: 
 4621 | halt: 
-4622 | halt: 
+4622 | set: 0 = 0
 4623 | halt: 
 4624 | halt: 
 4625 | halt: 
@@ -4796,7 +4615,7 @@ go to memory[4]
 4633 | halt: 
 4634 | halt: 
 4635 | halt: 
-4636 | halt: 
+4636 | set: 0 = r6608
 4637 | halt: 
 4638 | halt: 
 4639 | halt: 
@@ -4821,30 +4640,30 @@ go to memory[4]
 4658 | halt: 
 4659 | halt: 
 4660 | halt: 
-4661 | jt: if (0 != 0 { go to memory[0] }
+4661 | halt: 
 4662 | halt: 
 4663 | halt: 
 4664 | halt: 
-4665 | jt: if (0 != 0 { go to memory[6] }
+4665 | halt: 
 4666 | halt: 
 4667 | halt: 
 4668 | halt: 
-4669 | set: 0 = 0
+4669 | halt: 
 4670 | halt: 
 4671 | halt: 
 4672 | halt: 
 4673 | halt: 
 4674 | halt: 
 4675 | halt: 
-4676 | halt: 
+4676 | jt: if (0 != 0 { go to memory[0] }
 4677 | halt: 
 4678 | halt: 
 4679 | halt: 
-4680 | halt: 
+4680 | jt: if (0 != 0 { go to memory[6] }
 4681 | halt: 
 4682 | halt: 
 4683 | halt: 
-4684 | halt: 
+4684 | set: 0 = 0
 4685 | halt: 
 4686 | halt: 
 4687 | halt: 
@@ -4882,13 +4701,13 @@ go to memory[4]
 4719 | halt: 
 4720 | halt: 
 4721 | halt: 
-4722 | jt: if (0 == 0 { go to 0 }
+4722 | halt: 
 4723 | halt: 
 4724 | halt: 
 4725 | halt: 
 4726 | halt: 
 4727 | halt: 
-4728 | jt: if (0 == 0 { go to 0 }
+4728 | halt: 
 4729 | halt: 
 4730 | halt: 
 4731 | halt: 
@@ -4896,13 +4715,13 @@ go to memory[4]
 4733 | halt: 
 4734 | halt: 
 4735 | halt: 
-4736 | halt: 
+4736 | jt: if (0 == 0 { go to 0 }
 4737 | halt: 
 4738 | halt: 
 4739 | halt: 
 4740 | halt: 
 4741 | halt: 
-4742 | halt: 
+4742 | jt: if (0 == 0 { go to 0 }
 4743 | halt: 
 4744 | halt: 
 4745 | halt: 
@@ -4919,7 +4738,7 @@ go to memory[4]
 4756 | halt: 
 4757 | halt: 
 4758 | halt: 
-4759 | set: 0 = 0
+4759 | halt: 
 4760 | halt: 
 4761 | halt: 
 4762 | halt: 
@@ -4933,7 +4752,7 @@ go to memory[4]
 4770 | halt: 
 4771 | halt: 
 4772 | halt: 
-4773 | halt: 
+4773 | set: 0 = 0
 4774 | halt: 
 4775 | halt: 
 4776 | halt: 
@@ -5012,3 +4831,17 @@ go to memory[4]
 4849 | halt: 
 4850 | halt: 
 4851 | halt: 
+4852 | halt: 
+4853 | halt: 
+4854 | halt: 
+4855 | halt: 
+4856 | halt: 
+4857 | halt: 
+4858 | halt: 
+4859 | halt: 
+4860 | halt: 
+4861 | halt: 
+4862 | halt: 
+4863 | halt: 
+4864 | halt: 
+4865 | halt: 

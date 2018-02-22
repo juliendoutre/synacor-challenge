@@ -227,7 +227,7 @@ void decipher(uint16_t *memory)
                 ID += 1;
                 fprintf(fp, "call: push(");
                 printVar(fp, i + 2);
-                fprintf(fp, ");\n");
+                fprintf(fp, "); ");
                 fprintf(fp, "go to memory[");
                 printVar(fp, var1);
                 fprintf(fp, "]");
@@ -259,6 +259,11 @@ void decipher(uint16_t *memory)
                 fprintf(fp, "\n");
                 i += 2;
                 break;
+            case 21:
+                fprintf(fp, "%d | ", ID);
+                ID += 1;
+                fprintf(fp, "noop: ");
+                i += 1;
             default:
                 i += 1;
                 break;

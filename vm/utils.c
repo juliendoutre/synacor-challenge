@@ -5,7 +5,7 @@
 #include "utils.h"
 #include "save.h"
 
-int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor)
+int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor, bool *debug)
 {
 	// this function returns the adress of the next instruction to be executed after having executed the current instruction
 
@@ -233,7 +233,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				{
 					showRegisters(registers, 8);
 				}
-				else if (strcmp(command, "chreg") == 0) // edit the value of a register
+				else if (strcmp(command, "setreg") == 0) // edit the value of a register
 				{
 					printf("reg to edit:");
 					int sh;
@@ -244,7 +244,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 					printf("\nDone.\n");
 					registers[sh] = sh2;
 				}
-				else if (strcmp(command, "decip") == 0) // decipher challenge.bin into a readable file
+				else if (strcmp(command, "source") == 0) // decipher challenge.bin into a readable file
 				{
 					decipher(memory);
 					printf("\nDone.\n");
@@ -268,6 +268,12 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				{
 					showStack(*stackCursor);
 					printf("\nDone.\n");
+				}
+				else if (strcmp(command, "memv") == 0) // show the value of a precise memory location)
+				{
+					int inter;
+					scanf("%d", &inter);
+					giveVar(memory, inter);
 				}
 				else 
 				{
@@ -348,4 +354,12 @@ void showStack(Cell *stackCursor)
 		 cursor = cursor->previous;
 	}
 	printf("INIT\n");
+}
+
+
+void giveVar(uint16_t *memory, int i)
+{
+	printf("memory[%d", i);
+	printf("]: %d", memory[i]);
+	printf(", %c\n", memory[i]);
 }

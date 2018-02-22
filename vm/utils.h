@@ -7,7 +7,7 @@
 #include "save.h"
 #include "decipher.h"
 
-int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor);
+int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor, bool *debug);
 
 uint16_t readVariable(uint16_t var, uint16_t *registers);
 
@@ -22,3 +22,5 @@ void save(uint16_t * memory, uint16_t * registers, int * memoryCursor, Cell *sta
 void loadFromSave(uint16_t * memory, uint16_t * registers, int * memoryCursor, Cell **stackCursor);
 
 void showStack(Cell *stackCursor);
+
+void giveVar(uint16_t *memory, int i);
