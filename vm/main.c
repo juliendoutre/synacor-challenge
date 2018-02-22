@@ -7,9 +7,6 @@
 
 int main(int argc, char *argv[]) {
 
-	// Welcome
-	printf("Hello world, I'm a Virtual Machine !\n");
-
 	// Definition of some usefull variables and pointers
 	bool on = true;
 	int memoryCursor = 0;

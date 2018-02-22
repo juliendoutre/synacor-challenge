@@ -7,6 +7,7 @@
 
 void decipher(uint16_t *memory)
 {
+    // save in a file the instructions in the challenge.bin file with a human-readable syntax
     FILE *fp;
     fp = fopen("sources.txt", "w");
     const int MEMORY_LENGTH = 32768;
