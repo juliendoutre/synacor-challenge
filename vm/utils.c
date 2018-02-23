@@ -235,10 +235,8 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				}
 				else if (strcmp(command, "setreg") == 0) // edit the value of a register
 				{
-					printf("reg to edit:");
 					int sh;
 					scanf("%d", &sh);
-					printf("value:");
 					int sh2;
 					scanf("%d", &sh2);
 					printf("\nDone.\n");
@@ -274,6 +272,12 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 					int inter;
 					scanf("%d", &inter);
 					giveVar(memory, inter);
+				}
+				else if (strcmp(command, "debug") == 0) // toggle the debug value
+				{
+					int inter2;
+					scanf("%d", &inter2);
+					*debug = inter2;
 				}
 				else 
 				{
