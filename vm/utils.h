@@ -7,7 +7,7 @@
 #include "save.h"
 #include "decipher.h"
 
-int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor, bool *debug);
+int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor, bool *debug, FILE **fp);
 
 uint16_t readVariable(uint16_t var, uint16_t *registers);
 

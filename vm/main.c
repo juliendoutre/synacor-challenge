@@ -11,6 +11,8 @@ int main(int argc, char *argv[]) {
 	bool on = true;
 	int memoryCursor = 0;
 	bool debug = false;
+	FILE *fp;
+	fp = fopen("debugging.txt", "w");
 	
 	// Definition of the memory table
 	const int MEMORY_LENGTH = 32768;
@@ -39,8 +41,10 @@ int main(int argc, char *argv[]) {
 	// Program loop
 	while (memoryCursor < MEMORY_LENGTH == true && on == true)
 	{
-		memoryCursor = read(memoryCursor, memory, registers, &on, &stackCursor, &debug);
+		memoryCursor = read(memoryCursor, memory, registers, &on, &stackCursor, &debug, &fp);
 	}
+
+	fclose(fp);
 
 	// Pause
 	getchar(); 

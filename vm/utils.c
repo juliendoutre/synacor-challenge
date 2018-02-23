@@ -5,7 +5,7 @@
 #include "utils.h"
 #include "save.h"
 
-int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor, bool *debug)
+int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell **stackCursor, bool *debug, FILE **fp)
 {
 	// this function returns the adress of the next instruction to be executed after having executed the current instruction
 
@@ -43,7 +43,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			printf("\n The program was ended.\n");
 			if (*debug == true)
 			{
-				printf("%d | halt: \n", memoryCursor);
+				fprintf(*fp, "%d | halt: \n", memoryCursor);
 			}
 			return 0;
 			break;
@@ -54,7 +54,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = readVariable(var2, registers);
 			if (*debug == true)
 			{
-				printf("%d | set: r%d = %d\n", memoryCursor, var1, readVariable(var2, registers));
+				fprintf(*fp, "%d | set: r%d = %d\n", memoryCursor, var1, readVariable(var2, registers));
 			}
 			return memoryCursor + 3;
 			break;
@@ -64,7 +64,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			*stackCursor = push(readVariable(var1, registers), *stackCursor);
 			if (*debug == true)
 			{
-				printf("%d | push: push(%d)\n", memoryCursor, readVariable(var1, registers));
+				fprintf(*fp, "%d | push: push(%d)\n", memoryCursor, readVariable(var1, registers));
 			}
 			return memoryCursor + 2;
 			break;
@@ -83,7 +83,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				registers[var1] = pop(stackCursor);
 				if (*debug == true)
 				{
-					printf("%d | pop: r%d = pop(%d)\n", memoryCursor, var1, registers[var1]);
+					fprintf(*fp, "%d | pop: r%d = pop(%d)\n", memoryCursor, var1, registers[var1]);
 				}
 				return memoryCursor + 2;
 			}
@@ -95,14 +95,14 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			var3 = memory[memoryCursor + 3];
 			if (*debug == true)
 			{
-				printf("%d | eq: if (%d = %d) ", memoryCursor, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | eq: if (%d = %d) ", memoryCursor, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			if (readVariable(var2, registers) == readVariable(var3, registers))
 			{
 				registers[var1] = 1;
 				if (*debug == true)
 				{
-					printf("r%d = 1\n", var1);
+					fprintf(*fp, "r%d = 1\n", var1);
 				}
 			}
 			else 
@@ -110,7 +110,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				registers[var1] = 0;
 				if (*debug == true)
 				{
-					printf("r%d = 0\n", var1);
+					fprintf(*fp, "r%d = 0\n", var1);
 				}
 			}
 			return memoryCursor + 4;
@@ -122,14 +122,14 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			var3 = memory[memoryCursor + 3];
 			if (*debug == true)
 			{
-				printf("%d | eq: if (%d > %d) ", memoryCursor, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | eq: if (%d > %d) ", memoryCursor, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			if (readVariable(var2, registers) > readVariable(var3, registers))
 			{
 				registers[var1] = 1;
 				if (*debug == true)
 				{
-					printf("r%d = 1\n", var1);
+					fprintf(*fp, "r%d = 1\n", var1);
 				}
 			}
 			else 
@@ -137,7 +137,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				registers[var1] = 0;
 				if (*debug == true)
 				{
-					printf("r%d = 0\n", var1);
+					fprintf(*fp, "r%d = 0\n", var1);
 				}
 			}
 			return memoryCursor + 4;
@@ -147,7 +147,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			var1 = memory[memoryCursor + 1];
 			if (*debug == true)
 			{
-				printf("%d | jmp: go to memory[%d]\n", memoryCursor, readVariable(var1, registers));
+				fprintf(*fp, "%d | jmp: go to memory[%d]\n", memoryCursor, readVariable(var1, registers));
 			}
 			return readVariable(var1, registers);
 			break;
@@ -157,13 +157,13 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			var2 = memory[memoryCursor + 2];
 			if (*debug == true)
 			{
-				printf("%d | jt: if (%d != 0) ", memoryCursor, readVariable(var1, registers));
+				fprintf(*fp, "%d | jt: if (%d != 0) ", memoryCursor, readVariable(var1, registers));
 			}
 			if (readVariable(var1, registers) != 0)
 			{
 				if (*debug == true)
 				{
-					printf("go to memory[%d]\n", readVariable(var2, registers));
+					fprintf(*fp, "go to memory[%d]\n", readVariable(var2, registers));
 				}
 				return readVariable(var2, registers);
 			}
@@ -178,13 +178,13 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			var2 = memory[memoryCursor + 2];
 			if (*debug == true)
 			{
-				printf("%d | jt: if (%d == 0) ", memoryCursor, readVariable(var1, registers));
+				fprintf(*fp, "%d | jt: if (%d == 0) ", memoryCursor, readVariable(var1, registers));
 			}
 			if (readVariable(var1, registers) == 0)
 			{
 				if (*debug == true)
 				{
-					printf("go to memory[%d]\n", readVariable(var2, registers));
+					fprintf(*fp, "go to memory[%d]\n", readVariable(var2, registers));
 				}
 				return readVariable(var2, registers);
 			}
@@ -201,7 +201,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = (readVariable(var2, registers) + readVariable(var3, registers)) % 32768;
 			if (*debug == true)
 			{
-				printf("%d | add: r%d = %d + %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | add: r%d = %d + %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			return memoryCursor + 4;
 			break;
@@ -213,7 +213,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = (readVariable(var2, registers) * readVariable(var3, registers)) % 32768;
 			if (*debug == true)
 			{
-				printf("%d | mult: r%d = %d * %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | mult: r%d = %d * %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			return memoryCursor + 4;
 			break;
@@ -225,7 +225,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = (readVariable(var2, registers) % readVariable(var3, registers)) % 32768;
 			if (*debug == true)
 			{
-				printf("%d | mult: r%d = %d %% %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | mult: r%d = %d %% %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			return memoryCursor + 4;
 			break;
@@ -237,7 +237,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = readVariable(var2, registers) & readVariable(var3, registers);
 			if (*debug == true)
 			{
-				printf("%d | and: r%d = %d & %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | and: r%d = %d & %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			return memoryCursor + 4;
 			break;
@@ -249,7 +249,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = readVariable(var2, registers) | readVariable(var3, registers);
 			if (*debug == true)
 			{
-				printf("%d | or: r%d = %d | %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
+				fprintf(*fp, "%d | or: r%d = %d | %d\n", memoryCursor, var1, readVariable(var2, registers), readVariable(var3, registers));
 			}
 			return memoryCursor + 4;
 			break;
@@ -260,7 +260,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = ~ readVariable(var2, registers) & ((1 << 15) - 1);
 			if (*debug == true)
 			{
-				printf("%d | not: r%d = ~%d\n", memoryCursor, var1, readVariable(var2, registers));
+				fprintf(*fp, "%d | not: r%d = ~%d\n", memoryCursor, var1, readVariable(var2, registers));
 			}
 			return memoryCursor + 3;
 			break;
@@ -271,7 +271,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			registers[var1] = memory[readVariable(var2, registers)];
 			if (*debug == true)
 			{
-				printf("%d | rmem: r%d = %d\n", memoryCursor, var1, readVariable(var2, registers));
+				fprintf(*fp, "%d | rmem: r%d = %d\n", memoryCursor, var1, readVariable(var2, registers));
 			}
 			return memoryCursor + 3;
 			break;
@@ -282,7 +282,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			memory[readVariable(var1, registers)] = readVariable(var2, registers);
 			if (*debug == true)
 			{
-				printf("%d | wmem: memory[%d] = %d\n", memoryCursor, readVariable(var1, registers), readVariable(var2, registers));
+				fprintf(*fp, "%d | wmem: memory[%d] = %d\n", memoryCursor, readVariable(var1, registers), readVariable(var2, registers));
 			}
 			return memoryCursor + 3;
 			break;
@@ -293,7 +293,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 			*stackCursor = push(var2, *stackCursor);
 			if (*debug == true)
 			{
-				printf("%d | call: push(%d) go to memory[%d]\n", memoryCursor, var2, readVariable(var1, registers));
+				fprintf(*fp, "%d | call: push(%d) go to memory[%d]\n", memoryCursor, var2, readVariable(var1, registers));
 			}
 			return readVariable(var1, registers);
 			break;
@@ -311,7 +311,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				var1 = pop(stackCursor);
 				if (*debug == true)
 				{
-					printf("%d | ret: go to memory[%d]\n", memoryCursor, var1);
+					fprintf(*fp, "%d | ret: go to memory[%d]\n", memoryCursor, var1);
 				}
 				return var1;
 				break;
@@ -375,6 +375,7 @@ int read(int memoryCursor, uint16_t *memory, uint16_t *registers, bool *on, Cell
 				else if (strcmp(command, "debug") == 0) // toggle the debug value
 				{
 					*debug = !(*debug);
+					printf("\nDone.\n");
 				}
 				else 
 				{
