@@ -21,7 +21,7 @@ Good luck!
   - eight registers
   - an unbounded stack which holds individual 16-bit values
 - all numbers are unsigned integers 0..32767 (15-bit)
-- all math is modulo 32768; 32758 + 15 => 5
+- all math is modulo 32768; 32758 + 15 =&gt; 5
 
 ### binary format
 - each number is stored as a 16-bit little-endian pair (low byte, high byte)
@@ -44,49 +44,49 @@ Good luck!
 
 ### opcode listing
 
-halt: 0
+- ```halt: 0```
   stop execution and terminate the program
-set: 1 a b
-  set register <a> to the value of <b>
-push: 2 a
-  push <a> onto the stack
-pop: 3 a
-  remove the top element from the stack and write it into <a>; empty stack = error
-eq: 4 a b c
-  set <a> to 1 if <b> is equal to <c>; set it to 0 otherwise
-gt: 5 a b c
-  set <a> to 1 if <b> is greater than <c>; set it to 0 otherwise
-jmp: 6 a
-  jump to <a>
-jt: 7 a b
-  if <a> is nonzero, jump to <b>
-jf: 8 a b
-  if <a> is zero, jump to <b>
-add: 9 a b c
-  assign into <a> the sum of <b> and <c> (modulo 32768)
-mult: 10 a b c
-  store into <a> the product of <b> and <c> (modulo 32768)
-mod: 11 a b c
-  store into <a> the remainder of <b> divided by <c>
-and: 12 a b c
-  stores into <a> the bitwise and of <b> and <c>
-or: 13 a b c
-  stores into <a> the bitwise or of <b> and <c>
-not: 14 a b
-  stores 15-bit bitwise inverse of <b> in <a>
-rmem: 15 a b
-  read memory at address <b> and write it to <a>
-wmem: 16 a b
-  write the value from <b> into memory at address <a>
-call: 17 a
-  write the address of the next instruction to the stack and jump to <a>
-ret: 18
+- ```set: 1 a b```
+  set register &lt;a&gt; to the value of &lt;b&gt;
+- ```push: 2 a```
+  push &lt;a&gt; onto the stack
+- ```pop: 3 a```
+  remove the top element from the stack and write it into &lt;a&gt;; empty stack = error
+- ```eq: 4 a b c```
+  set &lt;a&gt; to 1 if &lt;b&gt; is equal to &lt;c&gt;; set it to 0 otherwise
+- ```gt: 5 a b c```
+  set &lt;a&gt; to 1 if &lt;b&gt; is greater than &lt;c&gt;; set it to 0 otherwise
+- ```jmp: 6 a```
+  jump to &lt;a&gt;
+- ```jt: 7 a b```
+  if &lt;a&gt; is nonzero, jump to &lt;b&gt;
+- ```jf: 8 a b```
+  if &lt;a&gt; is zero, jump to &lt;b&gt;
+- ```add: 9 a b c```
+  assign into &lt;a&gt; the sum of &lt;b&gt; and &lt;c&gt; (modulo 32768)
+- ```mult: 10 a b c```
+  store into &lt;a&gt; the product of &lt;b&gt; and &lt;c&gt; (modulo 32768)
+- ```mod: 11 a b c```
+  store into &lt;a&gt; the remainder of &lt;b&gt; divided by &lt;c&gt;
+- ```and: 12 a b c```
+  stores into &lt;a&gt; the bitwise and of &lt;b&gt; and &lt;c&gt;
+- ```or: 13 a b c```
+  stores into &lt;a&gt; the bitwise or of &lt;b&gt; and &lt;c&gt;
+- ```not: 14 a b```
+  stores 15-bit bitwise inverse of &lt;b&gt; in &lt;a&gt;
+- ```rmem: 15 a b```
+  read memory at address &lt;b&gt; and write it to &lt;a&gt;
+- ```wmem: 16 a b```
+  write the value from &lt;b&gt; into memory at address &lt;a&gt;
+- ```call: 17 a```
+  write the address of the next instruction to the stack and jump to &lt;a&gt;
+- ```ret: 18```
   remove the top element from the stack and jump to it; empty stack = halt
-out: 19 a
-  write the character represented by ascii code <a> to the terminal
-in: 20 a
-  read a character from the terminal and write its ascii code to <a>; it can be assumed that once input starts, it will continue until a newline is encountered; this means that you can safely read whole lines from the keyboard and trust that they will be fully read
-noop: 21
+- ```out: 19 a```
+  write the character represented by ascii code &lt;a&gt; to the terminal
+- ```in: 20 a```
+  read a character from the terminal and write its ascii code to &lt;a&gt;; it can be assumed that once input starts, it will continue until a newline is encountered; this means that you can safely read whole lines from the keyboard and trust that they will be fully read
+- ```noop: 21```
   no operation
 
 
