@@ -126,8 +126,10 @@ Each command must begin with the '$' character.
 - ```stack```
     show the values stored in the stack
 - ```source```
-    write into the file sources.txt the content of the memory in a more readable way than just with opcodes
+    write into the file ```sources.txt``` the content of the memory in a more readable way than just with opcodes
 - ```save```
-    save the current game (create a save.txt file)
+    save the current game (create a ```save.txt``` file)
 - ```load```
-    load the game state saved in the save.txt file
+    load the game state saved in the ```save.txt``` file
+- ```debug```
+    toggle the debug mode. When it is on, every memory operation is stored in the ```debugging.txt```file under the same format as in ```sources.txt``` 
