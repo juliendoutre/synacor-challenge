@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "stdlib.h": "c",
-        "utils.h": "c",
-        "stdio.h": "c",
-        "decipher.h": "c"
-    }
-}
